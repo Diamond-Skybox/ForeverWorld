@@ -1742,11 +1742,6 @@ hash = "49bb0e515af9dfeb62061a35b71bbff8afa18c81b97b1c5f4a513b0d7cd8e519"
 metafile = true
 
 [[files]]
-file = "mods/ragdoll-reactions.pw.toml"
-hash = "dcc466006fc28128ceda7101aadfacf9e2fc32cf6eebf032e8ba159ba45ebe33"
-metafile = true
-
-[[files]]
 file = "mods/ranged-weapon-api.pw.toml"
 hash = "885311c82536aea9a3c1f0418217046834a5ac248ba04d708412d7290d7c360b"
 metafile = true
@@ -1864,11 +1859,6 @@ metafile = true
 [[files]]
 file = "mods/sable-immersive-engineering-compat.pw.toml"
 hash = "60ccf707fce525fcd84aa199276f52912dbec8e0b7e29574f1aa11fecff01d83"
-metafile = true
-
-[[files]]
-file = "mods/sable-ragdolls.pw.toml"
-hash = "4f6d8190bfa0c547f207975d2795389fbf656f2427c239a4bce247c8811eb989"
 metafile = true
 
 [[files]]

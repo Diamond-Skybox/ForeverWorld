@@ -1,0 +1,45 @@
+# Points the pack at the newest Forever Fixes release. Runs every 30 minutes, and on demand from the Actions tab
+# ("Run workflow"). When a new release exists it updates mods/forever-fixes-1-21-1.pw.toml and the index, then commits;
+# players get the new version on their next launch.
+name: Update Forever Fixes
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@main
+
+      - name: Update Forever Fixes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          "$(go env GOPATH)/bin/packwiz" --yes update forever-fixes-1-21-1
+          "$(go env GOPATH)/bin/packwiz" refresh
+
+      - name: Commit
+        run: |
+          if git diff --quiet; then
+            echo "Forever Fixes is already up to date."
+            exit 0
+          fi
+          tag=$(sed -n 's/^tag = "\(.*\)"$/\1/p' mods/forever-fixes-1-21-1.pw.toml)
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update Forever Fixes to $tag"
+          git push
