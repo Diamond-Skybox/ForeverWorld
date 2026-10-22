@@ -1048,7 +1048,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "324e41d9115de221dfc3732f094c5b73ec06d7123b45e6566af3461a2013f1f9"
+hash = "9e5557f0d9edbe12ed087f8105f82c7cb4d7703230e8614e68e91292739ed852"
 metafile = true
 
 [[files]]
@@ -2124,6 +2124,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "89f45d29c44448cd833d40a34f9e4774c7eef124f3566e5f19418b730d406c4e"
+metafile = true
+
+[[files]]
+file = "mods/to-tweaks-irons-spells.pw.toml"
+hash = "c80f0698e87e1636894b385dc9c0751cc1224f705e92fde0504cd02814febdd0"
 metafile = true
 
 [[files]]
