@@ -1,0 +1,12 @@
+name = "Zombie Variants - 15 New Zombies!"
+filename = "zombie_variants-neoforge-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "562169cee10df0335e4925aafa0e70e7e636a0c7"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6826478
+project-id = 1299553

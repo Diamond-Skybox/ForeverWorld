@@ -1,0 +1,12 @@
+name = "GTBC's Cataclysmic Boss UI"
+filename = "gtbcs_cataclysmic_uis-1.0.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5f665dbe83105092c7731ae9f53d1f3a9359549"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8634932
+project-id = 1637570

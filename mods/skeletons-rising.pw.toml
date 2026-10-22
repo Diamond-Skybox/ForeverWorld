@@ -1,0 +1,13 @@
+name = "Skeletons Rising"
+filename = "skeletons_rising-3.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bhwOfiZR/versions/GDU04yFz/skeletons_rising-3.0.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9b163630bb8402200d7d4e085f79a25534541541ccd0d2b2bad80048c2d6d6944ff22c140f928f18cf18a98efd4028974f1e26617c13aa31ba291b0006202912"
+mode = "url"
+
+[update.modrinth]
+mod-id = "bhwOfiZR"
+version = "GDU04yFz"

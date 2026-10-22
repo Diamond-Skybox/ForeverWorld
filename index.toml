@@ -1152,6 +1152,11 @@ hash = "b7baa8eb9e129e60b3f7f30bf8960a5645da20a56c3e3fa9cee7a2280ca9c445"
 metafile = true
 
 [[files]]
+file = "mods/gtbcs-cataclysmic-boss-ui.pw.toml"
+hash = "5574aac526af32b48e9a525e59ebc6a1485f0aabb7de5bbb956d1d21220116d7"
+metafile = true
+
+[[files]]
 file = "mods/gtbcs-geomancy-plus.pw.toml"
 hash = "f86c83a9a5c919533af71693cbf82ff00647abe1e555e1d9eabb24fe9da3bf11"
 metafile = true
@@ -1309,6 +1314,11 @@ metafile = true
 [[files]]
 file = "mods/item-descriptions.pw.toml"
 hash = "149319e383d716370aeb584c0b8688ecfeb40826ddc628fe94cc45e0377eb6c7"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic.pw.toml"
+hash = "076c836a708f7acef3b790acf07e8435adc90d457f9ab152d5e1c6899dcfd6d7"
 metafile = true
 
 [[files]]
@@ -1977,6 +1987,11 @@ hash = "2e9cf4b8a85b68f5742f6c84d6cecff5e0e4aa2808b8cd45f89e8d3e5c20e29a"
 metafile = true
 
 [[files]]
+file = "mods/skeletons-rising.pw.toml"
+hash = "7dac98f38b850166cc2494a159feadaa88b5adc809b7579552e503ed905df166"
+metafile = true
+
+[[files]]
 file = "mods/skill-tree.pw.toml"
 hash = "ba9cb4d3977723eb8ec7937231c67bfa3dd862ba3748d481ebf603bfd0897d63"
 metafile = true
@@ -2122,6 +2137,11 @@ hash = "2524bbea759a574715d31ec0b267908f7de6f06024e7d4bd57a21e1cd638bb63"
 metafile = true
 
 [[files]]
+file = "mods/tidal-towns.pw.toml"
+hash = "9da0b8c4ccc9e944dfa415334e693d8fb90706033aef77f61b3f8492d327ec21"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "89f45d29c44448cd833d40a34f9e4774c7eef124f3566e5f19418b730d406c4e"
 metafile = true
@@ -2144,6 +2164,11 @@ metafile = true
 [[files]]
 file = "mods/totw-modded.pw.toml"
 hash = "583a5b64faafcbf6d3adfe8af490382ffbf8dafd1d4c142d7e46cbbb30f9e139"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "b2acb79f9bdb47ec896045fe0e577f1b59989c155056c857f85c037b19101b4c"
 metafile = true
 
 [[files]]
@@ -2234,6 +2259,11 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b1cdc555f2aab3a43b15fccca55317c96b43fceb39ea2cc6bbc9c199e4f4c537"
+metafile = true
+
+[[files]]
+file = "mods/zombie-variants.pw.toml"
+hash = "aee479d10298554bb682cc530e061fb756cdc0299e0329080be15977c3951374"
 metafile = true
 
 [[files]]
