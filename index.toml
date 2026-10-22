@@ -1,9 +1,21 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alpinewhispers-common.toml"
+hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
+
+[[files]]
+file = "config/bloomingnature-common.toml"
+hash = "6b32845956a082d02155e572a42d8e4176796c71f14f02c3235298f7c6b2041c"
+
+[[files]]
 file = "config/c2me.toml"
 hash = "aeb8f2ff360702329db0a172dcac9004ca3afbac6da7e2c56f966774d6e6184b"
 preserve = true
+
+[[files]]
+file = "config/invtweaks-client.toml"
+hash = "6a15400a1a1d18f4eacdc2d33f8fec856a04c0f8b2a76a4e87b2bc147909c72d"
 
 [[files]]
 file = "kubejs/assets/oc2/lang/en_us.json"
@@ -2133,3 +2145,8 @@ metafile = true
 file = "mods/zfastnoise.pw.toml"
 hash = "b1cdc555f2aab3a43b15fccca55317c96b43fceb39ea2cc6bbc9c199e4f4c537"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "29b83b75b4e521ba93000a732adf2b245942b604761282e4797aaf42b67e0bf8"
+preserve = true
