@@ -1882,11 +1882,6 @@ hash = "5f108c88f289a57ab6f8804c3723992ba4c16fddc9f0702f3fa8f43ce463ca2d"
 metafile = true
 
 [[files]]
-file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
-hash = "e042b00223b55a4962804533c8c284b3aae8e6c43cbda32ca838253a78cbb309"
-metafile = true
-
-[[files]]
 file = "mods/reliquified-twilight-forest-new-relics-fix.pw.toml"
 hash = "8533bfc7dc8d0eae173cd397b7428d7347bb4603214522a8748f7fd785ae09ad"
 metafile = true
