@@ -1,0 +1,12 @@
+name = "TONI's Structure Lib"
+filename = "tonistructures-1.2.1+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0cedf8cc3ab2b767a32ae5ff775077781161a86c"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9275274
+project-id = 1749059
