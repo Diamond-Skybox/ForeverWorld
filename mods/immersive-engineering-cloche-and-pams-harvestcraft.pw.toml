@@ -1,0 +1,12 @@
+name = "Immersive Engineering Cloche and Pam"
+filename = "pams_harvestcraft_x_immersive_engineering-neoforge-1.21.1-0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc402b011b54721e0f8b800d71a59ecb6ed1a8da"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6745602
+project-id = 1302987

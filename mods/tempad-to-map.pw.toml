@@ -1,0 +1,13 @@
+name = "Tempad to Map"
+filename = "tempadtomap-0.1.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n1V7sroF/versions/Jxk7ptmS/tempadtomap-0.1.0%2Bneoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "e904c1dd1e4a484a3e4b4fc3b1c54b029069a47d29c9c3c1ca77c1946e70868cc3b5f3b8a134a2183c613e6fe94666652f28e28a760a2ce637ae432542a5ff10"
+mode = "url"
+
+[update.modrinth]
+mod-id = "n1V7sroF"
+version = "Jxk7ptmS"

@@ -1,0 +1,12 @@
+name = "Replication Extended Registry"
+filename = "rep_ext_reg-1.0.0.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8bb96d82f1702c7c9d96f7f198dbcd16443a0048"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7702106
+project-id = 1476108

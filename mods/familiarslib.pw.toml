@@ -1,0 +1,13 @@
+name = "Familiarslib"
+filename = "familiarslib-1.21.1-1.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dAPGqOME/versions/2gOPLUTN/familiarslib-1.21.1-1.7.1.jar"
+hash-format = "sha512"
+hash = "7f31b89d3402c32d427d0184fb6b19f3d23a879aa813a846d5fe912da0ca62100b6e8b797f46b5f64981c08ccce64cbb0e098f49bf810485df4df6b0893802af"
+mode = "url"
+
+[update.modrinth]
+mod-id = "dAPGqOME"
+version = "2gOPLUTN"

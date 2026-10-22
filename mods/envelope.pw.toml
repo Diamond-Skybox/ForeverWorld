@@ -1,0 +1,12 @@
+name = "Envelope"
+filename = "envelope-neoforge-1.21.1-0.7.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6438c750876f57e4d7508d5d1b4ea70c90078355"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8654796
+project-id = 1281170

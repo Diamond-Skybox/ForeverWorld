@@ -1,0 +1,12 @@
+name = "TONI"
+filename = "bettershipwrecks-1.2.0+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56cac1510068adb87922717b5975173829c8b6c0"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9164214
+project-id = 1717003

@@ -1,0 +1,12 @@
+name = "Bundle API"
+filename = "bundle-api-neoforge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49ea32e2872c9738363eb76a97ce0553bd2ff756"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7006149
+project-id = 1189983

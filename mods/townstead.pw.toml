@@ -1,0 +1,12 @@
+name = "Townstead"
+filename = "townstead-0.7.6+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "83f78e2f209ef0ad298ef726f55b5947f2a97a61"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8611587
+project-id = 1464195

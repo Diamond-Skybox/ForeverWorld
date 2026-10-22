@@ -1,0 +1,12 @@
+name = "Spellbooks Of Twilight : Iron"
+filename = "twilight_spellbooks-0.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2694de983c609a661228dbbcf41e357082acfe11"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9014615
+project-id = 1683668

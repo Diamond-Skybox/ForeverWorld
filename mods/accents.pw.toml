@@ -1,0 +1,12 @@
+name = "Accents"
+filename = "accents-neoforge-1.21.1-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88e4a101f35d7c3c4e0e6859aaf5473327eb8f39"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8922100
+project-id = 1446887

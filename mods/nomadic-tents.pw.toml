@@ -1,0 +1,12 @@
+name = "Nomadic Tents"
+filename = "nomadictents-21.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49d4ad2de88a9e86143a948ba9744e9ea34d3d8e"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7401669
+project-id = 238794

@@ -1,0 +1,12 @@
+name = "Immersive Alternative Fuels"
+filename = "alternativefuels-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a3c69dcc34c0b56ef327da69bc9bcb25253044d"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9045483
+project-id = 1714597

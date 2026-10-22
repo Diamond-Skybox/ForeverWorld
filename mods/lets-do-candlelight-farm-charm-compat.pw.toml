@@ -1,0 +1,12 @@
+name = "[Let"
+filename = "letsdo-candlelight-neoforge-2.1.15.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d73e2765367f1b221ce6785225a22b0b42b435f"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9150310
+project-id = 1038117

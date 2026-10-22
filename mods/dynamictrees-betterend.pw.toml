@@ -1,0 +1,13 @@
+name = "Dynamic Trees - BetterEnd"
+filename = "dtbetterend-1.21.1-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hsutGSf2/versions/khjt7tGj/dtbetterend-1.21.1-2.2.0.jar"
+hash-format = "sha512"
+hash = "3c3a5270b475c3774d43030f2412fc1aae56b2092d904c87a0e28c4891556fb10d114bb7f906472bd21f485a3d21f9e021efc6c2f1cb245deddf027db16daca4"
+mode = "url"
+
+[update.modrinth]
+mod-id = "hsutGSf2"
+version = "khjt7tGj"

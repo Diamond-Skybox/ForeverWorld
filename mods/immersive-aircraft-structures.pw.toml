@@ -1,0 +1,13 @@
+name = "Immersive Aircraft Structures"
+filename = "iac_structures_nf-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jpKFb7MO/versions/3GwjDpRT/iac_structures_nf-1.0.1.jar"
+hash-format = "sha512"
+hash = "64908747b28351717c1a86244f801faeb67c4c53b89e44d1bcebf392084df480efb5740af01ae7ea2ff69c13b47d49c3f376ebeda889ffac7d82d076c9da3b5c"
+mode = "url"
+
+[update.modrinth]
+mod-id = "jpKFb7MO"
+version = "3GwjDpRT"

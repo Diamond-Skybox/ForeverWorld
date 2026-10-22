@@ -1,0 +1,12 @@
+name = "[Let"
+filename = "letsdo-herbalbrews-neoforge-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22cddc92a7bca8d9816de608355a8329566e44cb"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8918021
+project-id = 951221

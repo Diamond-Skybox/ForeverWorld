@@ -1,0 +1,12 @@
+name = "Armor Model API"
+filename = "armor_model_api-neoforge-1.1.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "616a2e4578b4b41af2752459fd12b970fa4809c6"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8793923
+project-id = 1659764

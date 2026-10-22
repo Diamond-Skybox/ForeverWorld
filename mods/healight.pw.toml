@@ -1,0 +1,12 @@
+name = "Healight"
+filename = "healight-neoforge-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab2323d134481ec38e2a098c9bad5b5af3af2461"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6134074
+project-id = 1188428

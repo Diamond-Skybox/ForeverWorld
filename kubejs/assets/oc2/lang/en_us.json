@@ -1,0 +1,13 @@
+{
+  "block.oc2.transposer": "Vintage Transposer",
+  "block.oc2.disk_drive": "Vintage Disk Drive",
+  "block.oc2.charger": "Vintage Charger",
+  "block.oc2.projector": "Vintage Projector",
+  "block.oc2.keyboard": "Vintage Keyboard",
+  "item.oc2.wrench": "Vintage Scrench",
+  "item.oc2.memory": "Vintage Memory",
+  "item.oc2.floppy": "Vintage Floppy Disk",
+  "item.oc2.robot": "Vintage Robot",
+  "item.oc2.transistor": "Vintage Transistor",
+  "item.oc2.circuit_board": "Vintage Circuit Board"
+}

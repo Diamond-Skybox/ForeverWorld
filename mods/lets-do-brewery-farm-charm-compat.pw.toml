@@ -1,0 +1,12 @@
+name = "[Let"
+filename = "letsdo-brewery-neoforge-2.1.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20e30e1a182fdfbfff3df91f43e068a16e04798e"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9150302
+project-id = 1038106

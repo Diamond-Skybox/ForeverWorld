@@ -1,0 +1,12 @@
+name = "Reliquified Twilight Forest new relics fix"
+filename = "reliquified-twilight-forest-new-relics-fix-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ada488f150f98a94d77d09cf58f03ce40c4a5765"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9155828
+project-id = 1664403

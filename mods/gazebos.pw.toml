@@ -1,0 +1,12 @@
+name = "Gazebos (RPG Series)"
+filename = "gazebo-neoforge-2.2.0+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0ddeb9ccb65c8d78037c6858673c60d226013d00"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8694227
+project-id = 865298

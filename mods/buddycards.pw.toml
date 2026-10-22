@@ -1,0 +1,12 @@
+name = "Buddycards"
+filename = "buddycards-1.21.1-5.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0085f86006750ba50989b288fb3c7d8167e24097"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9095425
+project-id = 425991

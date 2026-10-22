@@ -1,0 +1,12 @@
+name = "Twi-Light: Exposed"
+filename = "twi_light_exposed-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0afc3774df4a4c5643e03709b627c83044b68637"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7273293
+project-id = 1393994

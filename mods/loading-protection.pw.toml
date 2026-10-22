@@ -1,0 +1,12 @@
+name = "Loading Protection"
+filename = "loadingprotection-1.0.2-1.21.1-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "242f068096d084e367fd08e31f87f74be6c9f020"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9103176
+project-id = 1422545

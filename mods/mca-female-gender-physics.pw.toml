@@ -1,0 +1,12 @@
+name = "MCA: Female Gender Physics"
+filename = "MCA-FemaleGenderModV0.1.6-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc216fa2ad00c90936b328df26dc74a9af192f86"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9107121
+project-id = 1710127

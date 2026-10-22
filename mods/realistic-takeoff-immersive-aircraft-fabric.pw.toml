@@ -1,0 +1,12 @@
+name = "Immersive Aircraft: Realistic Takeoff"
+filename = "[NeoForge - 1.21.1] Realistic Takeoff - 0.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7c04d4cf93c85513c5bc5e3d7885cefd0d7070c4"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9098027
+project-id = 1584149

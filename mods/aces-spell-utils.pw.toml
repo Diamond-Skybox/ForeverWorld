@@ -1,0 +1,12 @@
+name = "Ace"
+filename = "aces_spell_utils-1.2.7.4-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e52e16d97b22a105c13ed85ddb4a8795429987f"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9136190
+project-id = 1299492

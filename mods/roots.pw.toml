@@ -1,0 +1,12 @@
+name = "Roots 4"
+filename = "roots-4.0.0.31-alpha.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51d7065d0c3475ad95beca00d731f7efaec08f4c"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8788962
+project-id = 246183

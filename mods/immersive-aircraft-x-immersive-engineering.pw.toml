@@ -1,0 +1,13 @@
+name = "Immersive Aircraft x Immersive Engineering"
+filename = "iaie-1.2-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lcVSP8hB/versions/1Z0wWnyU/iaie-1.2-1.21.1.jar"
+hash-format = "sha512"
+hash = "f15dccad6763b23f0fe5ae327a7ce51cb84fff2ee340ae880d724ee9f3becafe271ab9449fe6894f482415fa107967d708f8ccc13d5a803273a59d33804658bf"
+mode = "url"
+
+[update.modrinth]
+mod-id = "lcVSP8hB"
+version = "1Z0wWnyU"

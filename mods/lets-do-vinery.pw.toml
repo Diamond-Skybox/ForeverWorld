@@ -1,0 +1,12 @@
+name = "[Let"
+filename = "letsdo-vinery-neoforge-1.5.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "95cf5505ee39cc0418160870451c8b5d2d73dfda"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9089612
+project-id = 704465

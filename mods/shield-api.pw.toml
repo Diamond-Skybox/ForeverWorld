@@ -1,0 +1,12 @@
+name = "Shield API"
+filename = "shield_api-neoforge-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dfbb73a2a92bac5c06f6b0a747a6660a3e04ed0b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7156464
+project-id = 1048720

@@ -1,0 +1,12 @@
+name = "OpenComputers II"
+filename = "oc2-MC1.21.1-neoforge-0.9.1+480af73.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "367e5860c1eeb1f527b5e83b5185894369a6b419"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9091466
+project-id = 437654

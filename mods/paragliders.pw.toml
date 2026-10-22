@@ -1,0 +1,12 @@
+name = "Paragliders"
+filename = "Paraglider-neoforge-21.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39043f24e897fade07a138bb8d60bfe08d8103b1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7795089
+project-id = 289240

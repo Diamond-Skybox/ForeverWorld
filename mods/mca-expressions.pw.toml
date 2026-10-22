@@ -1,0 +1,13 @@
+name = "MCA Expressions"
+filename = "MCA-Expressions-NeoForge-1.21.1-0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca5e6897f4b922be7c8c2db04c7da78b5a180be3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9103206
+project-id = 1669733

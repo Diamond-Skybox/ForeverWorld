@@ -1,0 +1,12 @@
+name = "Structure Pool API"
+filename = "structure_pool_api-neoforge-1.2.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5150191b29de8462705e5aa715c2554a5744dc7b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7145227
+project-id = 927915

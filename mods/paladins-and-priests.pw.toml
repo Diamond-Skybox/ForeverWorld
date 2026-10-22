@@ -1,0 +1,12 @@
+name = "Paladins & Priests (RPG Series)"
+filename = "paladins-neoforge-3.1.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0491f4e5c30c15c1aba0a82055ea60ff3b9805e1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8982136
+project-id = 856548

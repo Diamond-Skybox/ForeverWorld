@@ -1,0 +1,13 @@
+name = "Technophobia"
+filename = "technonw-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7aKColhN/versions/tz1FKY29/technonw-1.1.0.jar"
+hash-format = "sha512"
+hash = "8e0783a168d58e1d1d96e9f527fdc1a8eda9a97c313e9e945efb91687f6e9257fb4510501b1647a6d3dd9c3a289f8a7c52eafa3a5a81c88dfc3323cf54454199"
+mode = "url"
+
+[update.modrinth]
+mod-id = "7aKColhN"
+version = "tz1FKY29"

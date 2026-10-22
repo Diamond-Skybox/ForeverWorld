@@ -1,0 +1,12 @@
+name = "Guard Ribbits"
+filename = "Guard Ribbits-1.21.1-neoforge-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d9cf3177e8d7a5b5dae38ec48646f20c7fdfec5"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8768643
+project-id = 1148985

@@ -1,0 +1,12 @@
+name = "Dynamic Trees Pam"
+filename = "dtphc2-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53fee57c32f00b55074decce33424758abf5125b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7722485
+project-id = 839090

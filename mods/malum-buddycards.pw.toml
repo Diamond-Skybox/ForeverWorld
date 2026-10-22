@@ -1,0 +1,12 @@
+name = "Malum Buddycards"
+filename = "malumbuddycards-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a5a756209393e06e4c2d83713ea84592c897e2b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9048352
+project-id = 1665197

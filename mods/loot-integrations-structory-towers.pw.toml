@@ -1,0 +1,12 @@
+name = "Loot Integrations: Structory & Towers"
+filename = "lootintegrations_structory-1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2a6834f0c1079d4ac2a7892232d9de484d5415b6"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8920544
+project-id = 1152720

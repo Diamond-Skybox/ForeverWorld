@@ -1,0 +1,12 @@
+name = "BloodMagic AE2 Addition(and NeoVitae)"
+filename = "bmaddon1.21.1-beta1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "804f2397e04c46806d5085e4518774c14e7ce85b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8524844
+project-id = 1526330

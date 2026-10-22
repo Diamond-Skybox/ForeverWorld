@@ -1,0 +1,12 @@
+name = "Swashbucklers!"
+filename = "swashbucklers- 2.6.6C 1.21.1 neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf0f8176110a2ec14ed552ecab8890f78d4e6889"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6536682
+project-id = 746320

@@ -1,0 +1,13 @@
+name = "Glowbrick"
+filename = "printingpress-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hZKwRXsF/versions/HXIm1lXb/printingpress-1.0.1.jar"
+hash-format = "sha512"
+hash = "b5a113dc9b7bf18f0125b101ae02618f71a8a85408f327ae9165593428b2a656d6afde6a7769989a8b3766bd9318c6ec6ffe512104b25cdcee8af41912e1c4ca"
+mode = "url"
+
+[update.modrinth]
+mod-id = "hZKwRXsF"
+version = "HXIm1lXb"

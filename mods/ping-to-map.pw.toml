@@ -1,0 +1,12 @@
+name = "Ping to Map: JourneyMap & Ping Wheel Addon"
+filename = "ping-to-map-journeymap-1.2.3+neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9f4a643e5570e1f2a1619bfe75dbb8625f2b5a2"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9085268
+project-id = 1537977

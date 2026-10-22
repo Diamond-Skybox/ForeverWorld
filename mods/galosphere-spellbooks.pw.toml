@@ -1,0 +1,13 @@
+name = "Galosphere: Spellbooks"
+filename = "galosphere_spellbooks-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/39Nrer0H/versions/oqnPRQ9J/galosphere_spellbooks-1.1.5.jar"
+hash-format = "sha512"
+hash = "9ad13ceb504a8ce134a569ead618c5d811046bc3c288af41e9c512b57078838ed5aa9d5ada89ff17fcbe2b5a26aa3bbe87dd59b78e975ec68a960d8fd9c7e4c4"
+mode = "url"
+
+[update.modrinth]
+mod-id = "39Nrer0H"
+version = "oqnPRQ9J"

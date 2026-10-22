@@ -1,0 +1,13 @@
+name = "Sable & Immersive Engineering Compat"
+filename = "sableiefix-1.0-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/K0FLZQgq/versions/69djPCWm/sableiefix-1.0-SNAPSHOT.jar"
+hash-format = "sha512"
+hash = "10f0776359a8c1225b2a360a64ee1103fe2ac1fe65ff164cf2a412398205f740681aa01287c64add0a1102ed0233440926def923c36f847d07ae24d828e84fc8"
+
+[update]
+[update.modrinth]
+mod-id = "K0FLZQgq"
+version = "69djPCWm"

@@ -1,0 +1,13 @@
+name = "Dynamic Trees - Oh The Biomes We"
+filename = "dtbwg-1.1.0-BETA02.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z5yJOJnS/versions/FsSbsLTl/dtbwg-1.1.0-BETA02.jar"
+hash-format = "sha512"
+hash = "32d00007b235ef399a9fb7f2c3f7ad23f70f68adad2d1827376573f6373a36827f128173ef886cdec1e9d9e09dabf53803f50e4458556cff74180ec127e10471"
+mode = "url"
+
+[update.modrinth]
+mod-id = "z5yJOJnS"
+version = "FsSbsLTl"

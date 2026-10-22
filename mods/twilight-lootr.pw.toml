@@ -1,0 +1,12 @@
+name = "Twilight Lootr - Twilight Forest & Lootr Integration"
+filename = "twilight_lootr-neoforge-1.21.1-0.0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dac1e0ca2bd9bf75ea8ef276c094599dd4ce7e9f"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8327180
+project-id = 1589409

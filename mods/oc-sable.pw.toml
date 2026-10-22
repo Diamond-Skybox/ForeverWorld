@@ -1,0 +1,13 @@
+name = "OC: Sable"
+filename = "ocsable-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7SumBj0b/versions/Bif55ttG/ocsable-1.0.2.jar"
+hash-format = "sha512"
+hash = "d513fbdf7c4e5bc4c69c285f0814ac18d8cf7fbf58ea531930fc24e62455551242e56773b68b241b02fe0da12b13189dcab9ce0c1472937db990e254f87a904e"
+mode = "url"
+
+[update.modrinth]
+mod-id = "7SumBj0b"
+version = "Bif55ttG"

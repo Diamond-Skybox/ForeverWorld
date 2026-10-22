@@ -1,0 +1,12 @@
+name = "Armory (RPG Series)"
+filename = "armory-neoforge-1.5.2+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "18d359ba9bf1d400de3190bd6f89317d97210982"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8787781
+project-id = 1311561

@@ -1,0 +1,12 @@
+name = "NeoEnchant+"
+filename = "NeoEnchant-5.14.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c948f93d02705a7dd020f14a389878e0be7ef30"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7659255
+project-id = 1135663

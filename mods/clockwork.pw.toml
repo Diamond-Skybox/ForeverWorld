@@ -1,0 +1,12 @@
+name = "Clockwork"
+filename = "clockwork-neoforge-1.21.1-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c9c85658e6afb5d4148a0ae66f95b78300312a25"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8857305
+project-id = 596411

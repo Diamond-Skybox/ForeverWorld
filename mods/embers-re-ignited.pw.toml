@@ -1,0 +1,12 @@
+name = "Embers Re-Ignited"
+filename = "embers-reignited-1.21.1-1.5.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ca93a7caa9a0dae23b2244f76f5d27f7d31b4681"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9130942
+project-id = 1579725

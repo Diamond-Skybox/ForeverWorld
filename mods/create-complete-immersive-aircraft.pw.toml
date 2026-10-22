@@ -1,0 +1,12 @@
+name = "Create: Complete Immersive Aircraft"
+filename = "create_completeimmersiveaircraft-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "718098166087800fa996d37fa7bf2daf9517c82f"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9185069
+project-id = 1352665

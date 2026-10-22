@@ -1,0 +1,12 @@
+name = "Pufferfish"
+filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7439fa56036bfacf228269b8b89f10cbbba13fd"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9101377
+project-id = 835091

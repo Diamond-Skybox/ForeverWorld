@@ -1,0 +1,12 @@
+name = "Knight Lib"
+filename = "knightlib-neoforge-1.21.1-2.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46df8f51c765f3b34aebc7317092a89dee6218ca"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9036237
+project-id = 1105855

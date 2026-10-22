@@ -1,0 +1,12 @@
+name = "Scalable Lux x Sable Compat"
+filename = "sablescalablelux-1.21.1-NeoForge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "69938340b9747c6c46f94fb6882f8a8dc76dcf30"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8806665
+project-id = 1681511

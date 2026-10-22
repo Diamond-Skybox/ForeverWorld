@@ -1,0 +1,12 @@
+name = "Exposure Catalog"
+filename = "exposure_catalog-neoforge-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "835ead49af2dd38e89ed7a1efa55f29715d4c231"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8533528
+project-id = 1023882

@@ -1,0 +1,12 @@
+name = "Rogues & Warriors (RPG Series)"
+filename = "rogues-neoforge-3.1.3+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d1071bc13298dba6142b7c39395e9bb73cca100"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8982142
+project-id = 1048409

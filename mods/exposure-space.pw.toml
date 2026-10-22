@@ -1,0 +1,12 @@
+name = "Exposure: Space"
+filename = "exposure-space-neoforge-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b18f9932e1c1a22bc531a229682683d9eb49cc41"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8871584
+project-id = 1580159

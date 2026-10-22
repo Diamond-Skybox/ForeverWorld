@@ -1,0 +1,12 @@
+name = "JEI Malum"
+filename = "jei_malum-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5207810653d7a8a6b8a452f307fde7dddc0f921"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8372979
+project-id = 1598608

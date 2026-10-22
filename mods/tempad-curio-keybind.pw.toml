@@ -1,0 +1,12 @@
+name = "Tempad Curio Keybind"
+filename = "tempadcuriokeybind-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "10563f116efaffee680a7e03d8436915990bee0d"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8968613
+project-id = 1707431

@@ -1,0 +1,12 @@
+name = "Chalk"
+filename = "chalk-neoforge-1.21.1-2.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "759af45cdae01499031f81500cfb74bf69ddb32d"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8821479
+project-id = 533748

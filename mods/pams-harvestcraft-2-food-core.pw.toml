@@ -1,0 +1,12 @@
+name = "Pam"
+filename = "pamhc2foodcore-NEOFORGE-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc2b5671914879d4731034668028f4d8cbcd775c"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 6919485
+project-id = 372534

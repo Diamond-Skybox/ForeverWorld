@@ -1,0 +1,12 @@
+name = "PartialHearts"
+filename = "partialhearts-neoforge-1.1.0-1.21.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "fa233ff2efd10ea12fa73d15cdbad574a54f58d3"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7276226
+project-id = 1185221

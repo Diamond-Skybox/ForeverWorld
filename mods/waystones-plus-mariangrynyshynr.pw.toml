@@ -1,0 +1,13 @@
+name = "Waystones Plus"
+filename = "waystonesuiplus-1.6.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CYpRddBI/versions/y3JuQpoH/waystonesuiplus-1.6.0.jar"
+hash-format = "sha512"
+hash = "5a6e00578c4a2dfeea3eac28b6ba3e6b4a175b8a6222b048c35dcb6f9633e562286bbf3e904eb73c372a2c9b91510ff9b17dae828b613b99679647427b6e5bce"
+mode = "url"
+
+[update.modrinth]
+mod-id = "CYpRddBI"
+version = "y3JuQpoH"

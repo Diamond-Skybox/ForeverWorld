@@ -1,0 +1,13 @@
+name = "Create Waystones Recipes"
+filename = "create_waystones_recipes-3.0.1.b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wQpKGqNJ/versions/KZ8x4j1W/create_waystones_recipes-3.0.1.b.jar"
+hash-format = "sha512"
+hash = "514c6991b18138d3f39073c107504c6918cf59ccb0144cc777f127a3aec19f1ba44691d3bcd7ca31d6b3abf29e725e2d055616de1c7ac3b907e0ea5b48f4e84a"
+mode = "url"
+
+[update.modrinth]
+mod-id = "wQpKGqNJ"
+version = "KZ8x4j1W"

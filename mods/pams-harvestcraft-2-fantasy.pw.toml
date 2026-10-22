@@ -1,0 +1,12 @@
+name = "Pam"
+filename = "pamhc2fantasy-NEOFORGE-1.21.0-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c81c796da06896720d1ae69a8ac7c9f35a739cbb"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7758698
+project-id = 1141491

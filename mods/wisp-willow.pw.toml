@@ -1,0 +1,13 @@
+name = "Wisp & Willow"
+filename = "wispwillow-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/a6zCFWRP/versions/qf776EYW/wispwillow-2.0.0.jar"
+hash-format = "sha512"
+hash = "eb01827fbcf47f2fb7b35cc8da8b040c24e4cc4ffb2f7b6b100f4ceb5b1d3bbbee13e887521a7461b3f79530e9d0b83ae9fda20d9e0df542f87fe917165ed14e"
+mode = "url"
+
+[update.modrinth]
+mod-id = "a6zCFWRP"
+version = "qf776EYW"

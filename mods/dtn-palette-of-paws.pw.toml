@@ -1,0 +1,13 @@
+name = "Doggy Talents Next"
+filename = "DTNPaletteOfPaws-1.21-1.2.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sToyLl7P/versions/r7XqX2Wr/DTNPaletteOfPaws-1.21-1.2.7.jar"
+hash-format = "sha512"
+hash = "8e8a9542260a821b64bc03f609f10ed1c4e9ae1b9dd2a701e21e815d571ab8f51953cbced3629e2dd13fa58c78add5c9bc032a83744831406d739227f2201282"
+mode = "url"
+
+[update.modrinth]
+mod-id = "sToyLl7P"
+version = "r7XqX2Wr"

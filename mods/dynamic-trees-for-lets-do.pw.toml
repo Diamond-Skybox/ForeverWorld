@@ -1,0 +1,12 @@
+name = "Dynamic Trees for Let"
+filename = "letsdodynamictrees-0.1.0-beta.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e95b1060ab45e368a8a3fc13fcab818025bec7e3"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9043982
+project-id = 1710609

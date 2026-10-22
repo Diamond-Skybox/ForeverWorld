@@ -1,0 +1,12 @@
+name = "Crop Critters"
+filename = "cropcritters-neoforge-1.21.1-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8f362ab8ae067254be57dea13c48ee9a6eb38319"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8790313
+project-id = 1338167

@@ -1,0 +1,12 @@
+name = "Botania Revived"
+filename = "Botania Revived-1.21.1-1.0.2-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0a8556de28680d2690afa7743620037d985dcf8"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9144042
+project-id = 1725641

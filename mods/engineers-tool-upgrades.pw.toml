@@ -1,0 +1,13 @@
+name = "Engineer"
+filename = "engtoolup-1.21.1-1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B1tt534W/versions/Nbcc7pus/engtoolup-1.21.1-1.2.jar"
+hash-format = "sha512"
+hash = "580d1acdb8dad7f9e8ad4d2aeebf3e64055381b0b7158b6bcf21f230808640e75da1707f8b61b6cdc06cda226fcbb4cb4fb1f848d32e7f82ebfcb2a5e2f2ab0f"
+mode = "url"
+
+[update.modrinth]
+mod-id = "B1tt534W"
+version = "Nbcc7pus"
