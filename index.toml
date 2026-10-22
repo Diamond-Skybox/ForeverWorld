@@ -2142,11 +2142,6 @@ hash = "a521f5dd93f5f0c6672b2b2aca1c43c7b5102dbb39a3141e02c5946912c30b49"
 metafile = true
 
 [[files]]
-file = "mods/the-weather-update.pw.toml"
-hash = "2524bbea759a574715d31ec0b267908f7de6f06024e7d4bd57a21e1cd638bb63"
-metafile = true
-
-[[files]]
 file = "mods/tidal-towns.pw.toml"
 hash = "9da0b8c4ccc9e944dfa415334e693d8fb90706033aef77f61b3f8492d327ec21"
 metafile = true
