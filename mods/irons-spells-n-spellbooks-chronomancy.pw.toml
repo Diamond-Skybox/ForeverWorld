@@ -1,0 +1,12 @@
+name = "Iron's Spells 'n Spellbooks:Chronomancy"
+filename = "chronomancy-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "307e2d0edc765a02b224d47724c750116d002df1"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9235293
+project-id = 1726665

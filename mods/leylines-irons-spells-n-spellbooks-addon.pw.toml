@@ -1,0 +1,12 @@
+name = "Leylines: Iron's Spells 'n Spellbooks Addon"
+filename = "leylines-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dfa6908731f432905caaaa1e53b4aedeaa26ed59"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8565076
+project-id = 1636676

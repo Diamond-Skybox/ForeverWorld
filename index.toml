@@ -72,6 +72,11 @@ hash = "9d8b9d0bea22016d71e256ec3076d4192e2d05d09fcf47f42a5ebaf58f126057"
 metafile = true
 
 [[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "f3cbe41dd09ab1edc9d5dba9b519cc92b7ab502ba271fd169dd45ae6134ceff4"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "85a7dccf9efa3a179a33eda4ab78dea811d3031693ae2f052347c313db6acb87"
 metafile = true
@@ -174,6 +179,11 @@ metafile = true
 [[files]]
 file = "mods/astral-sorcery.pw.toml"
 hash = "6ac8075ebbf62f92c6eed60d694970fd9dc6907598ce4d56dd4198f78bdf5a65"
+metafile = true
+
+[[files]]
+file = "mods/atlas-api.pw.toml"
+hash = "0ef81765b6c09ae9dd8678e4009bdd02e5d05fd8ce9968d3f8e566c6604f0c8b"
 metafile = true
 
 [[files]]
@@ -752,6 +762,11 @@ hash = "1434d57b979d441ec5d99fe30a10e4f845800f1210f921a0bd1eea27c71053ee"
 metafile = true
 
 [[files]]
+file = "mods/crystal-chronicles.pw.toml"
+hash = "aa505b52f0030388c0c8f2001be6a95a2c4fda8907f8f5681f2a66d3a2bc3090"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "8c6a94c28b10008c1f41e85058c0a5bd654292c607fdbc6c666202b36f92a255"
 metafile = true
@@ -1033,7 +1048,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "227d4794c07efbe57f07b3eecddbc666e5ed6d5fd1e132252683e76c22a91c48"
+hash = "324e41d9115de221dfc3732f094c5b73ec06d7123b45e6566af3461a2013f1f9"
 metafile = true
 
 [[files]]
@@ -1074,6 +1089,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "38bfab8f95d0aad08c4366beb793a454888361e01f1fe193f21f810281479cb6"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
+hash = "21431537ec06dce17470fc2352ac27f835a132f82c37293fc540e4a07a95004b"
 metafile = true
 
 [[files]]
@@ -1129,6 +1149,16 @@ metafile = true
 [[files]]
 file = "mods/golem-overhaul.pw.toml"
 hash = "b7baa8eb9e129e60b3f7f30bf8960a5645da20a56c3e3fa9cee7a2280ca9c445"
+metafile = true
+
+[[files]]
+file = "mods/gtbcs-geomancy-plus.pw.toml"
+hash = "f86c83a9a5c919533af71693cbf82ff00647abe1e555e1d9eabb24fe9da3bf11"
+metafile = true
+
+[[files]]
+file = "mods/gtbcs-spelllib.pw.toml"
+hash = "ed294f230f0b51047213870413a27bcab426925dda74d57cbcf44cf6341bfafa"
 metafile = true
 
 [[files]]
@@ -1247,8 +1277,23 @@ hash = "0bf81aa2fc480a17238a5ccea90ac6fbb0a782ece5f8ef082bae5e457d63636f"
 metafile = true
 
 [[files]]
+file = "mods/irons-jewelry.pw.toml"
+hash = "5a1c9e8800f96e5fb4bec8ca4d02014190e20ff83d5b735c5888688039d1a5bc"
+metafile = true
+
+[[files]]
 file = "mods/irons-lib.pw.toml"
 hash = "4e6b34b12d60f76c1941c6f28fefb7f8586fcf51f63c21a29bdec16b16144877"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks-aeronautics.pw.toml"
+hash = "63bda4eea975ecdca2af551fc12cdaf9de4c6b76423a222595fe789999646dd8"
+metafile = true
+
+[[files]]
+file = "mods/irons-spells-n-spellbooks-chronomancy.pw.toml"
+hash = "10d826c9e0309ffaae94036d66b9968dd2e2f33c41627ecb02dbee8ab9a9fc06"
 metafile = true
 
 [[files]]
@@ -1414,6 +1459,11 @@ metafile = true
 [[files]]
 file = "mods/lets-do-wildernature.pw.toml"
 hash = "932981b1c508e0f98688cda00af3a84774c8d02d4ad779e22c1d73d535d152d3"
+metafile = true
+
+[[files]]
+file = "mods/leylines-irons-spells-n-spellbooks-addon.pw.toml"
+hash = "2ccc801ebcc7092e66e63e2040b165f9ff54c6b31051f4244a7e2caf969afa5d"
 metafile = true
 
 [[files]]
@@ -1719,6 +1769,11 @@ metafile = true
 [[files]]
 file = "mods/ping-wheel.pw.toml"
 hash = "f432dc073600a42ad854d4e4bf5fef349bc98fca04dfd74a15bb847d85412fc5"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "91d04c238457734dfac205b05db06ab340b1e6f52ebecbd431120a51aa8b08cc"
 metafile = true
 
 [[files]]
@@ -2062,6 +2117,11 @@ hash = "a521f5dd93f5f0c6672b2b2aca1c43c7b5102dbb39a3141e02c5946912c30b49"
 metafile = true
 
 [[files]]
+file = "mods/the-weather-update.pw.toml"
+hash = "2524bbea759a574715d31ec0b267908f7de6f06024e7d4bd57a21e1cd638bb63"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "89f45d29c44448cd833d40a34f9e4774c7eef124f3566e5f19418b730d406c4e"
 metafile = true
@@ -2129,6 +2189,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "78865626d30f062853dd6d157cf14a37e90493a4ca32301cf49c5bdf7578ef6e"
+metafile = true
+
+[[files]]
+file = "mods/winds-spellbooks-irons-spells-n-spellbooks-addon.pw.toml"
+hash = "2df5a3259c98d50caf7ada177891b44e5c003b2e3a24c35d3301eaee9badadde"
 metafile = true
 
 [[files]]

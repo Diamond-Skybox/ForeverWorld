@@ -1,0 +1,12 @@
+name = "Crystal Chronicles - Iron's Spells 'n Spellbooks"
+filename = "crystal_chronicles-0.1.4-alpha.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b9627bd03ad4e8b5037905732b775bb20d9dcc1b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9144146
+project-id = 1153374
