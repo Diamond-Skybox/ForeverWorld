@@ -857,6 +857,11 @@ hash = "8127cd6489a6ba2b7b3f9491380caf5716100174de0986603042b3dda966b34d"
 metafile = true
 
 [[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "9adcf3365b2109489de55c691ac77f40a9e03069370ac69a434f2468ee2da4ae"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-trees-biomes-o-plenty.pw.toml"
 hash = "d249a7e7a874920d5b580a5ad959f80ef491835294f2ef01d3717ffd92131c61"
 metafile = true
@@ -1999,6 +2004,11 @@ metafile = true
 [[files]]
 file = "mods/strut-your-stuff.pw.toml"
 hash = "6247badd1fe676a230212753e958913f3156bcb92e7782f6d5f276c45d744b7f"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "ae2e899379fded6d68bf64ff2ea48097b12b1218d587dd6286769e2ef731fd83"
 metafile = true
 
 [[files]]
