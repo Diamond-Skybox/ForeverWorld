@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "aeb8f2ff360702329db0a172dcac9004ca3afbac6da7e2c56f966774d6e6184b"
+preserve = true
+
+[[files]]
 file = "kubejs/assets/oc2/lang/en_us.json"
 hash = "05b133265831dcf82c6135d32f337e5601040b24ded7a71f67c61c9fe0a57a7b"
 
