@@ -93,7 +93,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-flux.pw.toml"
-hash = "fa32057c0711e9fc218a3e8e8f2f58ab98aa5b8699bb683d4ed1a38e9ebc0713"
+hash = "14ee18880996240c06b83b8a62afa6d89b8bb4941c728faa0965bc91fc1737f4"
 metafile = true
 
 [[files]]
@@ -337,6 +337,11 @@ hash = "98a0cfcd3123bbd5fd4c2ae9e8fc871efca0bb803b58c6d3bdc734651fdecc0e"
 metafile = true
 
 [[files]]
+file = "mods/cataclysm-spellbooks-bettercombat-compat.pw.toml"
+hash = "0791b4295a82c6d5efd873bd1e864412407df96a869fc6f7378024caddd3f94d"
+metafile = true
+
+[[files]]
 file = "mods/cataclysm-spellbooks.pw.toml"
 hash = "ccd6e8e11db74c7a41140348d3adb001b69b128abfc503396918037c80ab8ea2"
 metafile = true
@@ -508,7 +513,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "7cbf4cde90392ad0567169472a5cc4e2a9be5e728bc7c482cae32bf3ae9826a9"
+hash = "50a94865916b8316fe06f66094b503eead97989e3517dc2f66e04ccd388e04b3"
 metafile = true
 
 [[files]]
@@ -1162,6 +1167,11 @@ hash = "f86c83a9a5c919533af71693cbf82ff00647abe1e555e1d9eabb24fe9da3bf11"
 metafile = true
 
 [[files]]
+file = "mods/gtbcs-spellbooks.pw.toml"
+hash = "d861cef7ca4388ad190c86f5c4328f91fc1841423d2e8d72db56b5c5f26272d3"
+metafile = true
+
+[[files]]
 file = "mods/gtbcs-spelllib.pw.toml"
 hash = "ed294f230f0b51047213870413a27bcab426925dda74d57cbcf44cf6341bfafa"
 metafile = true
@@ -1398,7 +1408,7 @@ metafile = true
 
 [[files]]
 file = "mods/ldlib.pw.toml"
-hash = "b4d866bc0f507e5bc13216310769a5d9e9983a0920146891dd1d87e7bf146f5e"
+hash = "b7962224fb48d4993bef4a13d6aeff93643b6dade47aec1be8a5fb3f6298710b"
 metafile = true
 
 [[files]]
@@ -1872,6 +1882,11 @@ hash = "5f108c88f289a57ab6f8804c3723992ba4c16fddc9f0702f3fa8f43ce463ca2d"
 metafile = true
 
 [[files]]
+file = "mods/reliquified-l-ender-s-cataclysm.pw.toml"
+hash = "e042b00223b55a4962804533c8c284b3aae8e6c43cbda32ca838253a78cbb309"
+metafile = true
+
+[[files]]
 file = "mods/reliquified-twilight-forest-new-relics-fix.pw.toml"
 hash = "8533bfc7dc8d0eae173cd397b7428d7347bb4603214522a8748f7fd785ae09ad"
 metafile = true
@@ -2038,7 +2053,7 @@ metafile = true
 
 [[files]]
 file = "mods/spells-atlas.pw.toml"
-hash = "0de7e010a0244d27a2594b7bd521a9246d09e6c90000ba4c84b4b0bff66cbd31"
+hash = "9974c44c57c74976edc396541e5634e7808b9d9122bfcb5a4aa6a6a28e22c7ae"
 metafile = true
 
 [[files]]
