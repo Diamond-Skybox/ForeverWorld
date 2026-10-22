@@ -1,13 +1,13 @@
 name = "Alshanex"
-filename = "alshanex_familiars-1.21.1_v4.0.3.jar"
+filename = "alshanex_familiars-1.21.1_v5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/GmF3uubs/versions/cnBuaArR/alshanex_familiars-1.21.1_v4.0.3.jar"
+url = "https://cdn.modrinth.com/data/GmF3uubs/versions/2bwB44Aa/alshanex_familiars-1.21.1_v5.0.jar"
 hash-format = "sha512"
-hash = "795c77002414c4bd39532fe97a31577f55a86e2d56d131d0abcb51dd8a68c2c99654f71ba3f0908cc54de094eac7fc72e1797531f7f68493380299344070a23c"
+hash = "f3de898a3a1534e7464cec7103c9307d48049f69a84cf6c6aecb4bd707e76f51b0fbc76665eef5313d501fdd3e2df60def5bbc4a80b495d8a0ebdc35e51a3eb0"
 mode = "url"
 
 [update.modrinth]
 mod-id = "GmF3uubs"
-version = "cnBuaArR"
+version = "2bwB44Aa"

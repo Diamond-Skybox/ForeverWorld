@@ -1,12 +1,13 @@
 name = "Mo"
-filename = "mobends-1.21.1-5.6.2-neoforge.jar"
+filename = "mobends-1.21.1-5.6.3-neoforge.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "ff5664ad227312b2894b86b713b8a76ffb566e6e"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rNRqFWLv/versions/gkZMPuSh/mobends-1.21.1-5.6.3-neoforge.jar"
+hash-format = "sha512"
+hash = "5f1f3942f0c6e84bed2b556feb3cea66885c6b6f3e7755dc4afaa7a5dc388e23a549b6bf1aeecc90b7f3e61998e15df2491eb0c3bcc2c17992b19c55db2000fb"
+mode = "url"
 
-[update.curseforge]
-file-id = 9167995
-project-id = 1438637
+[update.modrinth]
+mod-id = "rNRqFWLv"
+version = "gkZMPuSh"

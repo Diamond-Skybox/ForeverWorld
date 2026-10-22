@@ -1,12 +1,13 @@
 name = "Malum Buddycards"
-filename = "malumbuddycards-1.21.1-1.1.0.jar"
+filename = "malumbuddycards-1.21.1-1.1.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5a5a756209393e06e4c2d83713ea84592c897e2b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Y2jwYw3v/versions/YUJIDE04/malumbuddycards-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "572fded1fd08ac82ce641e385be35ba9b3470dea7fa031f34f3bb1e3f5563ed4b1fa2b7b739d5a3cd4712cec635e86dc8fa3446accab1d484fa03b9ea317f2a8"
+mode = "url"
 
-[update.curseforge]
-file-id = 9048352
-project-id = 1665197
+[update.modrinth]
+mod-id = "Y2jwYw3v"
+version = "YUJIDE04"

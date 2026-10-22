@@ -1,12 +1,13 @@
 name = "Create: Applied Kinetics"
-filename = "createappliedkinetics-1.5.3-1.21.1.jar"
+filename = "createappliedkinetics-1.5.4-1.21.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "050fa78283731de06e8a4046da5d99bc7466d093"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/mYGTCuZY/versions/Sk7TlTkT/createappliedkinetics-1.5.4-1.21.1.jar"
+hash-format = "sha512"
+hash = "1542a8395c91ff8de610206484c3a7acd2b0519854bc3a07e13a0d1230917e4f60a10cc3178de4bd01df733dca05d0a1ccdbf9f855c3252297cf0bbfb23a37ff"
+mode = "url"
 
-[update.curseforge]
-file-id = 7220195
-project-id = 867328
+[update.modrinth]
+mod-id = "mYGTCuZY"
+version = "Sk7TlTkT"

@@ -1,12 +1,13 @@
 name = "Reliquified Iron"
-filename = "reliquified_irons_spells_and_spellbooks-1.21.1-0.2.7.jar"
+filename = "reliquified_irons_spells_and_spellbooks-1.21.1-0.2.8.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e22fd94c87cb88b3cfa4637c48a1058260d35a9b"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/NFDUFVtK/versions/B2CG5Jxx/reliquified_irons_spells_and_spellbooks-1.21.1-0.2.8.jar"
+hash-format = "sha512"
+hash = "019cb231f947d5d3c100c677d4adf7b9f3f02104df4be72a680f76233174240ed5243971b3c4e66ebf94145390d45f12040980773cd9d68f22ffde01a168869b"
+mode = "url"
 
-[update.curseforge]
-file-id = 8221834
-project-id = 1216851
+[update.modrinth]
+mod-id = "NFDUFVtK"
+version = "B2CG5Jxx"

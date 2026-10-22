@@ -1,12 +1,13 @@
 name = "Neo Vitae"
-filename = "neovitae-1.21.1-1.1.38.jar"
+filename = "neovitae-1.21.1-1.1.48.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "27d1e36a7e413b0983e9459329cb8040f27e726d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/rvaW4C93/versions/EDggA1ka/neovitae-1.21.1-1.1.48.jar"
+hash-format = "sha512"
+hash = "013e93a11df291efbc389cecc969d9a351852027e541c2f9ad5be2389e0a450010e36c1b7a83991379c29175de09b553f553f304e6d2df8a50cc6e9d9c42197b"
+mode = "url"
 
-[update.curseforge]
-file-id = 9165549
-project-id = 1404763
+[update.modrinth]
+mod-id = "rvaW4C93"
+version = "EDggA1ka"

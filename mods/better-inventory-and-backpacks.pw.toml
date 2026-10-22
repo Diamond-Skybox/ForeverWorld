@@ -1,12 +1,12 @@
-name = "Better Inventory And Backpacks"
-filename = "betterinventory-neoforge-1.21.1-1.5.0.jar"
+name = "Better Inventory"
+filename = "betterinventory-neoforge-1.21.1-2.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2481f1dbb9169db1f54eb9545f6db9d539d43815"
+hash = "40b2807191cec00f7de742720ec98ed27f56fae7"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9185432
+file-id = 9284869
 project-id = 1618019
