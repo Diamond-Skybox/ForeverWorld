@@ -332,6 +332,11 @@ hash = "ccd6e8e11db74c7a41140348d3adb001b69b128abfc503396918037c80ab8ea2"
 metafile = true
 
 [[files]]
+file = "mods/cdna.pw.toml"
+hash = "89dd487552c2d419986ea8a811b86cd5b40afe0fcf908d3aaa06796c6ab4f141"
+metafile = true
+
+[[files]]
 file = "mods/cerbons-api.pw.toml"
 hash = "03028b1b2a383b555fc9ced2c439787d00bcb98c02ed9b253f4748b01bef33f7"
 metafile = true
@@ -933,7 +938,7 @@ metafile = true
 
 [[files]]
 file = "mods/envelope.pw.toml"
-hash = "9b250103f98b9d93d5107eeffe6921c2c51346cc77d5696d98e127cfa1256ce8"
+hash = "8e17ff1609cead96a5425e1a8eab71038b2d3fc98c48d6f51dc68a600989e18c"
 metafile = true
 
 [[files]]
@@ -1282,6 +1287,11 @@ hash = "60a43608d34539eb7fffb53eca59bb785d5c1cfb633f6a3b669c3f6fcf845096"
 metafile = true
 
 [[files]]
+file = "mods/journeymap-teams.pw.toml"
+hash = "37e2dfb30b42894ec08013854d9d8f3785ba330633b712b4057c1b01b82fd5d8"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "ae2d8f9f902d0c205f04cbaa1ddb065dd8c67f5f3e4242eea4003d0bf18863a2"
 metafile = true
@@ -1459,6 +1469,11 @@ metafile = true
 [[files]]
 file = "mods/man-of-many-planes.pw.toml"
 hash = "77f652e0b96f3a31454842cc6e7669067c0e0177ad91721abdecf2a8b7f1c01c"
+metafile = true
+
+[[files]]
+file = "mods/mapfrontiers.pw.toml"
+hash = "498dd718b86f3711338330fb9308ac24e9b5507fec223d01777cab8ca5e2e1ec"
 metafile = true
 
 [[files]]

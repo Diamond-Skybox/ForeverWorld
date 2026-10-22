@@ -1,0 +1,13 @@
+name = "Chest DNA"
+filename = "chestdna-1.03q-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E12tucSY/versions/m09O1TtM/chestdna-1.03q-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "817283da02db73a1e90717a6cc1d506ab255a1493855bf128bc16a7d2d57f06891c54b51741c0c60ff15c8848c0fa817349bf7e76b7eba46f4623c298abfefca"
+mode = "url"
+
+[update.modrinth]
+mod-id = "E12tucSY"
+version = "m09O1TtM"
