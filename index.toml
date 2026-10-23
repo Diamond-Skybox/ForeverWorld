@@ -1051,6 +1051,16 @@ hash = "c68c99a5742f1f815e8f937f0ffe48a78e66a66a50ab60921e61b5b1a9168407"
 metafile = true
 
 [[files]]
+file = "mods/fancy-notify.pw.toml"
+hash = "5284e696145db5d6bb315f158940b75dde811917460c76f3ef5f6d619c90949f"
+metafile = true
+
+[[files]]
+file = "mods/fancy-toasts.pw.toml"
+hash = "357da30a4401282495ffe79e9045860cc07213f49e7bbc92c5b862777e5c7f86"
+metafile = true
+
+[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "990940cd15796f38270e7f35e7acc1f7a49061a2f13eeefb4f4bfe80f0f8a4ed"
 metafile = true
@@ -2248,6 +2258,11 @@ metafile = true
 [[files]]
 file = "mods/travelers-titles-neoforge.pw.toml"
 hash = "4c0772b1b2a6b35d802d028280407befbc04f048ec3c222dbffeaf5eeccc7cb5"
+metafile = true
+
+[[files]]
+file = "mods/tutorial-suppressor.pw.toml"
+hash = "59d1860bab2383c64ce0a3a1269d540fba5062d7d4bd1549b47dcda7c7f7491b"
 metafile = true
 
 [[files]]

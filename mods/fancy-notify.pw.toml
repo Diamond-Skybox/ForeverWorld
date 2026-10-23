@@ -1,0 +1,13 @@
+name = "Fancy Notify | Better Toasts"
+filename = "fancynotify-1.1.0-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/UTX2b9kL/versions/GAOAdxTU/fancynotify-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "fa35ee30a84ffc69e2f997596c49f827208bc372f1ce242659abb9959be797585654f03c95536201066a5b125be7e827e87c3a8d0cf9ca4e8a7c4424c42c6e9d"
+mode = "url"
+
+[update.modrinth]
+mod-id = "UTX2b9kL"
+version = "GAOAdxTU"
