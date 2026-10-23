@@ -1053,7 +1053,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "9e5557f0d9edbe12ed087f8105f82c7cb4d7703230e8614e68e91292739ed852"
+hash = "72c5d20742771dfd3fcd68cd0e919938cabb4897ea63ffd7ddd6432586a1cc97"
 metafile = true
 
 [[files]]
@@ -1487,6 +1487,11 @@ hash = "2ccc801ebcc7092e66e63e2040b165f9ff54c6b31051f4244a7e2caf969afa5d"
 metafile = true
 
 [[files]]
+file = "mods/libjf.pw.toml"
+hash = "d4c79cfddff39197fc6e9bda2b451e143350abafe1604c8d245c1800368a8996"
+metafile = true
+
+[[files]]
 file = "mods/lionfish-api.pw.toml"
 hash = "4f2ebaa9f5d113c7c6d962588fca774440567adeba7e6b9724bf2c7e64b54782"
 metafile = true
@@ -1917,6 +1922,11 @@ hash = "15d8b72c2473b652f03d344bacdf3fdd2afd1997f3804e0a7b029b41bfb6ca63"
 metafile = true
 
 [[files]]
+file = "mods/respackopts.pw.toml"
+hash = "1d0d1916623e08bb5589f14c89a28a145dd8a295553ea8d271b8398fa03d3012"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "8cb3a24ea3a2823a1c9a1010bbaa25d88f6699a60a405a0398dc3b8db8bb3a13"
 metafile = true
@@ -2275,3 +2285,23 @@ metafile = true
 file = "options.txt"
 hash = "29b83b75b4e521ba93000a732adf2b245942b604761282e4797aaf42b67e0bf8"
 preserve = true
+
+[[files]]
+file = "resourcepacks/just-3d-armors-punchy-1.21-backport.pw.toml"
+hash = "a44ce03728767c7c1e7426994b64a6e42905b02a2916eaa00c4354605d041323"
+metafile = true
+
+[[files]]
+file = "resourcepacks/just-3d-potions-punchy-1.21-backport.pw.toml"
+hash = "e9193a6c1e93534dc4a046de5078e30bbabf97576d1fc6aecf6bd029506bd3f5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+metafile = true

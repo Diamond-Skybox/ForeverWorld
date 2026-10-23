@@ -1,0 +1,13 @@
+name = "Just 3D Potions (Punchy! 1.21 Backport)"
+filename = "Just 3D Potions 1.21 Backport.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/HJHc17pH/versions/GkDN5SwX/Just 3D Potions 1.21 Backport.zip"
+hash-format = "sha512"
+hash = "0bec6de1a58a1cf3985b4a35f9dbdef1a49e5dc47d80b5207f765d5e7db88de7f3bc74f4026810632ca787304ef3b9267ef48d8dad2a14d57b09f79719ee0a6a"
+
+[update]
+[update.modrinth]
+mod-id = "HJHc17pH"
+version = "GkDN5SwX"
