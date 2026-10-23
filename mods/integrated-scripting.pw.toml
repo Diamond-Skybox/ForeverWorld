@@ -1,0 +1,13 @@
+name = "Integrated Scripting"
+filename = "integratedscripting-1.21.1-neoforge-1.0.27-699.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uDJkuFRe/versions/ngn6vTlJ/integratedscripting-1.21.1-neoforge-1.0.27-699.jar"
+hash-format = "sha512"
+hash = "b4b79550142dccc1970809b5eea3ebee975bb4d26d138cfbb21347b8fa6b352468617f448702c86026d7a8e2b9e533b1f196e099385dd1989a1daa2ccbab18e3"
+mode = "url"
+
+[update.modrinth]
+mod-id = "uDJkuFRe"
+version = "ngn6vTlJ"

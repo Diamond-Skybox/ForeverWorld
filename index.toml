@@ -411,6 +411,11 @@ hash = "1430788bf765abbdae9849403f3f8a09338c138fe5793514dd580c82199bf7c1"
 metafile = true
 
 [[files]]
+file = "mods/common-capabilities.pw.toml"
+hash = "b2268b079a003b2fbceac6bcebb9c2b9bdba6d316801e4a78753c9843f6011bd"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "2531781185057b48b42803fb3cd5244221d0fa177d36d53a412dd8287deeba76"
 metafile = true
@@ -583,6 +588,11 @@ metafile = true
 [[files]]
 file = "mods/create-goggles.pw.toml"
 hash = "38532ad9b4f0ef1c40e37f37910357b16450dd75d85bb94388ba3fab9b2b130d"
+metafile = true
+
+[[files]]
+file = "mods/create-item-drawers.pw.toml"
+hash = "5840e746ebf9389c345c48fb33ab7789c9e306e9b4712d59ab3e5a61a9ad8862"
 metafile = true
 
 [[files]]
@@ -793,6 +803,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "d9daa93c4b5d503ad14a33b5aa771d6de8714ea3ff5ba0ff44b7e1aa6e838f3a"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "cc21ca85c2733c2763a06e570f09a566675f7abeea37921988103eaef69affc7"
 metafile = true
 
 [[files]]
@@ -1303,6 +1318,36 @@ metafile = true
 [[files]]
 file = "mods/immersive-petroleum.pw.toml"
 hash = "5b0419efdcfba7cf3f71b28743383b0dfab6c6efe036784dee7e8a1642c7dfba"
+metafile = true
+
+[[files]]
+file = "mods/integrated-crafting.pw.toml"
+hash = "b6c578953491fcbe8432b3159b51b4686cd788e9eed7c32e850f660c18db9e76"
+metafile = true
+
+[[files]]
+file = "mods/integrated-dynamics.pw.toml"
+hash = "d10f922d1f368dd010848367ccd59b35b30e399880a5ce09d00b9525f44685b5"
+metafile = true
+
+[[files]]
+file = "mods/integrated-nbt.pw.toml"
+hash = "d9797993b7bbc042370c056f9e1ec62c5881dae3df7a3c99d540ff3610e248e8"
+metafile = true
+
+[[files]]
+file = "mods/integrated-scripting.pw.toml"
+hash = "0c9ca446dc3fc9fa4a4d38ea29255021baa7464766a5b86b4bfd4364654cd139"
+metafile = true
+
+[[files]]
+file = "mods/integrated-terminals.pw.toml"
+hash = "ff7e4074d3f061d4dbebe76893550ca05cf2edc68b2ac411d625df4ed426136f"
+metafile = true
+
+[[files]]
+file = "mods/integrated-tunnels.pw.toml"
+hash = "fc620803820e36cdf85ed5c6542e8d37b7fd09f69c3c44586e322516d27b433f"
 metafile = true
 
 [[files]]
