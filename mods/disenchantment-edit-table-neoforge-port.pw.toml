@@ -1,0 +1,12 @@
+name = "Disenchantment Edit Table - NeoForge Port"
+filename = "editenchanting-1.2.0-neoforge-1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d8d31ff2883999c1cfa04d15d2c3e06055b0bba"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8821087
+project-id = 1684310

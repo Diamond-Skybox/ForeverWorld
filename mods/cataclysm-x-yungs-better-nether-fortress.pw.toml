@@ -1,0 +1,13 @@
+name = "Cataclysm x YUNG's Better Nether Fortress"
+filename = "cataclysm_betterfortresses-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hllwjqw0/versions/uyStlDNm/cataclysm_betterfortresses-1.0.0.jar"
+hash-format = "sha512"
+hash = "84d8d44ce6071a22a873a0741a2467026c2061859e904a44fb55ed033577c08a340796a078b066b3ae1dcc0f13ebf9cc49fd449cc0b4f9390988ce041d43ff73"
+mode = "url"
+
+[update.modrinth]
+mod-id = "hllwjqw0"
+version = "uyStlDNm"
