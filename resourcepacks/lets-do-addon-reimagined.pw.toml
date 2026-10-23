@@ -1,0 +1,13 @@
+name = "Let's Do Reimagined"
+filename = "Let's Do Reimagined v1.4.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sAtxons8/versions/7laUYMYb/Let%27s Do Reimagined v1.4.2.zip"
+hash-format = "sha512"
+hash = "2f7cfa4eb3cc01d649b1a5476d80148528bb02b6c6ea8e64c8caee6d2fa9f7bf23889fba666fe8b0ae5e575a50349ec73bb045c97de837c91960f8ced7b354c2"
+
+[update]
+[update.modrinth]
+mod-id = "sAtxons8"
+version = "7laUYMYb"

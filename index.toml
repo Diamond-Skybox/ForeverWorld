@@ -18,6 +18,10 @@ file = "config/invtweaks-client.toml"
 hash = "6a15400a1a1d18f4eacdc2d33f8fec856a04c0f8b2a76a4e87b2bc147909c72d"
 
 [[files]]
+file = "config/resourcepackoverrides.json"
+hash = "7fa853c429c7350a403caa42a5222fe207867671799a02efe960fe0213d93f92"
+
+[[files]]
 file = "kubejs/assets/oc2/lang/en_us.json"
 hash = "05b133265831dcf82c6135d32f337e5601040b24ded7a71f67c61c9fe0a57a7b"
 
@@ -1352,6 +1356,11 @@ hash = "a2850101d748e4e0ef5b069fce4b420855890d469aca46d878f1bdb8b5ca6568"
 metafile = true
 
 [[files]]
+file = "mods/jei-enhancements.pw.toml"
+hash = "68344faa181bcf929f306bcf676f7c79b3310c1b476b58d4ede7f22b4c2a1b95"
+metafile = true
+
+[[files]]
 file = "mods/jei-malum.pw.toml"
 hash = "b08c1bd457137bcd07c21586cb8e0a2861308b26a60b5e59ace24bc5669aeec4"
 metafile = true
@@ -1379,6 +1388,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "ae2d8f9f902d0c205f04cbaa1ddb065dd8c67f5f3e4242eea4003d0bf18863a2"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "30f2df90876fd9d086828a98fba38c5002e39d79fa08319085a2cb431ad478cd"
 metafile = true
 
 [[files]]
@@ -1947,6 +1961,11 @@ hash = "47689fabc85e9549c601b547a8f31a9fb662b1ae06bda2d3291cd497a4e2e4a9"
 metafile = true
 
 [[files]]
+file = "mods/resource-pack-overrides.pw.toml"
+hash = "3d45891615c1031d314a444a3ab5b441726e303985c20317da65497d7406b044"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "9139089274d4ac26966d59fc603dacfbe983d79d7a840aa8df6dbec11df4c89d"
 metafile = true
@@ -2242,6 +2261,11 @@ hash = "73243f08346d847d6929c12aad9f3929f53e52a934b1f8287e6b37bfd3e1f989"
 metafile = true
 
 [[files]]
+file = "mods/uei.pw.toml"
+hash = "028cf256be81fde36436c8e45e8a735c63ba982886d1f173da5600d3c37bcaba"
+metafile = true
+
+[[files]]
 file = "mods/valhelsia-core.pw.toml"
 hash = "5c60c52a6eed3d7a5d3c4b6a4a365fe47606e20dd1e97a159a422966d6a4c34d"
 metafile = true
@@ -2318,8 +2342,23 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "29b83b75b4e521ba93000a732adf2b245942b604761282e4797aaf42b67e0bf8"
+hash = "76a1cbb9486c83aeee10774a6b64b2ec26690d7058b37ffaef3b09e3606bf267"
 preserve = true
+
+[[files]]
+file = "resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
+hash = "6028722ee471e5526ff7f6b561c15741d03a620838d0d5fb10a7813ef20df138"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-food-punchy-fix.pw.toml"
+hash = "cc30a342628b5b4d0f3c63fe9381b2973399bfd7da554c14df69a8d1a8ec71aa"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-food.pw.toml"
+hash = "efc6e1922edebcdc7bc976396bbe96103adabade2c09099e3a83bcd12471d751"
+metafile = true
 
 [[files]]
 file = "resourcepacks/just-3d-armors-punchy-1.21-backport.pw.toml"
@@ -2329,6 +2368,26 @@ metafile = true
 [[files]]
 file = "resourcepacks/just-3d-potions-punchy-1.21-backport.pw.toml"
 hash = "e9193a6c1e93534dc4a046de5078e30bbabf97576d1fc6aecf6bd029506bd3f5"
+metafile = true
+
+[[files]]
+file = "resourcepacks/lets-do-3d-drinks.pw.toml"
+hash = "e33efc004c991d432f450c8b7d8610c8fd4057f78024a31828cd78d35dc7035c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/lets-do-addon-reimagined.pw.toml"
+hash = "9d4fcdd68682dae8c907c02cd810f122c113295d350d1fdbd05db17faa77c0a8"
+metafile = true
+
+[[files]]
+file = "resourcepacks/lets-do-pixel-perfect.pw.toml"
+hash = "e75c394b35150d7d769e482d699a3b16576816044e0f484e4a9f6d859389c1d6"
+metafile = true
+
+[[files]]
+file = "resourcepacks/lets-do-seashells.pw.toml"
+hash = "ea551970071d350b881370923b8590c751c9085ea63f38e2835b3d94453ab41d"
 metafile = true
 
 [[files]]

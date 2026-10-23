@@ -1,0 +1,13 @@
+name = "Pixel Perfect [Let's Do Addon]"
+filename = "Let's Do - Pixel Perfect.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wRGAqH6L/versions/l0ohoAi1/Let%27s Do - Pixel Perfect.zip"
+hash-format = "sha512"
+hash = "ecdaf07f59c348a524629afe45cad90d18efa2e0b823c22c5cce6bac3b391a6a81f4118165d13f4f322ba5bf7fc927862f03096224e28d3daa5ad68bf743a48b"
+
+[update]
+[update.modrinth]
+mod-id = "wRGAqH6L"
+version = "l0ohoAi1"

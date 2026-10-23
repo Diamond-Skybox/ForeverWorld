@@ -1,0 +1,13 @@
+name = "Fresh food punchy fix"
+filename = "Fresh Food punchy fix.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/I8c5dpiA/versions/c8Tqet2G/Fresh Food punchy fix.zip"
+hash-format = "sha512"
+hash = "41bfc350ca77a8417317fc2b598a4172b46efcccfa10698871c53628da8a247c03b505b1783a632bb536e52343cf4717e7baf68bfe658baa4e169abeb11d1264"
+
+[update]
+[update.modrinth]
+mod-id = "I8c5dpiA"
+version = "c8Tqet2G"

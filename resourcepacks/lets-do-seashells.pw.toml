@@ -1,0 +1,13 @@
+name = "[Let's Do] Seashells"
+filename = "[Let's Do] Seashells 1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/seu4hXOx/versions/E3aecwdE/%5BLet%27s Do%5D Seashells 1.1.zip"
+hash-format = "sha512"
+hash = "8743d140701594b7f60e140058e77ffb07e57a638d439fb23268b124d60038314a28a67e1fc0b584be19079a9f3df52d27d45156daec7dae79ffdf53848f2f81"
+
+[update]
+[update.modrinth]
+mod-id = "seu4hXOx"
+version = "E3aecwdE"

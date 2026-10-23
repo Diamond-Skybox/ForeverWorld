@@ -1,0 +1,13 @@
+name = "Let's Do 3D Drinks"
+filename = "Lets Do 3D Drinks.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/g6jEI2C5/versions/KFk48a7m/Lets Do 3D Drinks.zip"
+hash-format = "sha512"
+hash = "5199df076bd267a2ad7aedcfab81b738ea08eee5a64b913e42951720aeefe95ca8164adee95a6183a3302619a0ea8e6f94e8b15dad7dbc9f5abf11a4869cf5ad"
+
+[update]
+[update.modrinth]
+mod-id = "g6jEI2C5"
+version = "KFk48a7m"

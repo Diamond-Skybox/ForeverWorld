@@ -1,0 +1,13 @@
+name = "JEI Enhancements"
+filename = "jei_enhancements-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6n995rcN/versions/G97OiDKl/jei_enhancements-1.1.0.jar"
+hash-format = "sha512"
+hash = "ed7428af285e37ae65d9907d3615bd42642b4133d9e49eff9314350d08cd4fce3a17bf795da97ba437278f68ca7f11dc474c12d413439064bc6966e7394a887b"
+mode = "url"
+
+[update.modrinth]
+mod-id = "6n995rcN"
+version = "G97OiDKl"
