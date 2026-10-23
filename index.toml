@@ -821,6 +821,11 @@ hash = "f1608b88a61a0cf6fb78015b555bcf50955285f2c1e06dda008c1231ad1009ff"
 metafile = true
 
 [[files]]
+file = "mods/distraction-free-recipes.pw.toml"
+hash = "d6057b33557a897696e6df3341cf77e901630aed695c06b2f07ad4b5d4489efe"
+metafile = true
+
+[[files]]
 file = "mods/do-api.pw.toml"
 hash = "9855f0aa35078ba634061c7c69353596475df82e61be60cae357aed74e7739cf"
 metafile = true
@@ -2258,6 +2263,11 @@ metafile = true
 [[files]]
 file = "mods/twilight-lootr.pw.toml"
 hash = "73243f08346d847d6929c12aad9f3929f53e52a934b1f8287e6b37bfd3e1f989"
+metafile = true
+
+[[files]]
+file = "mods/txnilib.pw.toml"
+hash = "da2d398352f3d69dc7235b02df13d4a0a313f74c68278738eef03e0af27d645a"
 metafile = true
 
 [[files]]
