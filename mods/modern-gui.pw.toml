@@ -1,0 +1,13 @@
+name = "Modern GUI"
+filename = "modern_gui-1.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "32fe6b2df7bd1b79e294c508deb725e57c9b1f37"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8441218
+project-id = 1522468

@@ -1,0 +1,13 @@
+name = "Create: Auction House"
+filename = "create_auction_house-3.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1c0164cd0ded0087436de37da67b0e7e5297fcad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8613587
+project-id = 1514693

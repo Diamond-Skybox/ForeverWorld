@@ -504,6 +504,11 @@ hash = "965d78350f7e4d43fa3c0649b55d3f8fdb7ad43b4062f5827a4fbbbc943a1f49"
 metafile = true
 
 [[files]]
+file = "mods/create-auction-house.pw.toml"
+hash = "c2dcc25c5369c936db5d587eaf83d31affe8f07d34268ee03e4feda223173fc2"
+metafile = true
+
+[[files]]
 file = "mods/create-ballast.pw.toml"
 hash = "c6078689205c59b75f6d7423bc3cef385d973e6f7b9bbdce707aa2fdb594801b"
 metafile = true
@@ -1756,6 +1761,11 @@ metafile = true
 [[files]]
 file = "mods/mo-bends-unofficial-modern-port.pw.toml"
 hash = "1f572f30ee796f4d73019f9aba6652d2c5787eae773fd9844466da99e1bba6c4"
+metafile = true
+
+[[files]]
+file = "mods/modern-gui.pw.toml"
+hash = "2002a91c827e6ec1171ddef806da57fd6bd68aea3502de1792e592e89227a363"
 metafile = true
 
 [[files]]
