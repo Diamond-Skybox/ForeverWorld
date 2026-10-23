@@ -967,6 +967,11 @@ hash = "f2e53d7b165cea62e88acbebf42b2f014809e49c89844f1bf64bc3c29cc72361"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-boss-bars-mod.pw.toml"
+hash = "267d0cddd5b9fb1e86b015711f5f0ac91676cc35a3f315df0324609f3e1baf43"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "282133fea557b4cce25ce76235d4c30e9f0be6ad4add6f141bd9a5ae34e07543"
 metafile = true
