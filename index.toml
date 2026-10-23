@@ -167,6 +167,11 @@ hash = "b57a6136bcfdd6f8368fe4f908d327bcfd8ab6207ce26b7aea253225d8eed1f0"
 metafile = true
 
 [[files]]
+file = "mods/ars-polymorphia.pw.toml"
+hash = "c60dadb5e1841f424891cb593d5b3eea5a08d0ecb0a2fa505de429c5cd6b5af7"
+metafile = true
+
+[[files]]
 file = "mods/arsenal-rpg-series.pw.toml"
 hash = "545e80e44acc477ee285694fbd9f2bf0a5dbba352dcfeab22807de0148576b25"
 metafile = true
@@ -189,6 +194,11 @@ metafile = true
 [[files]]
 file = "mods/attributes.pw.toml"
 hash = "6ba1f3365ca71aae0bd7ffb386a1a5b8d280e4bad420e5cfc11a929cb20a0724"
+metafile = true
+
+[[files]]
+file = "mods/authagain.pw.toml"
+hash = "b6bde51d07f7a1761c42e0cb6664c87293f038b073a9a1c7cc1964424bc12439"
 metafile = true
 
 [[files]]
@@ -1672,6 +1682,16 @@ hash = "d0c402564c96caed461070c3238c6f288105b2fba39e54ac3e1207301d3187f9"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "5eecb4011e67e6c828a495f5f07fb0bde38a252ef67e26bab584e86120ddb1ae"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "610de213fc81dcd239fe624e6977742c1110aa2b5ed1ca24773e010746e92c43"
+metafile = true
+
+[[files]]
 file = "mods/nomadic-tents.pw.toml"
 hash = "c59d42da18b547b2a2f8975011aba4ce773301cf4ebc00e7a1efa0f157f4e008"
 metafile = true
@@ -1809,6 +1829,16 @@ metafile = true
 [[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "82f4abcfd54f110c38518c278d66c1a9d4105cd210129eb8db521c129ebd3a5a"
+metafile = true
+
+[[files]]
+file = "mods/polymorph_plus.pw.toml"
+hash = "5af5d570b335a1eaa1bd36735f06556072e58a5f843b96e31dbba89b5751eda3"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-occultism.pw.toml"
+hash = "00a9fbf43f15c3e5fd8d0cbbdcf143b2eb520f11ff54744f6b77fdffb98a4b40"
 metafile = true
 
 [[files]]

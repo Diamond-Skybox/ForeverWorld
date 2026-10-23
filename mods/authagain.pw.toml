@@ -1,0 +1,13 @@
+name = "AuthAgain"
+filename = "authagain-neoforge-1.21.1-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lZSoNgQD/versions/nMW3uG8o/authagain-neoforge-1.21.1-1.1.0.jar"
+hash-format = "sha512"
+hash = "8f52389481d9f7944a4ec22d9084d4b03d992527f616756c1e58f3e66cc80562c4eebfeb4825e8f36417803f5fc93c92533928d2b974992c2a136813513b808c"
+mode = "url"
+
+[update.modrinth]
+mod-id = "lZSoNgQD"
+version = "nMW3uG8o"
