@@ -1,0 +1,6 @@
+{
+  "enchantment.galosphere.enfeeble.desc": "Salt pillars from the Saltbound Tablet slow the mobs they hit for 5 seconds.",
+  "enchantment.galosphere.rupture.desc": "Salt pillars from the Saltbound Tablet burst into pink salt shards when they crumble: 3 shards at level I, one more per level.",
+  "enchantment.galosphere.sustain.desc": "Salt pillars from the Saltbound Tablet stay up twice as long. Takes effect from level II.",
+  "enchantment.galosphere.sifting.desc": "When you finish brushing a suspicious block, it has a 25% chance per level to refill so it can be brushed again."
+}

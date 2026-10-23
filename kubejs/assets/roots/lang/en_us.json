@@ -1,0 +1,4 @@
+{
+  "enchantment.roots.collecting.desc": "Picks up items from 0.25 blocks farther away per level.",
+  "enchantment.roots.foraging.desc": "Knives and the Living Hoe find Roots' foraged drops more often: each level adds 1 to the tool's foraging, and 6 foraging doubles the chance."
+}

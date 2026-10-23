@@ -22,8 +22,36 @@ file = "config/resourcepackoverrides.json"
 hash = "7fa853c429c7350a403caa42a5222fe207867671799a02efe960fe0213d93f92"
 
 [[files]]
+file = "kubejs/assets/astralsorcery/lang/en_us.json"
+hash = "450df2f89044217faa0d508dbbc535a86cdb2d347205b380a7db43a3d09ee06c"
+
+[[files]]
+file = "kubejs/assets/create_sa/lang/en_us.json"
+hash = "abd75ac0d246720e51d14503315c8eee9df605dc0335aa7ec71db1c81709450a"
+
+[[files]]
+file = "kubejs/assets/enchantplus/lang/en_us.json"
+hash = "fe47172fd505b770bd9752fea3adeeac9a31424c4e37e754275796e9bcbe1012"
+
+[[files]]
+file = "kubejs/assets/forbidden_arcanus/lang/en_us.json"
+hash = "a8e602cd409158e40538d8317190c5efb32fb223a9e851ec1030b16daa3fbc4d"
+
+[[files]]
+file = "kubejs/assets/galosphere/lang/en_us.json"
+hash = "3f2155198809259fa9d9a9f3614d9d0ed6ac56c785e9eb90acd463f237f242cc"
+
+[[files]]
 file = "kubejs/assets/oc2/lang/en_us.json"
 hash = "05b133265831dcf82c6135d32f337e5601040b24ded7a71f67c61c9fe0a57a7b"
+
+[[files]]
+file = "kubejs/assets/roots/lang/en_us.json"
+hash = "0faa2793dde48a34167282e1fde8e1053fe9391514dd0a0db77893e573232614"
+
+[[files]]
+file = "kubejs/assets/wispwillow/lang/en_us.json"
+hash = "459e80bd8999b1d060572523b5e93031f882be6c54b22384bfa427231808c284"
 
 [[files]]
 file = "mods/accents.pw.toml"
