@@ -269,6 +269,11 @@ hash = "e11a84223227159e23977ee0eca06d27fa736dbe352236922ad450e66ad98812"
 metafile = true
 
 [[files]]
+file = "mods/better-archeology.pw.toml"
+hash = "c0c7e1794f628ab31b978aa395feb807cf1f8c30c4557d7f9682abf9b3ffec39"
+metafile = true
+
+[[files]]
 file = "mods/better-combat.pw.toml"
 hash = "d134ab936656ad1623a30200051ab30eb27405c40ef8492fd998aefe52697e15"
 metafile = true
@@ -1309,6 +1314,11 @@ hash = "e6ed686fb41aaacfadd2810cef46828daf065b483889b594967cfc4c1357fc1e"
 metafile = true
 
 [[files]]
+file = "mods/iceberg.pw.toml"
+hash = "eae8cd11ce88b33ed4f0b90cd64bfb4b3d97f1bdcdfc29c9a54027f5cff0c8ca"
+metafile = true
+
+[[files]]
 file = "mods/illager-invasion.pw.toml"
 hash = "53e030484e7edfb8d233d97307fbc1ef7dd413796725e8d375bd888203f82374"
 metafile = true
@@ -1546,6 +1556,11 @@ metafile = true
 [[files]]
 file = "mods/ldlib.pw.toml"
 hash = "b7962224fb48d4993bef4a13d6aeff93643b6dade47aec1be8a5fb3f6298710b"
+metafile = true
+
+[[files]]
+file = "mods/legendary-tooltips.pw.toml"
+hash = "376ed1179b6e970193b5311595e53eaf38835f01aab61864f939c5ad0b68e3a3"
 metafile = true
 
 [[files]]
@@ -1981,6 +1996,11 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "d95b6752b7903a6b1ffbf1b101e3802439abfa7bb9d7d7051891f14434f7d54a"
+metafile = true
+
+[[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "369c880c631f731fd93cbfb184c5340c76f4f0f0cf01be7680ac1f36c65c4fee"
 metafile = true
 
 [[files]]
