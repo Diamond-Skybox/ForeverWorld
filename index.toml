@@ -1150,7 +1150,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "481439b50f932a7bea30faa240986344ebbba4d30be5779cb48adb8b46ac506a"
+hash = "a35166c7830c90d104be6f95eafffc69995920dfa649b54ecca146412be1b873"
 metafile = true
 
 [[files]]
