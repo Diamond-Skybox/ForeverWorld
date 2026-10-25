@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PackHelper.java"
+hash = "07f92928ddb81aea28432e1d8e1b1684674cb0f137b6f70b12fe322073fa0512"
+
+[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
