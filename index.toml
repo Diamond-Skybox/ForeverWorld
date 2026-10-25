@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "PackHelper.jar"
-hash = "6d177d77e69e48860b50468c8e7b6f14cf71fda198b915714c1f0590c5a6cc51"
-
-[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
@@ -1164,7 +1160,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "5b7618d9081c5ceecf1a00819c8e67c0be6693f8759545f698366d92dfe96c9b"
+hash = "f4d1cfa54a0d06ca5efba359202c27c526d0ea4065fa5fcaed88db40724d55a2"
 metafile = true
 
 [[files]]
