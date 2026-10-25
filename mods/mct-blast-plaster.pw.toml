@@ -1,0 +1,13 @@
+name = "Blast Plaster"
+filename = "MCT-Blast-Plaster-1.21.1-2.0.0-b190-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/shsGV3lu/versions/aYBM2taf/MCT-Blast-Plaster-1.21.1-2.0.0-b190-release.jar"
+hash-format = "sha512"
+hash = "81a37cdea878336a192451500fdc24c6c4cb90f7e21da14e76083209a97cf03a2afbe4a137df9add28028a30c64a2284e8c7a79a83f67dc7f50b3702dab2d52d"
+mode = "url"
+
+[update.modrinth]
+mod-id = "shsGV3lu"
+version = "aYBM2taf"

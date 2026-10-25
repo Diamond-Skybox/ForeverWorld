@@ -1,0 +1,13 @@
+name = "Magic of Color"
+filename = "magic_of_color-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EjTIg7n8/versions/XxWieIYF/magic_of_color-1.2.1.jar"
+hash-format = "sha512"
+hash = "5187fe1a80eb7388f667a58212e7a4ab73e81e9663d348acff91f328b4858d2b597f143967845ad0baca9c43049e6c056f06a6f6d08e5de32eaaba91b1d4d04d"
+mode = "url"
+
+[update.modrinth]
+mod-id = "EjTIg7n8"
+version = "XxWieIYF"

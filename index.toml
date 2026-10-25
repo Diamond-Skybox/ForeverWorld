@@ -1074,6 +1074,11 @@ hash = "074f073f1e3abeda804c53f6d0890a0eb198e6aa156f991c790d7f1ee8091f98"
 metafile = true
 
 [[files]]
+file = "mods/exclusions-lib.pw.toml"
+hash = "453e5f73f7b821c6f043dddefb3a4f7eef7b80005a902ba2bcf7226391b8d9d5"
+metafile = true
+
+[[files]]
 file = "mods/exposure-catalog.pw.toml"
 hash = "21ad78379ddf162c1f219c562d0fc4379c49713be6dc475aa4d996d5f7cbf36f"
 metafile = true
@@ -1689,6 +1694,11 @@ hash = "eec0833862c1ecf0acb7d6fbf47201a7008220024055535affff8822478c08e4"
 metafile = true
 
 [[files]]
+file = "mods/magic-of-color.pw.toml"
+hash = "21ea15fc0251c048086edb9b4ad00a8fe18be56167df1bb39b158d3bb70c5fa9"
+metafile = true
+
+[[files]]
 file = "mods/malum-buddycards.pw.toml"
 hash = "206e0ec443f844f26e614aa2aa95bba3535ff04fc954948149bed56bce0cc0c5"
 metafile = true
@@ -1736,6 +1746,11 @@ metafile = true
 [[files]]
 file = "mods/mca-social-expansion.pw.toml"
 hash = "9c3a5f17603e51820fcf10b7e072d535a2e9b004521e640dc7db7d43368eb603"
+metafile = true
+
+[[files]]
+file = "mods/mct-blast-plaster.pw.toml"
+hash = "8ad5849cd08df2542628841b02033905d0783493653bc8be400a62379dd980ff"
 metafile = true
 
 [[files]]
@@ -1941,6 +1956,16 @@ metafile = true
 [[files]]
 file = "mods/particle-effects.pw.toml"
 hash = "8eb955a5f4d49e3b9372e15dbfb6ea1ab1c2cc4c846e7acc0c5efeb9b591df23"
+metafile = true
+
+[[files]]
+file = "mods/pastel.pw.toml"
+hash = "1389ad19670db8767475733dc60f8c59fd73239e8b683016f6f16f7395bc6fa6"
+metafile = true
+
+[[files]]
+file = "mods/pasteljei.pw.toml"
+hash = "8bf9abdb74ff90bd054831ebdc943ecc2f67e8abefc2e76a5ff0f9dd6aaa955d"
 metafile = true
 
 [[files]]
