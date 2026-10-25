@@ -7,12 +7,12 @@ NeoForge 1.21.1 modpack, kept up to date with [packwiz](https://packwiz.infra.li
 1. Create an instance: Minecraft **1.21.1**, NeoForge **21.1.259**. Give it at least 12 GB of memory (Settings → Java).
    Java 21 or newer; Java 25 is needed for C2ME's GPU acceleration.
 2. Download [`packwiz-installer-bootstrap.jar`](https://github.com/packwiz/packwiz-installer-bootstrap/releases) and
-   [`PackHelper.java`](https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/PackHelper.java) and put both in
+   [`PackHelper.jar`](https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/PackHelper.jar) and put both in
    the instance's `minecraft` folder (Prism: right-click the instance → Folder → `minecraft`).
 3. Instance → Edit → Settings → Custom commands → tick **Custom commands** and set the **Pre-launch command** to:
 
    ```
-   "$INST_JAVA" PackHelper.java https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/pack.toml
+   "$INST_JAVA" -jar PackHelper.jar https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/pack.toml
    ```
 
 4. Launch. The mods are downloaded on the first start and updated on every start after that.

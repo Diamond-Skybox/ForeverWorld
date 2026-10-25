@@ -18,8 +18,9 @@ import java.util.regex.Pattern;
  * straight into the mods folder), and the installer is run again until the pack is complete.
  *
  * Prism pre-launch command (run from the instance's minecraft folder):
- *   "$INST_JAVA" PackHelper.java https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/pack.toml
- * Exit code 0 starts the game, anything else stops the launch.
+ *   "$INST_JAVA" -jar PackHelper.jar https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/pack.toml
+ * Exit code 0 starts the game, anything else stops the launch. Shipped compiled (Prism's bundled Java is a JRE, which cannot run a
+ * .java file directly); build with tools/build-packhelper.sh.
  */
 public final class PackHelper
 {
@@ -39,6 +40,7 @@ public final class PackHelper
 			System.err.println("usage: PackHelper.java <pack.toml URL> [--downloads <folder>]");
 			System.exit(2);
 		}
+		preloadOwnClasses();
 		final String packUrl = args[0];
 		final List<Path> downloadDirs = new ArrayList<>();
 		for (int i = 1; i < args.length; i++)
@@ -70,6 +72,36 @@ public final class PackHelper
 			{
 				System.exit(choice == START ? 0 : 1);
 			}
+		}
+	}
+
+	/**
+	 * PackHelper.jar is itself a pack file, so the installer it runs may replace it; every class is loaded up front so the rest of
+	 * this run never reads the jar again.
+	 */
+	private static void preloadOwnClasses()
+	{
+		try
+		{
+			final Path self = Paths.get(PackHelper.class.getProtectionDomain().getCodeSource().getLocation().toURI());
+			if (!Files.isRegularFile(self))
+			{
+				return;
+			}
+			try (java.util.jar.JarFile jar = new java.util.jar.JarFile(self.toFile()))
+			{
+				for (java.util.jar.JarEntry entry : Collections.list(jar.entries()))
+				{
+					if (entry.getName().endsWith(".class"))
+					{
+						Class.forName(entry.getName().replace('/', '.').replace(".class", ""), false, PackHelper.class.getClassLoader());
+					}
+				}
+			}
+		}
+		catch (Exception | LinkageError e)
+		{
+			System.out.println("[PackHelper] could not preload classes: " + e);
 		}
 	}
 
