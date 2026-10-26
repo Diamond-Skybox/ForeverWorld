@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PackHelper.jar"
+hash = "6d177d77e69e48860b50468c8e7b6f14cf71fda198b915714c1f0590c5a6cc51"
+
+[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
@@ -422,11 +426,6 @@ metafile = true
 [[files]]
 file = "mods/chatanimation.pw.toml"
 hash = "d7809a518604fe9664d177663a274d3ea3bb1920547cc594ea77b2181ed7badf"
-metafile = true
-
-[[files]]
-file = "mods/chronos-backups.pw.toml"
-hash = "1cc5275ecf94e56ea44a65bc079d81cc418c5d4c4d2e85677b0ad066bf4ddc91"
 metafile = true
 
 [[files]]
