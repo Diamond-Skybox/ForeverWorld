@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PackHelper.jar"
+hash = "6d177d77e69e48860b50468c8e7b6f14cf71fda198b915714c1f0590c5a6cc51"
+
+[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
@@ -16,10 +20,11 @@ preserve = true
 [[files]]
 file = "config/invtweaks-client.toml"
 hash = "6a15400a1a1d18f4eacdc2d33f8fec856a04c0f8b2a76a4e87b2bc147909c72d"
+preserve = true
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "7fa853c429c7350a403caa42a5222fe207867671799a02efe960fe0213d93f92"
+hash = "34b6a6f75e7b24120b83766c800db17bc2d360ff7e16832ad01d462fc1e4703e"
 
 [[files]]
 file = "kubejs/assets/astralsorcery/lang/en_us.json"
@@ -1011,6 +1016,11 @@ metafile = true
 [[files]]
 file = "mods/dynamictreesplus.pw.toml"
 hash = "78941f0ae9c32f1b7f8a293e2aecc49ed12d8941b899d9a84d8c0a685b84719a"
+metafile = true
+
+[[files]]
+file = "mods/edf-remastered.pw.toml"
+hash = "6d15a66c3d9d53f7a4dd36ee280f14ac92e32e357185cbe91dda28fdffc40bb4"
 metafile = true
 
 [[files]]
@@ -2551,6 +2561,11 @@ preserve = true
 [[files]]
 file = "resourcepacks/drigo-3d-lanterns-x-punchy.pw.toml"
 hash = "6028722ee471e5526ff7f6b561c15741d03a620838d0d5fb10a7813ef20df138"
+metafile = true
+
+[[files]]
+file = "resourcepacks/ender-dragon-reborn.pw.toml"
+hash = "a9eab1d3248f4423359db095f38977a71112f666e2e7a4aba484e6a30592559a"
 metafile = true
 
 [[files]]

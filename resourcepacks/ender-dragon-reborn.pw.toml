@@ -1,0 +1,13 @@
+name = "Ender Dragon Reborn"
+filename = "Ender_Dragon_Reborn-1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/W7Jn0Lba/versions/2WwbPG0G/Ender_Dragon_Reborn-1.1.zip"
+hash-format = "sha512"
+hash = "aaf69d047de8c64d944364bc288f4ec009d2712b7794a78b52824e91ee29699cc928621a89c84f1a0906fe56899cbba381de2eb50dca77853532df190ef98d4c"
+mode = "url"
+
+[update.modrinth]
+mod-id = "W7Jn0Lba"
+version = "2WwbPG0G"
