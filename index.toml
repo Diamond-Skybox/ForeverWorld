@@ -19,7 +19,7 @@ preserve = true
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "6a15400a1a1d18f4eacdc2d33f8fec856a04c0f8b2a76a4e87b2bc147909c72d"
+hash = "8e3c8c002f59138dece863c844b6f54a447e97db4061371e459a44861ce9cd5a"
 preserve = true
 
 [[files]]

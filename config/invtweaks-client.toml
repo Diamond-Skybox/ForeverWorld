@@ -533,7 +533,7 @@
 	#3 = all buttons enabled (default)
 	# Default: 3
 	# Range: 0 ~ 3
-	enableButtons = 0
+	enableButtons = 1
 	#Enable auto-refill
 	autoRefill = true
 	#0 = disable sorting
