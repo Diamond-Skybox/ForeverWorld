@@ -1,0 +1,13 @@
+name = "Discerning The Eldritch"
+filename = "discerning_the_eldritch-1.4.4-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bA1tmmcv/versions/Rui55E0B/discerning_the_eldritch-1.4.4-1.21.jar"
+hash-format = "sha512"
+hash = "a5285f1ae06a4ea69493c9699184245e6b130d3fcb96b9a9fc5de1449ab6239bc20580d812acf76c53b9c2b55017b7510a5c0d8320f8ca7c56c0c8abe17b9ee0"
+
+[update]
+[update.modrinth]
+mod-id = "bA1tmmcv"
+version = "Rui55E0B"

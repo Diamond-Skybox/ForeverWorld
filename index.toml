@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PackHelper.jar"
+hash = "6d177d77e69e48860b50468c8e7b6f14cf71fda198b915714c1f0590c5a6cc51"
+
+[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
@@ -380,6 +384,11 @@ hash = "f0568251100f6f078b8e6a7d19823a2aa90fddc2c99f30b90874842bb189cbe1"
 metafile = true
 
 [[files]]
+file = "mods/caelus.pw.toml"
+hash = "992b0dca9683f225fc774d779762d18a009f2d82b9d051e7c0b55a33a95d9238"
+metafile = true
+
+[[files]]
 file = "mods/capitals-a-monarchy-mod-for-mca-reborn.pw.toml"
 hash = "98a0cfcd3123bbd5fd4c2ae9e8fc871efca0bb803b58c6d3bdc734651fdecc0e"
 metafile = true
@@ -442,6 +451,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "ac8bf6b9f20feb75b34feb9d2b53804a6d2a85ce748c9bdc17803d4ca8c7be8a"
+metafile = true
+
+[[files]]
+file = "mods/cobweb.pw.toml"
+hash = "23f681379a3e647a59f0749d25f2ce0725d4afafeed41871c5c87f2658d13a72"
 metafile = true
 
 [[files]]
@@ -840,6 +854,11 @@ hash = "1434d57b979d441ec5d99fe30a10e4f845800f1210f921a0bd1eea27c71053ee"
 metafile = true
 
 [[files]]
+file = "mods/crush-depth.pw.toml"
+hash = "eb0ccac69c8dfee968f0a0da3b65df8fb1d275791de6a7b0078a179ddc7fd018"
+metafile = true
+
+[[files]]
 file = "mods/crystal-chronicles.pw.toml"
 hash = "aa505b52f0030388c0c8f2001be6a95a2c4fda8907f8f5681f2a66d3a2bc3090"
 metafile = true
@@ -877,6 +896,11 @@ metafile = true
 [[files]]
 file = "mods/deployer.pw.toml"
 hash = "05421fcf8dd2b7fd0d41af7b0899ce83c06e977899277347daecc80288e05f09"
+metafile = true
+
+[[files]]
+file = "mods/discerning-the-eldritch.pw.toml"
+hash = "eedfba7c42113671df742d7c3e264799e7a90c42068470ddadb2506c5d1db9e7"
 metafile = true
 
 [[files]]
@@ -1297,6 +1321,16 @@ metafile = true
 [[files]]
 file = "mods/handcrafted.pw.toml"
 hash = "8938384665c05e0be99a4a9398687c83d4765c82d327b1f61d15ddbb7c3b2911"
+metafile = true
+
+[[files]]
+file = "mods/hazen-n-stuff.pw.toml"
+hash = "fce782d9e0860ca68b66b821d2e13c4698353440a0287c2e800269e372ce9b24"
+metafile = true
+
+[[files]]
+file = "mods/hazentouvelib.pw.toml"
+hash = "30a4fd7bea6950616484f5d25f21afa58657ff72a07ceb37c9bcb0ccf587a276"
 metafile = true
 
 [[files]]
@@ -2030,6 +2064,11 @@ hash = "369c880c631f731fd93cbfb184c5340c76f4f0f0cf01be7680ac1f36c65c4fee"
 metafile = true
 
 [[files]]
+file = "mods/prometheus-api.pw.toml"
+hash = "c77a2626f56bf37416c44852bbf06d5cc4876e8e1bad0a5b3c734780596a786c"
+metafile = true
+
+[[files]]
 file = "mods/pufferfishs-unofficial-additions.pw.toml"
 hash = "0c4334045293285beffde04aa8f22592c4e99e7a73db6db4205e7a6a3fef8d9f"
 metafile = true
@@ -2247,6 +2286,11 @@ metafile = true
 [[files]]
 file = "mods/sooty-chimneys.pw.toml"
 hash = "2c87463d2cb32c5b89416b262964d6bfe8a328fb611f2b467241b423aaf0a5ad"
+metafile = true
+
+[[files]]
+file = "mods/soul-fire-d.pw.toml"
+hash = "aa7a2c186bf1ce65441be06d1c9a5af18b054098e4bdc37273fb4e75f0d27fc5"
 metafile = true
 
 [[files]]

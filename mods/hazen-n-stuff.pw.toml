@@ -1,0 +1,13 @@
+name = "Hazen 'n Stuff"
+filename = "hazennstuff-1.4.0.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/I94FeWYD/versions/lM9aiPSW/hazennstuff-1.4.0.14.jar"
+hash-format = "sha512"
+hash = "e7e9bc4e208501348e5b2b012a85b37af27ab08b04d3d6f968b17df47b152f7345d5ffeac5a811f5593e225c8767c928c2a13b1304a6ecd18b4bca2bf1c4945d"
+
+[update]
+[update.modrinth]
+mod-id = "I94FeWYD"
+version = "lM9aiPSW"

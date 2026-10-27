@@ -1,0 +1,13 @@
+name = "Create Deep Seas: Crush Depth"
+filename = "crush-depth-1.11.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6627fe2866cc7ae53ea8d12c369ee9a0a58ad26"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8679814
+project-id = 1650422
