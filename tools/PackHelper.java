@@ -7,7 +7,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,6 +18,9 @@ import java.util.regex.Pattern;
  * the instance from the pack. CurseForge mods whose authors block third-party downloads make the installer stop and print where
  * to get them; those are listed here with direct /download/ links, picked up from the Downloads folder as they arrive (or saved
  * straight into the mods folder), and the installer is run again until the pack is complete.
+ *
+ * Before that it asks for the launch mode (Mode): which of the pack's optional performance mods to install. packwiz-installer cannot
+ * ask without its window and turns every optional mod on, so PackHelper writes the choice into its packwiz.json instead.
  *
  * Prism pre-launch command (run from the instance's minecraft folder):
  *   "$INST_JAVA" -jar PackHelper.jar https://raw.githubusercontent.com/Diamond-Skybox/ForeverWorld/main/pack.toml
@@ -31,6 +36,35 @@ public final class PackHelper
 
 	private record Missing(String name, String url, Path target)
 	{
+	}
+
+	private static final String C2ME = "mods/c2me.pw.toml", C2ME_OPENCL = "mods/c2me-ocl.pw.toml", DISTANT_HORIZONS = "mods/distant-horizons.pw.toml";
+	/** The optional mods (pack paths of their .pw.toml) the modes switch; every other optional mod is left as the installer set it. */
+	private static final List<String> MODE_FILES = List.of(C2ME, C2ME_OPENCL, DISTANT_HORIZONS);
+	private static final Path MODE_FILE = Paths.get("foreverworld-mode.txt");
+	private static final Path MANIFEST = Paths.get("packwiz.json");
+	private static final int COUNTDOWN_SECONDS = 8;
+
+	private enum Mode
+	{
+		HEAVY("Heavy", "Recommended for a high-end CPU + GPU",
+				"Distant Horizons, plus C2ME and its OpenCL module: much faster world generation in singleplayer, on the graphics card"
+						+ " when it supports OpenCL. The OpenCL module is still an alpha.", C2ME, C2ME_OPENCL, DISTANT_HORIZONS),
+		LITE("Lite", "Recommended for the official server",
+				"Distant Horizons, which draws the far-off terrain the tall world is hard to play without. C2ME is off.", DISTANT_HORIZONS),
+		SUPER_LITE("Super Lite", "For computers with very limited resources",
+				"No Distant Horizons and no C2ME: the least memory and CPU, but only nearby terrain is drawn.");
+
+		final String title, recommendation, details;
+		final Set<String> enabled;
+
+		Mode(String title, String recommendation, String details, String... enabled)
+		{
+			this.title = title;
+			this.recommendation = recommendation;
+			this.details = details;
+			this.enabled = Set.of(enabled);
+		}
 	}
 
 	public static void main(String[] args) throws Exception
@@ -54,12 +88,24 @@ public final class PackHelper
 		{
 			downloadDirs.addAll(defaultDownloadDirs());
 		}
+		final Mode mode = chooseMode();
+		if (mode == null)
+		{
+			System.exit(1);
+		}
+		applyMode(mode);
+		int modePasses = 0;
 		while (true)
 		{
 			final List<String> output = new ArrayList<>();
 			final int code = runInstaller(packUrl, output);
 			if (code == 0)
 			{
+				// a first install (or a newly optional mod) arrives with everything on: apply the mode and let the installer remove the rest
+				if (modePasses++ < 2 && applyMode(mode))
+				{
+					continue;
+				}
 				System.exit(0);
 			}
 			final List<Missing> missing = parseMissing(output);
@@ -102,6 +148,369 @@ public final class PackHelper
 		catch (Exception | LinkageError e)
 		{
 			System.out.println("[PackHelper] could not preload classes: " + e);
+		}
+	}
+
+	/**
+	 * Asks for the launch mode. The last mode is preselected and starts by itself after a few seconds; the first launch waits for a
+	 * choice. Returns null when the player cancels the launch.
+	 */
+	private static Mode chooseMode() throws Exception
+	{
+		Mode saved = null;
+		try
+		{
+			saved = Mode.valueOf(Files.readString(MODE_FILE).trim());
+		}
+		catch (IOException | IllegalArgumentException ignored)
+		{
+		}
+		if (GraphicsEnvironment.isHeadless())
+		{
+			return saved != null ? saved : Mode.LITE;
+		}
+		final Mode preselected = saved != null ? saved : Mode.LITE;
+		final boolean countdown = saved != null;
+		final AtomicReference<Mode> result = new AtomicReference<>();
+		final CountDownLatch chosen = new CountDownLatch(1);
+		final JFrame[] frame = new JFrame[1];
+		SwingUtilities.invokeAndWait(() -> {
+			try
+			{
+				UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+			}
+			catch (Exception ignored)
+			{
+			}
+			final JFrame f = new JFrame("ForeverWorld: launch mode");
+			f.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+			f.addWindowListener(new java.awt.event.WindowAdapter()
+			{
+				@Override
+				public void windowClosing(java.awt.event.WindowEvent e)
+				{
+					chosen.countDown();
+				}
+			});
+			final JPanel root = new JPanel(new BorderLayout(0, 10));
+			root.setBorder(new EmptyBorder(12, 12, 12, 12));
+			root.add(new JLabel("<html>Choose how much the game runs. You can change it at every launch.</html>"), BorderLayout.NORTH);
+			final JPanel modes = new JPanel(new GridLayout(0, 1, 0, 8));
+			for (Mode mode : Mode.values())
+			{
+				final JButton button = new JButton("<html><div style='width:430px'><b>" + mode.title + "</b> &nbsp;·&nbsp; <i>" + mode.recommendation
+						+ "</i><br>" + mode.details + "</div></html>");
+				button.setHorizontalAlignment(SwingConstants.LEFT);
+				if (mode == preselected)
+				{
+					button.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(new Color(0x2E7D32), 2),
+							new EmptyBorder(6, 8, 6, 8)));
+					f.getRootPane().setDefaultButton(button);
+				}
+				button.addActionListener(e -> {
+					result.set(mode);
+					chosen.countDown();
+				});
+				modes.add(button);
+			}
+			root.add(modes, BorderLayout.CENTER);
+			final JPanel bottom = new JPanel(new BorderLayout());
+			final JLabel status = new JLabel(countdown ? "" : "First launch: pick a mode. Lite is recommended.");
+			bottom.add(status, BorderLayout.CENTER);
+			final JButton cancel = new JButton("Cancel launch");
+			cancel.addActionListener(e -> chosen.countDown());
+			bottom.add(cancel, BorderLayout.EAST);
+			root.add(bottom, BorderLayout.SOUTH);
+			if (countdown)
+			{
+				final int[] left = { COUNTDOWN_SECONDS };
+				status.setText("Starting " + preselected.title + " in " + left[0] + " s");
+				final javax.swing.Timer timer = new javax.swing.Timer(1000, null);
+				timer.addActionListener(e -> {
+					if (--left[0] <= 0)
+					{
+						timer.stop();
+						result.compareAndSet(null, preselected);
+						chosen.countDown();
+					}
+					else
+					{
+						status.setText("Starting " + preselected.title + " in " + left[0] + " s");
+					}
+				});
+				timer.start();
+			}
+			f.setContentPane(root);
+			f.pack();
+			f.setLocationRelativeTo(null);
+			f.setVisible(true);
+			frame[0] = f;
+		});
+		chosen.await();
+		SwingUtilities.invokeAndWait(() -> frame[0].dispose());
+		final Mode mode = result.get();
+		if (mode != null)
+		{
+			try
+			{
+				Files.writeString(MODE_FILE, mode.name());
+			}
+			catch (IOException e)
+			{
+				System.out.println("[PackHelper] could not save the launch mode: " + e);
+			}
+			System.out.println("[PackHelper] launch mode: " + mode.title);
+		}
+		return mode;
+	}
+
+	/**
+	 * Writes the mode's on/off choices into packwiz-installer's packwiz.json. When one changed, the saved pack hashes are cleared so
+	 * the next installer run checks every file again and downloads or deletes the switched mods. Returns whether anything changed.
+	 */
+	@SuppressWarnings("unchecked")
+	private static boolean applyMode(Mode mode)
+	{
+		if (!Files.isRegularFile(MANIFEST))
+		{
+			return false;
+		}
+		try
+		{
+			final Map<String, Object> manifest = (Map<String, Object>) new Json(Files.readString(MANIFEST)).value();
+			final Map<String, Object> cached = (Map<String, Object>) manifest.get("cachedFiles");
+			if (cached == null)
+			{
+				return false;
+			}
+			boolean changed = false;
+			for (String file : MODE_FILES)
+			{
+				final Map<String, Object> entry = (Map<String, Object>) cached.get(file);
+				final Boolean wanted = mode.enabled.contains(file);
+				if (entry != null && !wanted.equals(entry.get("optionValue")))
+				{
+					entry.put("optionValue", wanted);
+					changed = true;
+				}
+			}
+			if (changed)
+			{
+				manifest.put("packFileHash", null);
+				manifest.put("indexFileHash", null);
+				Files.writeString(MANIFEST, Json.write(manifest));
+				System.out.println("[PackHelper] switched optional mods for " + mode.title);
+			}
+			return changed;
+		}
+		catch (IOException | RuntimeException e)
+		{
+			System.out.println("[PackHelper] could not apply the launch mode: " + e);
+			return false;
+		}
+	}
+
+	/** Just enough JSON for packwiz.json: objects keep their key order, numbers are kept as written. */
+	private static final class Json
+	{
+		private final String text;
+		private int at;
+
+		Json(String text)
+		{
+			this.text = text;
+		}
+
+		Object value()
+		{
+			skip();
+			final char c = this.text.charAt(this.at);
+			if (c == '{')
+			{
+				final Map<String, Object> map = new LinkedHashMap<>();
+				this.at++;
+				skip();
+				if (this.text.charAt(this.at) == '}')
+				{
+					this.at++;
+					return map;
+				}
+				while (true)
+				{
+					skip();
+					final String key = string();
+					skip();
+					expect(':');
+					map.put(key, value());
+					skip();
+					if (this.text.charAt(this.at++) == '}')
+					{
+						return map;
+					}
+				}
+			}
+			if (c == '[')
+			{
+				final List<Object> list = new ArrayList<>();
+				this.at++;
+				skip();
+				if (this.text.charAt(this.at) == ']')
+				{
+					this.at++;
+					return list;
+				}
+				while (true)
+				{
+					list.add(value());
+					skip();
+					if (this.text.charAt(this.at++) == ']')
+					{
+						return list;
+					}
+				}
+			}
+			if (c == '"')
+			{
+				return string();
+			}
+			for (String word : new String[] { "true", "false", "null" })
+			{
+				if (this.text.startsWith(word, this.at))
+				{
+					this.at += word.length();
+					return word.equals("null") ? null : Boolean.valueOf(word);
+				}
+			}
+			final int start = this.at;
+			while (this.at < this.text.length() && "+-0123456789.eE".indexOf(this.text.charAt(this.at)) >= 0)
+			{
+				this.at++;
+			}
+			if (start == this.at)
+			{
+				throw new IllegalArgumentException("unexpected '" + c + "' at " + start);
+			}
+			return new java.math.BigDecimal(this.text.substring(start, this.at));
+		}
+
+		private String string()
+		{
+			expect('"');
+			final StringBuilder out = new StringBuilder();
+			while (true)
+			{
+				final char c = this.text.charAt(this.at++);
+				if (c == '"')
+				{
+					return out.toString();
+				}
+				if (c != '\\')
+				{
+					out.append(c);
+					continue;
+				}
+				final char e = this.text.charAt(this.at++);
+				switch (e)
+				{
+					case 'n' -> out.append('\n');
+					case 't' -> out.append('\t');
+					case 'r' -> out.append('\r');
+					case 'b' -> out.append('\b');
+					case 'f' -> out.append('\f');
+					case 'u' -> {
+						out.append((char) Integer.parseInt(this.text.substring(this.at, this.at + 4), 16));
+						this.at += 4;
+					}
+					default -> out.append(e);
+				}
+			}
+		}
+
+		private void expect(char c)
+		{
+			if (this.text.charAt(this.at++) != c)
+			{
+				throw new IllegalArgumentException("expected '" + c + "' at " + (this.at - 1));
+			}
+		}
+
+		private void skip()
+		{
+			while (this.at < this.text.length() && Character.isWhitespace(this.text.charAt(this.at)))
+			{
+				this.at++;
+			}
+		}
+
+		static String write(Object value)
+		{
+			final StringBuilder out = new StringBuilder();
+			write(value, out);
+			return out.toString();
+		}
+
+		@SuppressWarnings("unchecked")
+		private static void write(Object value, StringBuilder out)
+		{
+			if (value instanceof Map<?, ?> map)
+			{
+				out.append('{');
+				boolean first = true;
+				for (Map.Entry<String, Object> entry : ((Map<String, Object>) map).entrySet())
+				{
+					out.append(first ? "" : ",");
+					first = false;
+					quote(entry.getKey(), out);
+					out.append(':');
+					write(entry.getValue(), out);
+				}
+				out.append('}');
+			}
+			else if (value instanceof List<?> list)
+			{
+				out.append('[');
+				for (int i = 0; i < list.size(); i++)
+				{
+					out.append(i == 0 ? "" : ",");
+					write(list.get(i), out);
+				}
+				out.append(']');
+			}
+			else if (value instanceof String string)
+			{
+				quote(string, out);
+			}
+			else
+			{
+				out.append(value);
+			}
+		}
+
+		private static void quote(String string, StringBuilder out)
+		{
+			out.append('"');
+			for (char c : string.toCharArray())
+			{
+				switch (c)
+				{
+					case '"' -> out.append("\\\"");
+					case '\\' -> out.append("\\\\");
+					case '\n' -> out.append("\\n");
+					case '\r' -> out.append("\\r");
+					case '\t' -> out.append("\\t");
+					default -> {
+						if (c < 0x20)
+						{
+							out.append(String.format("\\u%04x", (int) c));
+						}
+						else
+						{
+							out.append(c);
+						}
+					}
+				}
+			}
+			out.append('"');
 		}
 	}
 

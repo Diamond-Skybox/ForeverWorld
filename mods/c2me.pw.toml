@@ -10,3 +10,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 9131675
 project-id = 533097
+
+[option]
+optional = true
+default = false
+description = "Faster world generation (Heavy mode). Chosen through PackHelper's launch modes."

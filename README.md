@@ -20,3 +20,16 @@ NeoForge 1.21.1 modpack, kept up to date with [packwiz](https://packwiz.infra.li
 Some CurseForge mods do not allow automatic downloads. PackHelper then opens a window listing them with direct download
 links; download each one and it is picked up from your Downloads folder (or save it straight into the `mods` folder), and
 the update finishes on its own. PackHelper keeps itself up to date with the pack.
+
+## Launch modes
+
+Before each update PackHelper asks how much the game should run:
+
+| Mode | For | Installs |
+| --- | --- | --- |
+| **Heavy** | high-end CPU + GPU | Distant Horizons, C2ME and C2ME's OpenCL module (faster world generation in singleplayer, on the graphics card; alpha) |
+| **Lite** (default) | the official server | Distant Horizons only: the tall world is hard to play without its distant terrain |
+| **Super Lite** | computers with very limited resources | neither: only nearby terrain is drawn |
+
+The last mode is preselected and starts by itself after 8 seconds; click another mode to switch (the mods are added or
+removed before the game starts). Any mode can join the server. The choice is kept in `foreverworld-mode.txt`.

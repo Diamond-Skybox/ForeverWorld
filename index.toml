@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PackHelper.jar"
+hash = "a27e865d8fc45e41f1ca5751c87a8b651402f1c472fbbd78854e3b343b880047"
+
+[[files]]
 file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
@@ -371,12 +375,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-ocl.pw.toml"
-hash = "5fd4a78820255109ab210c2aac33e278c38b6c8b2255be1033f7dbc81b4b4e0f"
+hash = "076db02336e6dee84163fbfdb28e59c9536ee6fa324f11f183189a3293e17cfd"
 metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "f0568251100f6f078b8e6a7d19823a2aa90fddc2c99f30b90874842bb189cbe1"
+hash = "06de6600bb7cb9a0828a427b91dcdebf239fd6e13e09e8fa4c0f1c23eaff82f0"
 metafile = true
 
 [[files]]
@@ -906,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/distant-horizons.pw.toml"
-hash = "f1608b88a61a0cf6fb78015b555bcf50955285f2c1e06dda008c1231ad1009ff"
+hash = "067aa3247b2955203621f98c87c0c85d12d4bf8889c7f4c3c32d73500dd54f03"
 metafile = true
 
 [[files]]

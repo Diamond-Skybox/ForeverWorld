@@ -11,3 +11,8 @@ mode = "url"
 [update.modrinth]
 mod-id = "qtPMklut"
 version = "7rX3dlFf"
+
+[option]
+optional = true
+default = false
+description = "World generation on the graphics card (Heavy mode, alpha). Needs C2ME."
