@@ -1999,6 +1999,11 @@ hash = "1389ad19670db8767475733dc60f8c59fd73239e8b683016f6f16f7395bc6fa6"
 metafile = true
 
 [[files]]
+file = "mods/pasteljei.pw.toml"
+hash = "8bf9abdb74ff90bd054831ebdc943ecc2f67e8abefc2e76a5ff0f9dd6aaa955d"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "a89367e9a6cf43f8a118c7d46f2e45b2deb94405b6c91cb8470b2f8683d53b59"
 metafile = true
