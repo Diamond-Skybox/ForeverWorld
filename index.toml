@@ -24,7 +24,7 @@ preserve = true
 
 [[files]]
 file = "config/resourcepackoverrides.json"
-hash = "34b6a6f75e7b24120b83766c800db17bc2d360ff7e16832ad01d462fc1e4703e"
+hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
 
 [[files]]
 file = "kubejs/assets/astralsorcery/lang/en_us.json"
@@ -2590,7 +2590,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "76a1cbb9486c83aeee10774a6b64b2ec26690d7058b37ffaef3b09e3606bf267"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 preserve = true
 
 [[files]]
@@ -2611,11 +2611,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-food.pw.toml"
 hash = "efc6e1922edebcdc7bc976396bbe96103adabade2c09099e3a83bcd12471d751"
-metafile = true
-
-[[files]]
-file = "resourcepacks/just-3d-armors-punchy-1.21-backport.pw.toml"
-hash = "a44ce03728767c7c1e7426994b64a6e42905b02a2916eaa00c4354605d041323"
 metafile = true
 
 [[files]]

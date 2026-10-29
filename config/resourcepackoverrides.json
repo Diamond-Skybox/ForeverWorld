@@ -30,7 +30,6 @@
     "generated/fragmentum_layer",
     "mod_resources",
     "neovitae_materials",
-    "file/Just 3D Armors 1.21 Backport.zip",
     "file/Just 3D Potions 1.21 Backport.zip",
     "mod/megacells:optional_cell_colours",
     "file/Drigo 3D Lantern's x Punchy.zip",
@@ -41,5 +40,10 @@
     "obscure_tooltips/packs/vibrant_tooltips",
     "vinery:bushy_leaves",
     "file/Ender_Dragon_Reborn-1.1.zip"
-  ]
+  ],
+  "pack_overrides": {
+    "file/Ender_Dragon_Reborn-1.1.zip": {
+      "required": true
+    }
+  }
 }
