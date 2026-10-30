@@ -1139,11 +1139,6 @@ hash = "5c38996aaecc37d2aa58edd045442bfe7e507a6d27409635b3d3de23136df250"
 metafile = true
 
 [[files]]
-file = "mods/even-better-nether.pw.toml"
-hash = "074f073f1e3abeda804c53f6d0890a0eb198e6aa156f991c790d7f1ee8091f98"
-metafile = true
-
-[[files]]
 file = "mods/exclusions-lib.pw.toml"
 hash = "453e5f73f7b821c6f043dddefb3a4f7eef7b80005a902ba2bcf7226391b8d9d5"
 metafile = true
