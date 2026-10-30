@@ -1,0 +1,13 @@
+name = "Sable: Destructive"
+filename = "sabledestructive-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s8kSCCgD/versions/OdjEhksA/sabledestructive-2.2.0.jar"
+hash-format = "sha512"
+hash = "96f85a6a2acf76e66ef873a4fa797f552bba064592eaaec144d4768654f2f753b969c58b201e409d0ada605a3e52acbef6701bd7ec31e32f96706d3d1af93893"
+mode = "url"
+
+[update.modrinth]
+mod-id = "s8kSCCgD"
+version = "OdjEhksA"

@@ -23,6 +23,10 @@ hash = "8e3c8c002f59138dece863c844b6f54a447e97db4061371e459a44861ce9cd5a"
 preserve = true
 
 [[files]]
+file = "config/lootr-common.toml"
+hash = "5c4312beee88ac13f9aac78e0e97f8577d93f4d17f83866c41a75aa935e7d870"
+
+[[files]]
 file = "config/resourcepackoverrides.json"
 hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
 
@@ -235,6 +239,11 @@ hash = "78363013cb850f66ff405962c9b1f6322ef3f6e0658efbb41c290a274969b2dd"
 metafile = true
 
 [[files]]
+file = "mods/astikorcarts-redux.pw.toml"
+hash = "df98252c82787ce9b9a84857dd5f9470208f2f8679ffbbb3806a31405b0dcec3"
+metafile = true
+
+[[files]]
 file = "mods/astral-sorcery.pw.toml"
 hash = "6ac8075ebbf62f92c6eed60d694970fd9dc6907598ce4d56dd4198f78bdf5a65"
 metafile = true
@@ -262,6 +271,11 @@ metafile = true
 [[files]]
 file = "mods/azurelib.pw.toml"
 hash = "e46b7ca4ae136f3493e85c9e64b738143525cea76e2e0894846f0dc2a9032b7f"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "c80b6e35516f5d908761ff1b41c8fefbf7126b605d3e0af560fb1e7ea0375d9c"
 metafile = true
 
 [[files]]
@@ -880,6 +894,11 @@ hash = "aa505b52f0030388c0c8f2001be6a95a2c4fda8907f8f5681f2a66d3a2bc3090"
 metafile = true
 
 [[files]]
+file = "mods/cull-leaves.pw.toml"
+hash = "998f38926869705fdf980834356a45196efea59c2c51ea8ea44c4f9808f05eb2"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "8c6a94c28b10008c1f41e85058c0a5bd654292c607fdbc6c666202b36f92a255"
 metafile = true
@@ -1090,8 +1109,18 @@ hash = "267d0cddd5b9fb1e86b015711f5f0ac91676cc35a3f315df0324609f3e1baf43"
 metafile = true
 
 [[files]]
+file = "mods/entity-model-features.pw.toml"
+hash = "65e624d2b9f96f1ed55e149df6e27a07068cfc6ba9b171313bc08ced0e58cccd"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "282133fea557b4cce25ce76235d4c30e9f0be6ad4add6f141bd9a5ae34e07543"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "2cfacb972fb4e6cc35331a040b86cd07e61ff887f909f40de3c7f034cad0b295"
 metafile = true
 
 [[files]]
@@ -1250,6 +1279,11 @@ hash = "21431537ec06dce17470fc2352ac27f835a132f82c37293fc540e4a07a95004b"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f00b0e0a983e18449dc7cf966d8e68f62e671f0c38dc25352892af333143f4e6"
+metafile = true
+
+[[files]]
 file = "mods/galosphere-spellbooks.pw.toml"
 hash = "d4cbc2fcf3b17028e90f6f68d4ce5924b90388d325e396242bfcc79a8ba26818"
 metafile = true
@@ -1372,6 +1406,11 @@ metafile = true
 [[files]]
 file = "mods/iceberg.pw.toml"
 hash = "eae8cd11ce88b33ed4f0b90cd64bfb4b3d97f1bdcdfc29c9a54027f5cff0c8ca"
+metafile = true
+
+[[files]]
+file = "mods/icys-better-horses.pw.toml"
+hash = "6fce19c28e0dc69a4331e76a81f9f4bf6926a14d99081f8067cac6c525a531a2"
 metafile = true
 
 [[files]]
@@ -1835,6 +1874,11 @@ hash = "26f9359708b986c5322f45852ecac42a8094dd1a0e69ca74f0b549412f367b3b"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "11bead9895b7e28ed8ae270a0ba03419c653640f2eda5527f74718a8bedcd1b5"
+metafile = true
+
+[[files]]
 file = "mods/minecraft-comes-alive-reborn.pw.toml"
 hash = "b99ba07c055fcc76d75eb5119aea883cce1f7eb74b85ccc8ae13f45b00f7ab98"
 metafile = true
@@ -1842,6 +1886,11 @@ metafile = true
 [[files]]
 file = "mods/mo-bends-unofficial-modern-port.pw.toml"
 hash = "1f572f30ee796f4d73019f9aba6652d2c5787eae773fd9844466da99e1bba6c4"
+metafile = true
+
+[[files]]
+file = "mods/modelfix.pw.toml"
+hash = "710edb78e37d63661ec44a760a7ccd77ae9e757f0a3b49dfef061481a1508903"
 metafile = true
 
 [[files]]
@@ -1907,6 +1956,11 @@ metafile = true
 [[files]]
 file = "mods/nomadic-tents.pw.toml"
 hash = "c59d42da18b547b2a2f8975011aba4ce773301cf4ebc00e7a1efa0f157f4e008"
+metafile = true
+
+[[files]]
+file = "mods/notenoughrecipebook.pw.toml"
+hash = "6bfdd78e8c5e10d774794d59e6e97eba32da99fcf6f13c47d6d36116ef5bf161"
 metafile = true
 
 [[files]]
@@ -2002,6 +2056,11 @@ metafile = true
 [[files]]
 file = "mods/partialhearts.pw.toml"
 hash = "7999fa9da2ad475bb28091fa58e8a086e5f3b87c1be8359a6ebaa363f25b8c83"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+hash = "f96506a983fa3c89cb5515d67a6268a036a18052abb740a7610983d52f6d13e6"
 metafile = true
 
 [[files]]
@@ -2230,8 +2289,28 @@ hash = "db0fd38e4ae2a35cd7db5399302f4be779b82e74f0e7df91aecf4daca57080c8"
 metafile = true
 
 [[files]]
+file = "mods/sable-destructive.pw.toml"
+hash = "f69251be10257f9e5e9e22ab821cf19182e898fca8443d4524763f3d9dcdd57c"
+metafile = true
+
+[[files]]
+file = "mods/sable-fix-mod.pw.toml"
+hash = "5e4446226925bed4d2e7377616bf5a85a791040fffa8584db1de4672953ea4bc"
+metafile = true
+
+[[files]]
 file = "mods/sable-immersive-engineering-compat.pw.toml"
 hash = "60ccf707fce525fcd84aa199276f52912dbec8e0b7e29574f1aa11fecff01d83"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdoll-corpse.pw.toml"
+hash = "7cd2d3615c336c53fb28a2816b331de8cb52ecf9a80b472b6afede0536981121"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "4f6d8190bfa0c547f207975d2795389fbf656f2427c239a4bce247c8811eb989"
 metafile = true
 
 [[files]]
@@ -2242,6 +2321,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "4f0f93892fe4fe37f17de1730702464d0841b819a7352d8947fc4c36c6d05340"
+metafile = true
+
+[[files]]
+file = "mods/sablecompat.pw.toml"
+hash = "94bcc4a71af4d50617a86d7af97e8235dad971d30d9430e08a03887793f7a146"
 metafile = true
 
 [[files]]
@@ -2272,6 +2356,11 @@ metafile = true
 [[files]]
 file = "mods/shield-api.pw.toml"
 hash = "2e9cf4b8a85b68f5742f6c84d6cecff5e0e4aa2808b8cd45f89e8d3e5c20e29a"
+metafile = true
+
+[[files]]
+file = "mods/shtreimel-sable-server-utility.pw.toml"
+hash = "45f34207d493ac4aa1593a99128c205acd3f78f5b304c623446e10f2ac9415be"
 metafile = true
 
 [[files]]
@@ -2312,6 +2401,11 @@ metafile = true
 [[files]]
 file = "mods/sound.pw.toml"
 hash = "90ffb90a47213720de82188d4584fbfab462cafd223c128f5b3f83619db1d635"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "3bafc87419b25595cdbaf4ae86e20d32da85211975c6e0b9db5b249c3cd89789"
 metafile = true
 
 [[files]]

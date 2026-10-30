@@ -1,0 +1,13 @@
+name = "sable fix mod"
+filename = "sable_fix_mod-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GYtKFlIK/versions/nu5TnfWZ/sable_fix_mod-1.1.0.jar"
+hash-format = "sha512"
+hash = "2e08574d1bad6ea1bcc69425e9df01a81effd20a7decb110bcad62c188ffb95545c169f3e0382c5fb5fbfc7a45ca55f8781363ed541737b89aa96f2e1a5f9f3f"
+mode = "url"
+
+[update.modrinth]
+mod-id = "GYtKFlIK"
+version = "nu5TnfWZ"
