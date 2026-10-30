@@ -59,6 +59,10 @@ file = "kubejs/assets/wispwillow/lang/en_us.json"
 hash = "459e80bd8999b1d060572523b5e93031f882be6c54b22384bfa427231808c284"
 
 [[files]]
+file = "kubejs/server_scripts/unobtainable.js"
+hash = "ad27741efb2432ebdf21d2d918944f2651d14e6504377def669b4f9988c7392e"
+
+[[files]]
 file = "mods/accents.pw.toml"
 hash = "2e7c846ceac039ef94977bd9acc5799dc2e5da58869c226b4a307383aa91522d"
 metafile = true
