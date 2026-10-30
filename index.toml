@@ -59,6 +59,18 @@ file = "kubejs/assets/wispwillow/lang/en_us.json"
 hash = "459e80bd8999b1d060572523b5e93031f882be6c54b22384bfa427231808c284"
 
 [[files]]
+file = "kubejs/data/endfight/function/tick.mcfunction"
+hash = "e7e4ac10fd02e90def31767f9343817bb44055700bb6fd142efa353992dd58cb"
+
+[[files]]
+file = "kubejs/data/foreverworld/function/endfight_tick.mcfunction"
+hash = "306f1569b52afea8a77d8e1028f6a7d50afacede82f75e0e32d2f743324b369a"
+
+[[files]]
+file = "kubejs/data/foreverworld/predicate/in_the_end.json"
+hash = "66bcacbfd7ebdcc6951f8435dfe1a723783b9d4c0f283707748397a213e68c6a"
+
+[[files]]
 file = "kubejs/server_scripts/unobtainable.js"
 hash = "ad27741efb2432ebdf21d2d918944f2651d14e6504377def669b4f9988c7392e"
 
