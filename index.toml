@@ -124,6 +124,11 @@ hash = "1e262ba813fb508bf4722b0b957b4deb65675d7e74a6e406f85b395f0eab7586"
 metafile = true
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "b6a3b788104eb17b3bc18c69ddbadf932a61a8531a2c2764d5f8c7204c53e37c"
+metafile = true
+
+[[files]]
 file = "mods/ancient-remnants.pw.toml"
 hash = "9d8b9d0bea22016d71e256ec3076d4192e2d05d09fcf47f42a5ebaf58f126057"
 metafile = true
@@ -1961,6 +1966,11 @@ metafile = true
 [[files]]
 file = "mods/ntgl.pw.toml"
 hash = "7e2b6d525e0c67c2ce7e637f392cd22ec334c3788bd2b1a70a2c0ebc2d1b4956"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "f36635c5dd0e6b846516d49048d1faccdb1038dd050a017a597667f52699a6e3"
 metafile = true
 
 [[files]]
