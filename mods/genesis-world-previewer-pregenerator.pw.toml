@@ -1,13 +1,13 @@
 name = "Genesis"
-filename = "Genesis-2.1.0-NEOFORGE.jar"
+filename = "Genesis-2.1.2-NEOFORGE.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xXuFelru/versions/Ts3PTNAu/Genesis-2.1.0-NEOFORGE.jar"
+url = "https://cdn.modrinth.com/data/xXuFelru/versions/RW8HdTyC/Genesis-2.1.2-NEOFORGE.jar"
 hash-format = "sha512"
-hash = "fa392016e9ceef31fde7daac03b6d2361e2e150fa662dabc383fe2f5f5a981f4450ee0d477c2c9a37fa0a86f4b10a6b7d2ce8cdddd008c746bef6bd42b199ebd"
+hash = "79cb3cfb6b8392009b1162c10f0b0cae923459725ff2b3a5eda4b4d609b5c7ce6db3aaae7f46bcb9373eaae75fe1e3df748b71cc9db1d761e9cd43d2747e6def"
 mode = "url"
 
 [update.modrinth]
 mod-id = "xXuFelru"
-version = "Ts3PTNAu"
+version = "RW8HdTyC"

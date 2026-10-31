@@ -1,13 +1,13 @@
 name = "Better Nether"
-filename = "BetterNether-21.0.29.jar"
+filename = "BetterNether-21.0.30.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/fxX3RlL5/versions/V7Lte5gF/BetterNether-21.0.29.jar"
+url = "https://cdn.modrinth.com/data/fxX3RlL5/versions/yAcoDLIa/BetterNether-21.0.30.jar"
 hash-format = "sha512"
-hash = "35c95deafeb124c7fff554355375f1ac0b2a620c91bd4c33ccec10614ec9944bf73ad6ac18122094be9d80e48925007adbe17f4b1620f0a659d3cc9a9b22a41c"
+hash = "0f3f2ba7487b84c6968e8e1e1347e310aebf9b64d62784dbbfbaae88a6959aed4bef57bea185000d3b268c479811d776b82e82fe9d2f0aa2ebd2ae3e10f31547"
 mode = "url"
 
 [update.modrinth]
 mod-id = "fxX3RlL5"
-version = "V7Lte5gF"
+version = "yAcoDLIa"

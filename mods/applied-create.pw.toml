@@ -1,12 +1,13 @@
 name = "Applied Create"
-filename = "appliedcreate-1.21.1-1.1.7.jar"
+filename = "appliedcreate-1.21.1-1.1.8.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bcc3e3999c0130c08b36d35d3e2e077c48af280c"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/XmZgyZzj/versions/rqrW3P8C/appliedcreate-1.21.1-1.1.8.jar"
+hash-format = "sha512"
+hash = "916dd94c82669afee2413a1f7e6bac8054d65e81ed4895f81ad8c2cd131964fcfba4520f33e2fd8f4a3b92f72ad08effa15e7c40456089d72dc863de1de31d01"
+mode = "url"
 
-[update.curseforge]
-file-id = 8546920
-project-id = 1474758
+[update.modrinth]
+mod-id = "XmZgyZzj"
+version = "rqrW3P8C"

@@ -1,13 +1,13 @@
 name = "Mo' Bends"
-filename = "mobends-1.21.1-5.6.3-neoforge.jar"
+filename = "mobends-1.21.1-6.0.1-neoforge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/rNRqFWLv/versions/gkZMPuSh/mobends-1.21.1-5.6.3-neoforge.jar"
+url = "https://cdn.modrinth.com/data/rNRqFWLv/versions/275danmz/mobends-1.21.1-6.0.1-neoforge.jar"
 hash-format = "sha512"
-hash = "5f1f3942f0c6e84bed2b556feb3cea66885c6b6f3e7755dc4afaa7a5dc388e23a549b6bf1aeecc90b7f3e61998e15df2491eb0c3bcc2c17992b19c55db2000fb"
+hash = "c10dee8dee4fb9a40a286012c79d44618c25c992346625d289b709de5a2997bf71541875624ea3c531ecb7434364c8a3b617e32ac31feba9602bf79cb6ef471e"
 mode = "url"
 
 [update.modrinth]
 mod-id = "rNRqFWLv"
-version = "gkZMPuSh"
+version = "275danmz"

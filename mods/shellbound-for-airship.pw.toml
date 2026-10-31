@@ -1,0 +1,13 @@
+name = "ShellBound for AirShip"
+filename = "shellbound_for_airship-1.0.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/S3eukuPZ/versions/JZtRFKlv/shellbound_for_airship-1.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "c8810709be13231554c8bede2121bdbc3a04c9ea5c8cbc9afb152c90f6ee341c5e3bf6a517fccdac34ade79590f7310c896c8c6718f2f9c58b527c3ad528efae"
+mode = "url"
+
+[update.modrinth]
+mod-id = "S3eukuPZ"
+version = "JZtRFKlv"
