@@ -803,7 +803,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-radars.pw.toml"
-hash = "90e0aec17fa3ddf8e66f14ce1ef1b8237f192f252c8fa1ea1256d806bf1a19cb"
+hash = "25ca236a8b5c8670906bc9ab54bc96501290a1a24b6cd960e1e05170bb6e6239"
 metafile = true
 
 [[files]]
