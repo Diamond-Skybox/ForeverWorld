@@ -75,12 +75,16 @@ file = "kubejs/data/foreverworld/predicate/in_the_end.json"
 hash = "66bcacbfd7ebdcc6951f8435dfe1a723783b9d4c0f283707748397a213e68c6a"
 
 [[files]]
+file = "kubejs/server_scripts/cc_bridge_recipes.js"
+hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
+
+[[files]]
 file = "kubejs/server_scripts/unobtainable.js"
 hash = "eef4b124a57735bb7b2ff6b1e5c388bedb8045e14286bf5c44d7bfa48f67bc48"
 
 [[files]]
 file = "kubejs/startup_scripts/hidden_mods.js"
-hash = "6db0d89029dc0ffdc6656969ef988d138fea6ea63dff54d8fdd1271fdfe664a3"
+hash = "02fa592d07f9458dbaf0bb8176b73e9b110eaad1643ece234cfd687c6592612e"
 
 [[files]]
 file = "mods/accents.pw.toml"
@@ -95,6 +99,11 @@ metafile = true
 [[files]]
 file = "mods/advancedae.pw.toml"
 hash = "4ef2a8120af425a7181e606141ea4d0d93ef4688af9575006607dbb77c5b5338"
+metafile = true
+
+[[files]]
+file = "mods/advancedperipherals.pw.toml"
+hash = "1a0452ad4ffdd2b0c5d54d3033bab12d0982afd3d0bc865d172e4d15221c7ec6"
 metafile = true
 
 [[files]]
@@ -448,6 +457,16 @@ hash = "24a056d7a1c9d94fcc0e4bdb4fe0055b656437f22d2b03e0f326b664387945bb"
 metafile = true
 
 [[files]]
+file = "mods/cc-cbc.pw.toml"
+hash = "cdcb9ee9cc0326c3f0dfe2a183f02d6185890a041cc06e1db8189ecbe9b8ed92"
+metafile = true
+
+[[files]]
+file = "mods/cc-deep-seas.pw.toml"
+hash = "bfd13032421058cf6f9ad150cc182427589f5db8496c03c32f5519ad951bb6bd"
+metafile = true
+
+[[files]]
 file = "mods/cc-synaxis-connector.pw.toml"
 hash = "8c063fd449fe7a109ff1a4b3fe1865597251ec7e17af107fb8d1da64e463869b"
 metafile = true
@@ -455,6 +474,11 @@ metafile = true
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "bc51a610dd3383c63d23424c999810e7362ed6652b4cd0c416505874396aee67"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+hash = "0f92b3560609d3679e1ec3d5f31586c04f0611d55def02ce9e4df0a3625afd7a"
 metafile = true
 
 [[files]]
