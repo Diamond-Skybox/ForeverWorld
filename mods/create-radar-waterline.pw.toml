@@ -1,0 +1,12 @@
+name = "Create: Radar Waterline"
+filename = "radar-waterline-neoforge-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d2c3277c9f79a8aa9a6d8272620aa3fec690b79"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9384209
+project-id = 1761308

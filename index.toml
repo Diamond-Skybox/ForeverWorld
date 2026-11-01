@@ -76,7 +76,11 @@ hash = "66bcacbfd7ebdcc6951f8435dfe1a723783b9d4c0f283707748397a213e68c6a"
 
 [[files]]
 file = "kubejs/server_scripts/unobtainable.js"
-hash = "ad27741efb2432ebdf21d2d918944f2651d14e6504377def669b4f9988c7392e"
+hash = "eef4b124a57735bb7b2ff6b1e5c388bedb8045e14286bf5c44d7bfa48f67bc48"
+
+[[files]]
+file = "kubejs/startup_scripts/hidden_mods.js"
+hash = "6db0d89029dc0ffdc6656969ef988d138fea6ea63dff54d8fdd1271fdfe664a3"
 
 [[files]]
 file = "mods/accents.pw.toml"
@@ -444,6 +448,16 @@ hash = "24a056d7a1c9d94fcc0e4bdb4fe0055b656437f22d2b03e0f326b664387945bb"
 metafile = true
 
 [[files]]
+file = "mods/cc-synaxis-connector.pw.toml"
+hash = "8c063fd449fe7a109ff1a4b3fe1865597251ec7e17af107fb8d1da64e463869b"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "bc51a610dd3383c63d23424c999810e7362ed6652b4cd0c416505874396aee67"
+metafile = true
+
+[[files]]
 file = "mods/cdna.pw.toml"
 hash = "89dd487552c2d419986ea8a811b86cd5b40afe0fcf908d3aaa06796c6ab4f141"
 metafile = true
@@ -639,11 +653,6 @@ hash = "66bf20e63efdd256c0cfd373aa1e943504821be08b1b8accdf82a735be8eb81f"
 metafile = true
 
 [[files]]
-file = "mods/create-diesel-generators.pw.toml"
-hash = "49ae849686544436095b9fed42d31f07de395b09321d530c75c2d24ec0cfdc50"
-metafile = true
-
-[[files]]
 file = "mods/create-dragons-plus.pw.toml"
 hash = "b3fdef40513e03c7479700598daad9d000e3bd3fecd09a97883199753f3abfc0"
 metafile = true
@@ -651,6 +660,11 @@ metafile = true
 [[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
 hash = "a465b442bccec8f6625f02de7a65bd508f433b11a3898070a106430fe073fbdf"
+metafile = true
+
+[[files]]
+file = "mods/create-echo-radars.pw.toml"
+hash = "ba03f520e2be553fa4813375ad22a3c4be87c272ca2bf745ceb7d754c5ee4028"
 metafile = true
 
 [[files]]
@@ -739,6 +753,11 @@ hash = "85d7afb38540436fee6c0d938db128bd38e0a689025d6b9c9149d1a6208c2271"
 metafile = true
 
 [[files]]
+file = "mods/create-pipes-n-physics.pw.toml"
+hash = "757a42a517df1995471530ab209ed129ba25b5a0f998f8c8b169586b5c694e69"
+metafile = true
+
+[[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "96e62f2d451c03dc822f5ff7863984ba3154e6d1f80625837c8196c5cbc6302b"
 metafile = true
@@ -754,8 +773,18 @@ hash = "9f51bc814a42ebbc531d4812dd33faa3b42548c811eb90481d8298dbf2f12475"
 metafile = true
 
 [[files]]
+file = "mods/create-radar-waterline.pw.toml"
+hash = "f7871941bf2097e7d26e4eed826306090951b5ab5a72b8c1b3ec0802734830c9"
+metafile = true
+
+[[files]]
 file = "mods/create-radars.pw.toml"
 hash = "90e0aec17fa3ddf8e66f14ce1ef1b8237f192f252c8fa1ea1256d806bf1a19cb"
+metafile = true
+
+[[files]]
+file = "mods/create-radiologistics.pw.toml"
+hash = "b98d859a19b9e91b02b00b8c87a1488791e77553857d713ec1574888479b57a1"
 metafile = true
 
 [[files]]
@@ -856,11 +885,6 @@ metafile = true
 [[files]]
 file = "mods/createlazytick.pw.toml"
 hash = "1d5bd0ea0032f00cb3e4d8a091d31118191da8dd7154fc62058ab704e18cb035"
-metafile = true
-
-[[files]]
-file = "mods/createnuclear.pw.toml"
-hash = "697904d0c1edbe3b50b0bad02fc38c422ec6ec97629a17b27a57b0346afbc42d"
 metafile = true
 
 [[files]]
@@ -1336,6 +1360,11 @@ metafile = true
 [[files]]
 file = "mods/glowbricks-printing-press-mod.pw.toml"
 hash = "1f08fb1d1de20e0d387964f92db2736ea5d800e5254885ac2f03ceb46c8e5948"
+metafile = true
+
+[[files]]
+file = "mods/going-nuclear.pw.toml"
+hash = "7865035caf1b9bf8d4c9ca9d137ab718889eb3f1e0fa176312c27d826c0043ec"
 metafile = true
 
 [[files]]

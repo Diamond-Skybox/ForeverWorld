@@ -1,0 +1,12 @@
+name = "Create: Echo Radars"
+filename = "create_echo_radars-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b85084068e3e855aa2aedc4e5a481fc8b031af9d"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9335975
+project-id = 1640193

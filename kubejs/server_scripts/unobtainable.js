@@ -8,3 +8,13 @@ ServerEvents.recipes(event => {
 	event.remove({ mod: 'printingpress' })
 	event.remove({ output: '@printingpress' })
 })
+
+// CC: Tweaked: only here so OpenComputers can use other mods' CC peripherals (OC's built-in CC bridge). No CC content in survival.
+ServerEvents.recipes(event => {
+	event.remove({ mod: 'computercraft' })
+	event.remove({ output: '@computercraft' })
+})
+ServerEvents.tags('item', event => {
+	// JEI hides everything in this common tag
+	event.add('c:hidden_from_recipe_viewers', '@computercraft')
+})
