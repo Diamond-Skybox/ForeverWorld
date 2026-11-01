@@ -719,6 +719,11 @@ hash = "50dc96c14f0a24ce5e40b4ee997fa57d48e5407556de428d78b7ed22523e5d28"
 metafile = true
 
 [[files]]
+file = "mods/create-numismatics-utils.pw.toml"
+hash = "52ac085d7bedbcf6d82c9963ad097f29920782fe7cd74ae70bb25b141c911a34"
+metafile = true
+
+[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "7d1097ab417136ed79160aa5c78c0ccf9125f1a11af71f36bfd32b02ebed7385"
 metafile = true
@@ -1909,6 +1914,11 @@ hash = "429b428903d884c01d01c3a525d6cf18ee9920027724082a03d2b1ba7f0692b3"
 metafile = true
 
 [[files]]
+file = "mods/moregates.pw.toml"
+hash = "5054a536c0a4ecf5a4844588fd0a1845e5ce7a09039927fc3eda29e73ef6dc98"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "de62cebac8704ec4f3668809fa8fa943a1296366c53c091825f0e233c83b61c5"
 metafile = true
@@ -2356,6 +2366,16 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "52a7bbe9e794a4cfa2a3f529080a7877c9790b640b4bfaafbb97686871e02df7"
+metafile = true
+
+[[files]]
+file = "mods/serverpress.pw.toml"
+hash = "11e84e8cef67db578214cb70f8e402ca1fd6ee32f329392fe52981faf79166d3"
+metafile = true
+
+[[files]]
+file = "mods/sgjourney.pw.toml"
+hash = "fa1dfc7f7c5c05a5895510c3b4d73d02c0cd7e72349b5399667ea79329d45145"
 metafile = true
 
 [[files]]

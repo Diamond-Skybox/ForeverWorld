@@ -1,0 +1,13 @@
+name = "ServerPress"
+filename = "serverpress-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9n1I001p/versions/4yZKbOtk/serverpress-NeoForge-1.21.1.jar"
+hash-format = "sha512"
+hash = "372ba226e09948157eae2c727f913d062cafc3445b7e93bca3cc1a1ee1aed72d6c30320489ad055a53aade31359b26af40e3db5dea9da7ab4a63f33dd128e741"
+mode = "url"
+
+[update.modrinth]
+mod-id = "9n1I001p"
+version = "4yZKbOtk"

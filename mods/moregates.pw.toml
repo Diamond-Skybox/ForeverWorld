@@ -1,0 +1,13 @@
+name = "Stargate Journey: MoreGates Addon"
+filename = "moregates-neoforge-1.21.1-4.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RRjCHQHw/versions/2ciZtjV1/moregates-neoforge-1.21.1-4.4.1.jar"
+hash-format = "sha512"
+hash = "51a04da93f28705dc019fc63d4afede0f289e63ed67dba59041b465c92fd769291eb35e54238768655a9af390778dc7d16536032dc7d86cd7a3b5cb8d2623d61"
+mode = "url"
+
+[update.modrinth]
+mod-id = "RRjCHQHw"
+version = "2ciZtjV1"
