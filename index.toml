@@ -1954,6 +1954,11 @@ hash = "610de213fc81dcd239fe624e6977742c1110aa2b5ed1ca24773e010746e92c43"
 metafile = true
 
 [[files]]
+file = "mods/no-structure-overlap.pw.toml"
+hash = "08a78594ad304a7ce6aa996e74ac7df6915cc2d5c9233c9edf4f448e5d2081af"
+metafile = true
+
+[[files]]
 file = "mods/nomadic-tents.pw.toml"
 hash = "c59d42da18b547b2a2f8975011aba4ce773301cf4ebc00e7a1efa0f157f4e008"
 metafile = true
