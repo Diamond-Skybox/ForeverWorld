@@ -123,6 +123,14 @@ file = "kubejs/data/foreverworld/predicate/in_the_end.json"
 hash = "66bcacbfd7ebdcc6951f8435dfe1a723783b9d4c0f283707748397a213e68c6a"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/entity_type/undead.json"
+hash = "776d72977fa595184d7b76f533d8905080c3cd5ccb060a5c60fe238279274cce"
+
+[[files]]
+file = "kubejs/data/tombstone/tags/entity_type/increase_alignment.json"
+hash = "060bd52b51c34858bd443c493243499e953c5abd39c65c5534028e4bb6690182"
+
+[[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
 
@@ -1341,7 +1349,7 @@ metafile = true
 
 [[files]]
 file = "mods/forever-fixes-1-21-1.pw.toml"
-hash = "645b8cd11164752dacd8ebf0d32e502e0e1b461d822c9b5af4412329f59cda18"
+hash = "11835bd9e80e0af7bc0f8743ce280d80ccc407c0e954cddbdfd339f664b36055"
 metafile = true
 
 [[files]]
