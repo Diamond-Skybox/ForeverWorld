@@ -11,6 +11,14 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "irons_spellbooks"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "relics"
     }
   ],
   "type": "create:mechanical_crafting",
@@ -54,17 +62,17 @@
       }
     },
     "G": {
-      "item": "create:rotation_speed_controller"
+      "item": "ae2:singularity"
     },
     "H": {
-      "item": "minecraft:netherite_ingot"
+      "item": "relics:clot_of_time"
     }
   },
   "pattern": [
     "ABA",
     "CDC",
-    "AEA",
-    "FGF",
+    "AFA",
+    "EGE",
     "AHA",
     "CDC",
     "ABA"

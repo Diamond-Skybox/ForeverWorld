@@ -164,11 +164,7 @@ hash = "b0a211163cf98f5531da969af32d9e741b8660f04a10300adcec05010a6e3873"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/sandevistan.json"
-hash = "593b9ffbcb330d2a33ff47d821ec36837cc4087cab9d331ebbbca2a2fb140f9b"
-
-[[files]]
-file = "kubejs/data/chronomancy/tags/item/chronomancy_focus.json"
-hash = "eeb919b4a3a739f41b3eace8e0bb35e93d864251da65e8f197ae44e664d39d10"
+hash = "a19dd0b489e73c14632da7104f816b647eae548a72f49bc4e228927ded79c5a0"
 
 [[files]]
 file = "kubejs/data/cocktailsdelight/recipe/cooking/grenadine.json"
