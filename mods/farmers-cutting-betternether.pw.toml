@@ -1,0 +1,13 @@
+name = "Farmer's Cutting: BetterNether"
+filename = "farmers-cutting-betternether-1.21.1-1.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RFzQi5Io/versions/9k5240yQ/farmers-cutting-betternether-1.21.1-1.0-neoforge.jar"
+hash-format = "sha512"
+hash = "5e9bde497930b9c5ce945959f8800c62e0450d369dd79802aa0eb0ceb6d8b41c0bf68b18e02c604980a5e38ada39ea6f85019d4f36fe61ae3b2b0ddaf86d6820"
+mode = "url"
+
+[update.modrinth]
+mod-id = "RFzQi5Io"
+version = "9k5240yQ"

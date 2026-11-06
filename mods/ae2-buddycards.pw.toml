@@ -1,0 +1,13 @@
+name = "AE2 Buddycards"
+filename = "ae2buddycards-1.21.1-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BblnrfAp/versions/etnzHS6D/ae2buddycards-1.21.1-2.0.2.jar"
+hash-format = "sha512"
+hash = "55de4f68b73d97f973e1ba74587c1fef23b8b6f8634c99ef51ac01d297ff498b74bd55f8bf5ff03e5c4981771bc151419c01b84a577215d56b5439f291ae4a48"
+mode = "url"
+
+[update.modrinth]
+mod-id = "BblnrfAp"
+version = "etnzHS6D"

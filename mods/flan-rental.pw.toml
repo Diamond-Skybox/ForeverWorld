@@ -1,0 +1,13 @@
+name = "Flan-Rental"
+filename = "flan_rent-1.7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DPSQpRIv/versions/CMZ6PA6w/flan_rent-1.7.jar"
+hash-format = "sha512"
+hash = "76cfd3798c2e59f09011585a61930d3a9d7f9b6559b626ab15ba471c8c8200f558377378dc258a6dd45c3def1657d3867b303d8264768ca96d9ed0d6ae4b85c4"
+mode = "url"
+
+[update.modrinth]
+mod-id = "DPSQpRIv"
+version = "CMZ6PA6w"

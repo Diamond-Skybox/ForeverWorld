@@ -1,0 +1,13 @@
+name = "Boss Checklist - Vampirism Compatibility"
+filename = "Boss Checklist - Vampirism Compatibility 1.21.1 1.0.0 NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W6LbIL5R/versions/mGJsQuhk/Boss Checklist - Vampirism Compatibility 1.21.1 1.0.0 NeoForge.jar"
+hash-format = "sha512"
+hash = "661b30f9abf854934e634f545ae44149606f105c131a90a2b7793b1629cbafdc4bc26dc6af9e03731257185ec7660dbef8772085282e51fb38dd5249dc2bd488"
+mode = "url"
+
+[update.modrinth]
+mod-id = "W6LbIL5R"
+version = "mGJsQuhk"

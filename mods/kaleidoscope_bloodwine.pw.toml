@@ -1,0 +1,13 @@
+name = "Kaleidoscope_bloodwine"
+filename = "kaleidoscope_bloodwine-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CrMZMaFM/versions/uKmexHeV/kaleidoscope_bloodwine-1.1.0.jar"
+hash-format = "sha512"
+hash = "de0a8d6a3b9b774ad450bccd9a307153e8af3fb10788a405c85bdbea84bbb1ea91c534f7fb98a1d5204f3b4a936e09f95340839102b0a117aadaac22abd0ed71"
+mode = "url"
+
+[update.modrinth]
+mod-id = "CrMZMaFM"
+version = "uKmexHeV"

@@ -1,0 +1,13 @@
+name = "Kubejs Kaleidoscope"
+filename = "kubejs_kaleidoscope-1.1.0-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7etz58Zf/versions/ScTufpdY/kubejs_kaleidoscope-1.1.0-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "3aa3479f5b90ac00336a89f6a2cecb0852f2cfbed1210c1d35ff31aede67e6c24f0709f1ba7b586e7dc234d4f5c77610a1187935de03b78c9fac713ce36a5bab"
+mode = "url"
+
+[update.modrinth]
+mod-id = "7etz58Zf"
+version = "ScTufpdY"

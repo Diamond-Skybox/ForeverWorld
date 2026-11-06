@@ -1,0 +1,13 @@
+name = "Delightful Buddycards"
+filename = "delightfulbuddycards-1.21.1-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F9iAh283/versions/RpJkFnsN/delightfulbuddycards-1.21.1-2.1.0.jar"
+hash-format = "sha512"
+hash = "bcbd9d4e39aced44dc7148c1ef5411e1c7034b252683c17235c8cb00d62fb40ebb4a5bc44acca726c5a1a465d7d282af8e3c0117ee42b05c97a35d24ab9223e3"
+mode = "url"
+
+[update.modrinth]
+mod-id = "F9iAh283"
+version = "RpJkFnsN"

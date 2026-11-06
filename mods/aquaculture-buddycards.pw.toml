@@ -1,0 +1,13 @@
+name = "Aquaculture Buddycards [Frontport]"
+filename = "aquaculturebuddycards-1.21.1-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kreM5YZp/versions/mhuScu1y/aquaculturebuddycards-1.21.1-2.0.1.jar"
+hash-format = "sha512"
+hash = "47b460c7b53d8d4ccf741029fb6aadd54c63d9ecdd0e9145c5fd8093b8ea161ccf4a3f64e6b37e720581c41f2ed6fe115ef2af71600a4898635ea7db9a3bb049"
+mode = "url"
+
+[update.modrinth]
+mod-id = "kreM5YZp"
+version = "mhuScu1y"

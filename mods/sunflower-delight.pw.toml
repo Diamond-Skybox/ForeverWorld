@@ -1,0 +1,13 @@
+name = "Sunflower Delight"
+filename = "sunflowerdelight-1.21.1-1.0.1n.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/meomOFXx/versions/v48ZRt5P/sunflowerdelight-1.21.1-1.0.1n.jar"
+hash-format = "sha512"
+hash = "8eaccaee23b5fe6cd0f9865d39a1c07b44db2ac477b131116692383dd291e3f7e28e5f36e270eba623f2b412567c979649599d67a15dfe209dc08b7e85aaf9c1"
+mode = "url"
+
+[update.modrinth]
+mod-id = "meomOFXx"
+version = "v48ZRt5P"

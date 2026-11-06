@@ -1,0 +1,13 @@
+name = "Kaleidoscope：Dimensions wine"
+filename = "kaleidoscope_dim_wine-1.5.8-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BrGJp2pm/versions/3FCUxJkx/kaleidoscope_dim_wine-1.5.8-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "002301c0eef49c4fa0bf05f25838854e14c90b6873eae24bec7f162ce99ee05d06b3cca22d07fd4eb6ab42c376da5f90d8c4d49432f9dee5228dc548eb494392"
+mode = "url"
+
+[update.modrinth]
+mod-id = "BrGJp2pm"
+version = "3FCUxJkx"

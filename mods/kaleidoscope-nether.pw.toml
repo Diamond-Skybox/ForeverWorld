@@ -1,0 +1,13 @@
+name = "Kaleidoscope Nether"
+filename = "kaleidoscope_nether-1.1.4-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/O4YuhMsI/versions/Xk6e2JID/kaleidoscope_nether-1.1.4-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "7bae7eb68b0132556e23420f5f20c52456482d53f5e3c6354c393c7ee7b33b48059b740cedb01eacd0847af2cf0182312b660660e0deeb780638471438d67002"
+mode = "url"
+
+[update.modrinth]
+mod-id = "O4YuhMsI"
+version = "Xk6e2JID"

@@ -1,0 +1,13 @@
+name = "Kaleidoscope Twilight"
+filename = "kaleidoscope_twilight-1.2.0-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uSH79VEy/versions/unZmFXfY/kaleidoscope_twilight-1.2.0-neoforge%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "e355f369ff391e7205dd6a68d8474d2e7d9b433cd13b9fb6b36fb183a6d83ca21401e999e3208d1726c5af2123f458f95da99bbc097b4773b75231f1886fa021"
+mode = "url"
+
+[update.modrinth]
+mod-id = "uSH79VEy"
+version = "unZmFXfY"

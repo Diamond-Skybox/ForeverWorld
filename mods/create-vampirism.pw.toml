@@ -1,0 +1,13 @@
+name = "Create Vampirism"
+filename = "create_vampirism-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TrvqYCQD/versions/xSRV3rQz/create_vampirism-1.0.jar"
+hash-format = "sha512"
+hash = "d8ae900e1936e91281277f6978063268ffb12a2e19079af0d5b3a4cfdb113884b0d1aaa3af732786575f7d5e9b560eaa407a2a5f3bb4618462a7155b6a9e30b6"
+mode = "url"
+
+[update.modrinth]
+mod-id = "TrvqYCQD"
+version = "xSRV3rQz"

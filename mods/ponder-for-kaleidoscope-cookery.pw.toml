@@ -1,0 +1,13 @@
+name = "Ponder For Kaleidoscope Cookery"
+filename = "ponderforkc-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/I5JahfLa/versions/grCjEcqZ/ponderforkc-1.0.0.jar"
+hash-format = "sha512"
+hash = "a842427f6f9214dbdd1fbb3f817a679f6f40940f7459ab153daef13a7dcaeca84ac542466bc17f7b1050ce05b681de8bf176e5cb7cc39ba821c47ab22d748471"
+mode = "url"
+
+[update.modrinth]
+mod-id = "I5JahfLa"
+version = "grCjEcqZ"

@@ -1,0 +1,12 @@
+name = "Create: Harvestworks"
+filename = "create-harvestworks-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39912b033befe1050ed374ba8e4b1cd58e93769c"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8925974
+project-id = 1703545

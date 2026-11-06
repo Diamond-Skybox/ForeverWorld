@@ -1,0 +1,13 @@
+name = "Kaleidoscope Texture Expansion"
+filename = "Kaleidoscope Texture Expansion-2.8.0-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sOzI21iF/versions/WZtNFTrW/Kaleidoscope Texture Expansion-2.8.0-1.21.1.jar"
+hash-format = "sha512"
+hash = "4cd77177d59f96c924dabd67c36d19085495618f9c97769f2194dff5346c4dee302ca8a7a3c7793d5f675e2cc9703f01ca48510ed35f5186e13a72102e06a579"
+mode = "url"
+
+[update.modrinth]
+mod-id = "sOzI21iF"
+version = "WZtNFTrW"

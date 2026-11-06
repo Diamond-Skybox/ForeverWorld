@@ -1,0 +1,4 @@
+{
+  "_comment": "ForeverWorld: blocks this recipe. Its own load condition fails in this pack, but Delightful Creators 1.2.1 ignores conditions and turns it into a broken Create sequenced recipe (IndexOutOfBounds crash on recipe load).",
+  "neoforge:conditions": [{"type": "neoforge:false"}]
+}

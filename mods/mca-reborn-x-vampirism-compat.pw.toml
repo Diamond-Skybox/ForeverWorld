@@ -1,0 +1,13 @@
+name = "MCA Reborn x Vampirism Compat"
+filename = "mca-vamp-compat-1.21.1-2.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kYO3VpZg/versions/gVorZaA7/mca-vamp-compat-1.21.1-2.3.1.jar"
+hash-format = "sha512"
+hash = "f9769745d5c010e97eb0961a76d95260494e12bd543b5d755036cdc3a3ed5025b7f6945bfeb1b73d27c852a2f81f60b17e73bb8afb919c2aee29ffdd24bf62ba"
+mode = "url"
+
+[update.modrinth]
+mod-id = "kYO3VpZg"
+version = "gVorZaA7"

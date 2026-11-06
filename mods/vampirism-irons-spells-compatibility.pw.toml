@@ -1,0 +1,13 @@
+name = "Vampirism Iron's Spells Compatibility"
+filename = "vampire_spells_addon-neoforge-1.21.1-0.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8D0TiNOF/versions/TmMlf1GF/vampire_spells_addon-neoforge-1.21.1-0.0.10.jar"
+hash-format = "sha512"
+hash = "cee0864880fca87c6a151ee079be0b94a088e662500e565483074d08ad14c039819713fd9e4c663a713d6232ceefa0567aa97308dcc5604cb7f8931021382d79"
+mode = "url"
+
+[update.modrinth]
+mod-id = "8D0TiNOF"
+version = "TmMlf1GF"

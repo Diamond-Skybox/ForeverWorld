@@ -1,0 +1,13 @@
+name = "Farmer's Delight: Contracts & Feasts"
+filename = "farmerscontracts-1.0.3-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1PHi8joa/versions/4eljQ0ro/farmerscontracts-1.0.3-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "8cc0cc437a2671a6459f9bc8c714d2d337bbc0f046c5eb7a3b7d453afcc842088f7021e1cf7d4905fe6a7a45fb1b4f43808a801b9a48aefffbd3f69d2590e9ba"
+mode = "url"
+
+[update.modrinth]
+mod-id = "1PHi8joa"
+version = "4eljQ0ro"

@@ -1,0 +1,13 @@
+name = "Werewolves"
+filename = "Werewolves-1.21-2.0.3.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3ElBohKg/versions/zkd687ts/Werewolves-1.21-2.0.3.3.jar"
+hash-format = "sha512"
+hash = "cdc0d8e9c4d8b961df63998f3200645960cc28f1e795e69f1801431bfca0c5ea89fa8e70fcca1ad10cbb37cdc5f15382d87c2a9403d6fa6a67eaabe69604b67d"
+mode = "url"
+
+[update.modrinth]
+mod-id = "3ElBohKg"
+version = "zkd687ts"

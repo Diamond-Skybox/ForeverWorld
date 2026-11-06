@@ -1,0 +1,12 @@
+name = "Better Simple Clouds"
+filename = "better-simple-clouds-neoforge-mc1.21.1-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f74bc6ce937fa13a1323fadd85a43341856e31b3"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9398512
+project-id = 1606950

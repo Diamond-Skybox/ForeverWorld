@@ -1,0 +1,13 @@
+name = "Kaleidoscope Contraption"
+filename = "kaleidoscope_contraption-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/JCCAvv9N/versions/6ugJY3s7/kaleidoscope_contraption-1.0.4.jar"
+hash-format = "sha512"
+hash = "6c164a09d1c97c61c8d35d37a70fbcecfbac7854b4086724898c7b38a91e3a53d4612a7f3e2cda6e2a2d29927c211c6e5ad9e9ef525d8c07b6a7dda9a433f963"
+mode = "url"
+
+[update.modrinth]
+mod-id = "JCCAvv9N"
+version = "6ugJY3s7"

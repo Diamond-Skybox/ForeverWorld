@@ -1,0 +1,13 @@
+name = "KaleidoscopeCookery-Automation"
+filename = "kaleidoscopecookery_automation-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7KEJ7Rz9/versions/IqWk9J0n/kaleidoscopecookery_automation-1.0.2.jar"
+hash-format = "sha512"
+hash = "56feac3faaa85a5ed3ee89276f3768dab563b4f43553a4938054e6fde2a35606486999017079b0fbcdc0732fc5e0b43f219957f04f4bd60a49bf4d7f99568a7e"
+mode = "url"
+
+[update.modrinth]
+mod-id = "7KEJ7Rz9"
+version = "IqWk9J0n"

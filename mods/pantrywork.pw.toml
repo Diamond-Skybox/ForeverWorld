@@ -1,0 +1,13 @@
+name = "Pantrywork"
+filename = "pantrywork-0.8.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rNg1wypx/versions/uCWCdzDI/pantrywork-0.8.0.jar"
+hash-format = "sha512"
+hash = "fb687f6e00c22a70cef0bfd6004197bedde833b40f441ae9ca400355668e7c80754c99a900ce721f40dc6c08d889ee60744995e8b2fa05ffaddd2d6f6eff81ab"
+mode = "url"
+
+[update.modrinth]
+mod-id = "rNg1wypx"
+version = "uCWCdzDI"

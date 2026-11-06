@@ -1,0 +1,13 @@
+name = "Ramadan Delight (A Farmer's Delight Add-on)"
+filename = "RamadanDelight-1.21.1-1.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XdtLqgmY/versions/oVuZhBYj/RamadanDelight-1.21.1-1.7.jar"
+hash-format = "sha512"
+hash = "c5ae73ecba78d254cc6ed0b0bc23ff2d2754cf7c479466629d432407f1d8b54efca3dd729c8a54c8abcaec785dd5e430c711617cff7b28dfcdd40d00bf041519"
+mode = "url"
+
+[update.modrinth]
+mod-id = "XdtLqgmY"
+version = "oVuZhBYj"

@@ -1,0 +1,13 @@
+name = "Farmer's Cutting: BetterEnd"
+filename = "farmers-cutting-betterend-1.21.1-2.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ROV8mPB1/versions/U0Wr75eo/farmers-cutting-betterend-1.21.1-2.0-neoforge.jar"
+hash-format = "sha512"
+hash = "234c455ac8b01b71297e6a4b6cc328978f07fa069cf803cbf3e1f115fa79dd65d609b123ebf52efce5b15bd42907f9045da045342719b4bc139191f769f65073"
+mode = "url"
+
+[update.modrinth]
+mod-id = "ROV8mPB1"
+version = "U0Wr75eo"

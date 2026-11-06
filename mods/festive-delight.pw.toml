@@ -1,0 +1,13 @@
+name = "Festive Delight - Christmas eve"
+filename = "festive_delight-2.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AsUUCoXX/versions/FP8ZwEus/festive_delight-2.0.0-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "9d582dee0039659b65160e2aa7a7426e85e9816ff7c6587662f7a6b47549f35301418a88cf6feef0a8de165c8cde4c5df30006d33fa6c823cb608b3420054fd2"
+mode = "url"
+
+[update.modrinth]
+mod-id = "AsUUCoXX"
+version = "FP8ZwEus"
