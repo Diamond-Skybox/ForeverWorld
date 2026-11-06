@@ -3130,6 +3130,11 @@ hash = "028cf256be81fde36436c8e45e8a735c63ba982886d1f173da5600d3c37bcaba"
 metafile = true
 
 [[files]]
+file = "mods/unraveling-the-spells.pw.toml"
+hash = "916b82fe7a4eb2c5126e0b6236cfe4f94cf276bf5fb5074cc926a949ac2cfb1b"
+metafile = true
+
+[[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "079962e6553f98fcc497370c55768872b13bca8388c2e7d58e51b50c809a4065"
 metafile = true

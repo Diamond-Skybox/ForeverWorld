@@ -1,0 +1,13 @@
+name = "Spellbooks: Unraveling the Spells"
+filename = "unraveling_spells-1.21.1-1.2.0b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x7x0umr5/versions/KFL0C2EL/unraveling_spells-1.21.1-1.2.0b.jar"
+hash-format = "sha512"
+hash = "33a28297e1f01cb6d409e058e80bc5b0048084e022cda80248bd50c79b52cb7df39ddbf011ff41febbd89f043c4f5d7ea32651076e7a72d22043aab9b61b175b"
+mode = "url"
+
+[update.modrinth]
+mod-id = "x7x0umr5"
+version = "KFL0C2EL"
