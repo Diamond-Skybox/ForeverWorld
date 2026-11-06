@@ -1,0 +1,13 @@
+{
+  "bleedFromDamage": false,
+  "dryingMinutes": 10,
+  "stainLifetimeMinutes": 0,
+  "fadeMinutes": 30,
+  "rainWashSeconds": 20,
+  "maxStainsPerChunk": 256,
+  "maxStainsPerWorld": 32768,
+  "footprints": false,
+  "renderBlood": false,
+  "dropletMultiplier": 1.0,
+  "configVersion": 3
+}

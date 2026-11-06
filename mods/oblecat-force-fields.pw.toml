@@ -1,0 +1,13 @@
+name = "Oblecat force fields"
+filename = "Oblecat-Field-Systems.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KgTqZy0X/versions/a6teY0S1/Oblecat-Field-Systems.jar"
+hash-format = "sha512"
+hash = "7a6d50e1bc8039e069b7f0d4881141d527282cb017d1f44a509b099021363147e5e77fa2afdab36819dd8a5da87d61d8d50f7c3586c0274c1771b3d36f953220"
+mode = "url"
+
+[update.modrinth]
+mod-id = "KgTqZy0X"
+version = "a6teY0S1"

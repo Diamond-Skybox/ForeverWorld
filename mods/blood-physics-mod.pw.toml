@@ -1,0 +1,12 @@
+name = "Hemodynamics"
+filename = "hemodynamics-1.0.0-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4a2e90898c0378c0773630f43a504d4da25febd6"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9388689
+project-id = 1767144

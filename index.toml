@@ -18,6 +18,18 @@ hash = "aeb8f2ff360702329db0a172dcac9004ca3afbac6da7e2c56f966774d6e6184b"
 preserve = true
 
 [[files]]
+file = "config/chromeware-server.toml"
+hash = "a4b1b855cbcf9efecf64cc000badfdf7ec3b44413c13c689c24bddf3da84d6bb"
+
+[[files]]
+file = "config/hemodynamics-graphics.json"
+hash = "bca170b9c178e8db941ff5cef590f50b2131745e8db6848dcf61ae7f18e1810c"
+
+[[files]]
+file = "config/hemodynamics.json"
+hash = "0f72d9c2fbbd986a1d65833943aeca5ed7d161d77504a36f830770da9f4dacfc"
+
+[[files]]
 file = "config/invtweaks-client.toml"
 hash = "8e3c8c002f59138dece863c844b6f54a447e97db4061371e459a44861ce9cd5a"
 preserve = true
@@ -410,6 +422,11 @@ metafile = true
 [[files]]
 file = "mods/blocks-bogies.pw.toml"
 hash = "8ce86fbeb35d51144c7e44a04b98d4180df3e87070a24ed66d2c960533d5dfc1"
+metafile = true
+
+[[files]]
+file = "mods/blood-physics-mod.pw.toml"
+hash = "dae28ba15895008b0bc22b5470f3bbf1619a8718905cd4dde2f970f1995a5d48"
 metafile = true
 
 [[files]]
@@ -1000,6 +1017,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "d9daa93c4b5d503ad14a33b5aa771d6de8714ea3ff5ba0ff44b7e1aa6e838f3a"
+metafile = true
+
+[[files]]
+file = "mods/cyberpunk2077-mod.pw.toml"
+hash = "caf6865cbfc20328a909196fe080083a6f70ac72a38a417b609f5234c412aaa9"
 metafile = true
 
 [[files]]
@@ -2080,6 +2102,11 @@ metafile = true
 [[files]]
 file = "mods/numismatics.pw.toml"
 hash = "93ae73a0699edf0eca9896b8a7fa1b298e5cab3114c2d4b79575aa24594613ec"
+metafile = true
+
+[[files]]
+file = "mods/oblecat-force-fields.pw.toml"
+hash = "407f260e269d7ce39a30dc251dc1c7d0833a813314fe92757e80f91f959e9666"
 metafile = true
 
 [[files]]
