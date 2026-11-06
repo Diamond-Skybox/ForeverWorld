@@ -9,6 +9,18 @@ file = "config/alpinewhispers-common.toml"
 hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
 [[files]]
+file = "config/bettersimpleclouds-client.toml"
+hash = "e7d2a63dd17a62d0bdfe18cda735e2ba7bed19860253fb4f5b7e50c91f74d640"
+
+[[files]]
+file = "config/bettersimpleclouds-common.toml"
+hash = "90aac98a8d3f144a1d126b168e3bb77ebd8cbd40d5bb89a5740a7d1967e092ac"
+
+[[files]]
+file = "config/bettersimpleclouds-server.toml"
+hash = "e9b8cfe1f9f353682b5a5d952724c6841c8e11ef978dbe16151c92f99371fba5"
+
+[[files]]
 file = "config/bloomingnature-common.toml"
 hash = "6b32845956a082d02155e572a42d8e4176796c71f14f02c3235298f7c6b2041c"
 
@@ -41,6 +53,18 @@ hash = "5c4312beee88ac13f9aac78e0e97f8577d93f4d17f83866c41a75aa935e7d870"
 [[files]]
 file = "config/resourcepackoverrides.json"
 hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
+
+[[files]]
+file = "config/simpleclouds-client.toml"
+hash = "cc511d78b0c93028e8eafb9f9fda1919ded7cf4a0c15b1ce93eca45c0f38b4a2"
+
+[[files]]
+file = "config/simpleclouds-common.toml"
+hash = "1a8f15342cdda674661e2e1883f56ae591b8daf580315baa3a99d2f200ad204b"
+
+[[files]]
+file = "config/simpleclouds-server.toml"
+hash = "d85f7747f4514b67793234f7cd940f422cad8c83506b07d536ff9da01d145ac1"
 
 [[files]]
 file = "kubejs/assets/astralsorcery/lang/en_us.json"

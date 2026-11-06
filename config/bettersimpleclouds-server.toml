@@ -1,0 +1,41 @@
+#Cloud scale. A SERVER option: the server decides where it rains and where lightning strikes, so it
+#has to agree with what every client draws. Synced to clients on join; in singleplayer, edit it
+#from Mods -> Better Simple Clouds -> Config.
+[scale]
+	#How many times bigger than Simple Clouds' own size the clouds are. Simple Clouds builds clouds
+	#from 8-block cells; this multiplies that cell size, so 2 makes every cloud twice as wide and
+	#twice as tall, with the same shapes, and the cloud field reaches twice as far. It changes
+	#nothing about how clouds spawn, move or look up close - only their size in the world. Made for
+	#Distant Horizons: with terrain visible tens of kilometres out, stock clouds read as small and
+	#low. Pair it with Simple Clouds' own 'cloudHeight' (its server config / 'simpleclouds clouds
+	#height set <y>'): real cumulus bases sit around 1000-2000 blocks up, so 2-4x with a height in
+	#the hundreds-to-low-thousands gives real-world proportions. Rain, lightning and storm darkening
+	#follow the scaled clouds. 1 = exactly stock Simple Clouds. Applies live.
+	# Default: 1
+	# Range: 1 ~ 8
+	cloudScale = 1
+
+#Cloud spawning reach. SERVER options (synced to clients): the server owns the cloud formations.
+[spawnReach]
+	#How far from each player cloud formations spawn and keep existing, as a percent of the cloud render
+	#distance (with Distant Horizons, the distance the clouds are matched to). Simple Clouds uses a
+	#fixed 10000 blocks with only a handful of formations in that circle, so a cloud field rendering
+	#tens of kilometres out was empty past the first few clouds. 100 = clouds right out to the edge of
+	#what is drawn. The formation count and spawn rate follow the area and the cloud scale so the sky
+	#keeps the same coverage (see cloudDensityPercent). The render distance is known in singleplayer
+	#(and to a LAN host); a dedicated server uses cloudSpawnRadiusBlocks instead. 0 = use that.
+	# Default: 100
+	# Range: 0 ~ 400
+	cloudSpawnRadiusPercent = 100
+	#The spawn radius in blocks when the percent above cannot be resolved (a dedicated server has no
+	#render distance of its own) or is 0. 0 = Simple Clouds' own 10000.
+	# Default: 0
+	# Range: 0 ~ 131072
+	cloudSpawnRadiusBlocks = 0
+	#How much of the sky cloud formations cover, as a percent of Simple Clouds' own (5 formations at a
+	#time within its 10000-block radius, at the stock cloud size). The formation count and spawn rate
+	#follow the spawn area and the cloud scale, so this stays the same coverage whatever those are.
+	#Capped at 256 formations in all (the mesh generator's limit). 100 = stock. Applies live.
+	# Default: 100
+	# Range: 10 ~ 1600
+	cloudDensityPercent = 100
