@@ -1,2 +1,12 @@
-{"panel": "foreverworld:sandevistan", "frame": "obscure_tooltips:default", "icon": "foreverworld:sandevistan", "slot": "obscure_tooltips:default",
- "effects": ["foreverworld:sandevistan_shimmer", "foreverworld:sandevistan_ray_glow"]}
+{
+  "panel": "foreverworld:sandevistan",
+  "frame": "hazentouvelib:cosmic",
+  "icon": "hazentouvelib:cosmic",
+  "slot": "obscure_tooltips:default",
+  "effects": [
+    "hazentouvelib:cosmic_inward",
+    "hazentouvelib:cosmic_icon_particle",
+    "foreverworld:sandevistan_shimmer",
+    "foreverworld:sandevistan_ray_glow"
+  ]
+}
