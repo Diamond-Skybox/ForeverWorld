@@ -47,6 +47,34 @@ file = "kubejs/assets/forbidden_arcanus/lang/en_us.json"
 hash = "a8e602cd409158e40538d8317190c5efb32fb223a9e851ec1030b16daa3fbc4d"
 
 [[files]]
+file = "kubejs/assets/foreverworld/tooltips/definition/sandevistan.json"
+hash = "e94acb142e41f01ee2dd2edb43abfe2b82545da1c88525c94adbe2baa52ba5ee"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/element/effect/sandevistan_ray_glow.json"
+hash = "2f9a1711bdf04569bf7f6d71ad68111d87233cd0f7e1f56461745d2a21349456"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/element/effect/sandevistan_shimmer.json"
+hash = "c327a06b1a3eb05fcdb02b482c3d623dbfc9048373fb1fb3c6a3156fc3e01a9a"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/element/icon/sandevistan.json"
+hash = "b58bab3eb60db6b64ff5f1f994d9abfef89361818fd10acd35ae81862fa4c4dd"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/element/panel/sandevistan.json"
+hash = "c1a5904fd4da16ae56cf6e538098da08a5b80ecdf181872e2d7e482958c8afcb"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/label/sandevistan.json"
+hash = "f38ccd4df7bf63e49643a0c6f640c27d57b40ca3c86c476103bb19ce5e393f32"
+
+[[files]]
+file = "kubejs/assets/foreverworld/tooltips/style/sandevistan.json"
+hash = "8679357b68100115720fdb65a9be922f2003305844d4c9b17ae6fd13ea233e1e"
+
+[[files]]
 file = "kubejs/assets/galosphere/lang/en_us.json"
 hash = "3f2155198809259fa9d9a9f3614d9d0ed6ac56c785e9eb90acd463f237f242cc"
 
@@ -61,6 +89,14 @@ hash = "0faa2793dde48a34167282e1fde8e1053fe9391514dd0a0db77893e573232614"
 [[files]]
 file = "kubejs/assets/wispwillow/lang/en_us.json"
 hash = "459e80bd8999b1d060572523b5e93031f882be6c54b22384bfa427231808c284"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/sandevistan.json"
+hash = "593b9ffbcb330d2a33ff47d821ec36837cc4087cab9d331ebbbca2a2fb140f9b"
+
+[[files]]
+file = "kubejs/data/chronomancy/tags/item/chronomancy_focus.json"
+hash = "eeb919b4a3a739f41b3eace8e0bb35e93d864251da65e8f197ae44e664d39d10"
 
 [[files]]
 file = "kubejs/data/endfight/function/tick.mcfunction"
