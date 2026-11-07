@@ -211,6 +211,62 @@ file = "kubejs/data/minecraft/tags/entity_type/undead.json"
 hash = "776d72977fa595184d7b76f533d8905080c3cd5ccb060a5c60fe238279274cce"
 
 [[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/bane_of_arthropods.json"
+hash = "b6faaa54cfd8cc05900fedecc685a46996424626800e5a430ca01c27a7dab813"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/efficiency.json"
+hash = "601f5969cb666b825578a4c01958d3d53f2d53ca860cc27540b0d6651e476ec1"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/feather_falling.json"
+hash = "8c0fdb0c5d1139f6f938598b3385343d1ef2e0b866ee556f18ade0c0d5584c0a"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/impaling.json"
+hash = "e1dcaffa3989947467f77c20962611773b472acdbd650a37e1944b6cc80d5b52"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/knockback.json"
+hash = "c94950aa2a7f514c7cc83f6dde0a8eedd8dadf989ca75a8fe3d4613f484de76f"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/loyalty.json"
+hash = "9a63d75dc5c00b2afebb30683d09b732320f3ddf23b1550c0afa7bccd7b0b431"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/piercing.json"
+hash = "f8e202eba495cc9d129124714e29739d021b6aa05e4ed941e1d43b74520a2fc9"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/punch.json"
+hash = "469bcb66fd194b16c93beccdfeb807fb3c2b081bd2c41b6f86af85b8651fea62"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/riptide.json"
+hash = "d93ce46479ff875782e32d127555105095ed8e3015931486fc32601aae007b74"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/smite.json"
+hash = "058794b5a0521742eb0c06b6cb155b7cad592f0cbe54f22393b115289c499c61"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/soul_speed.json"
+hash = "183b3e5b09093ebc24d427ec65471d599612695ad547153b64d26dd97cf0a11b"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/sweeping_edge.json"
+hash = "a7dfd8bc934b975ddab51a2ec32aaea51bed5d506dec8f743f08df0f2b519da6"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/swift_sneak.json"
+hash = "322eec79cadcb843294bcd80a5a582a55874b38217b1504a3a9d02d31434234f"
+
+[[files]]
+file = "kubejs/data/pastel/recipe/enchantment_upgrade/minecraft/unbreaking.json"
+hash = "c2ad4c89c70c02e5355aaa72dc0be6b6985ffec7dd735826d0f7a4054da18bf1"
+
+[[files]]
 file = "kubejs/data/rocketnautics/universe_planets/moon.json"
 hash = "52c3f8eb2aa6139e9a9e95b3496a4da00aa01aaa3da0eb8f426ba910018353cb"
 
