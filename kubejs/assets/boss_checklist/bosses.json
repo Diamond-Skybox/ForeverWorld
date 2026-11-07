@@ -1,0 +1,110 @@
+[
+  {
+    "id": "skeletons_rising:drownedcaptain",
+    "drops": [],
+    "position": 20.5,
+    "type": 2
+  },
+  {
+    "id": "croaks:croak_king",
+    "drops": [],
+    "position": 25.5
+  },
+  {
+    "id": "skeletons_rising:leaderofundeadarmy",
+    "drops": [
+      "skeletons_rising:soul_steel_scrap",
+      "skeletons_rising:soul_steel_ingot",
+      "skeletons_rising:bone_breaker"
+    ],
+    "position": 30.5
+  },
+  {
+    "id": "skeletons_rising:skeleton_prime",
+    "drops": [],
+    "position": 45.5
+  },
+  {
+    "id": "totemic:baykok",
+    "drops": [
+      "minecraft:bone",
+      "minecraft:rotten_flesh",
+      "minecraft:arrow",
+      "minecraft:wither_skeleton_skull",
+      "minecraft:skeleton_skull"
+    ],
+    "position": 50.5
+  },
+  {
+    "id": "mca:grim_reaper",
+    "drops": [],
+    "position": 70.5
+  },
+  {
+    "id": "neovitae:daemonium_doloris",
+    "drops": [
+      "neovitae:frozen_marrow_shard",
+      "neovitae:tainted_flesh",
+      "neovitae:raw_demonite",
+      "neovitae:ectoplasmic_residue",
+      "minecraft:ice"
+    ],
+    "position": 110.5
+  },
+  {
+    "id": "botania:doppleganger",
+    "drops": [],
+    "position": 120.5
+  },
+  {
+    "id": "twilight_spellbooks:ominous_lich",
+    "drops": [
+      "twilight_spellbooks:exanimated_lich_loot_bag"
+    ],
+    "position": 125.5
+  },
+  {
+    "id": "discerning_the_eldritch:ascended_one",
+    "drops": [
+      "irons_spellbooks:arcane_essence",
+      "irons_spellbooks:scroll",
+      "irons_spellbooks:blank_rune",
+      "irons_spellbooks:ancient_knowledge_fragment",
+      "discerning_the_eldritch:corrupted_cloth",
+      "discerning_the_eldritch:black_book_spellbook",
+      "discerning_the_eldritch:staff_of_ascension",
+      "discerning_the_eldritch:ascended_key",
+      "discerning_the_eldritch:fading_sculk_lantern",
+      "discerning_the_eldritch:broken_legends_blade",
+      "discerning_the_eldritch:broken_legends_staff"
+    ],
+    "position": 140.5
+  },
+  {
+    "id": "gametechbcs_spellbooks:hard_dead_king",
+    "drops": [
+      "irons_spellbooks:arcane_essence",
+      "irons_spellbooks:scroll",
+      "irons_spellbooks:blank_rune",
+      "irons_spellbooks:legendary_ink",
+      "irons_spellbooks:blood_staff",
+      "irons_spellbooks:necronomicon_spell_book"
+    ],
+    "position": 153.5
+  },
+  {
+    "id": "traveloptics:enraged_dead_king",
+    "drops": [],
+    "position": 154.5
+  },
+  {
+    "id": "chronomancy:rift_maker",
+    "drops": [
+      "chronomancy:rift_creator",
+      "chronomancy:chronomaly_shard",
+      "chronomancy:grain_of_time",
+      "chronomancy:music_disc_rift_maker"
+    ],
+    "position": 160.5
+  }
+]

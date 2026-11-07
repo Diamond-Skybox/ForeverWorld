@@ -71,6 +71,10 @@ file = "kubejs/assets/astralsorcery/lang/en_us.json"
 hash = "450df2f89044217faa0d508dbbc535a86cdb2d347205b380a7db43a3d09ee06c"
 
 [[files]]
+file = "kubejs/assets/boss_checklist/bosses.json"
+hash = "e6cac163a824cb55cfff19adb2d8c7d0e3e330408a7d381764eff77bb8893a39"
+
+[[files]]
 file = "kubejs/assets/create_sa/lang/en_us.json"
 hash = "abd75ac0d246720e51d14503315c8eee9df605dc0335aa7ec71db1c81709450a"
 
@@ -161,6 +165,10 @@ hash = "b0a211163cf98f5531da969af32d9e741b8660f04a10300adcec05010a6e3873"
 [[files]]
 file = "kubejs/data/arsdelight/recipe/cooking/skittle_stew.json"
 hash = "b0a211163cf98f5531da969af32d9e741b8660f04a10300adcec05010a6e3873"
+
+[[files]]
+file = "kubejs/data/boss_checklist/server_bosses_ids.json"
+hash = "60a60884357c2622c4d518ecfe91163b097cff8cec92c823008bce3199707541"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/sandevistan.json"
