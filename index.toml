@@ -544,6 +544,11 @@ hash = "5e2d13c91d4a9c1cbf787929a94e66b172e86a56b857bbce5f3855475949f4cf"
 metafile = true
 
 [[files]]
+file = "mods/bandwidthoptimizer.pw.toml"
+hash = "b0bd098fbbe5b0ae7c4ac2afdd8c3b15dbac560e36876ceb0add8d81a3ecb649"
+metafile = true
+
+[[files]]
 file = "mods/barbeques-delight-forge.pw.toml"
 hash = "1af1e1b09e83c18f0be9e1e920f868098877b4ca5a5ba10d7a77b7a0ffece3fd"
 metafile = true
@@ -2644,6 +2649,11 @@ hash = "91d04c238457734dfac205b05db06ab340b1e6f52ebecbd431120a51aa8b08cc"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "6a629d524490ba9ed6776507c087474242a8363d951af56aed73a2ad964b1b86"
+metafile = true
+
+[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "d694b3dd58cfccf29b3670cb41d924dfbb4b6dc2fe0bc347655ec63c97c5faa0"
 metafile = true
@@ -2706,6 +2716,11 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "17adb6b0067e90b95e1c7636470e353e089cc39cfc3baca6ba38b3a74cde5b85"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-soundphysics.pw.toml"
+hash = "bb9d22cfbfc00ef46daff5fd1fa6b427cf12a78be11a2c7445af376ad9efd33d"
 metafile = true
 
 [[files]]
@@ -2981,6 +2996,11 @@ metafile = true
 [[files]]
 file = "mods/soul-fire-d.pw.toml"
 hash = "aa7a2c186bf1ce65441be06d1c9a5af18b054098e4bdc37273fb4e75f0d27fc5"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-aeronautics.pw.toml"
+hash = "e3b7cbf10acc89d3c0adb4b538cf4305e3f50f1910053c75c474676f8b9bf83a"
 metafile = true
 
 [[files]]
@@ -3401,4 +3421,9 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "973eccc629315043bea9a630d012180314f68af28716ff56108c931b6a6bbd53"
 metafile = true
