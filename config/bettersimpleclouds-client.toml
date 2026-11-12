@@ -10,7 +10,7 @@
 	#outgrows its slot is moved to a bigger one on its next generation (the shader stops at the slot
 	#capacity instead of spilling into its neighbour, which is what glitched Simple Clouds' own
 	#'concurrent' mode). Turn off to fall back to Simple Clouds' stock mesh path. Applies live.
-	syncFreeMeshPath = false
+	syncFreeMeshPath = true
 	#Rebuild only the cloud chunks whose picture would change, ON by default (sync-free mesh path only).
 	#Simple Clouds rebuilds EVERY cloud chunk in view on every mesh cycle. What changes a chunk is known:
 	#a cloud's edge moving through it (a cloud is a fixed noise field cut out by a circle that drifts
@@ -45,7 +45,7 @@
 	#and on).
 	# Default: 128
 	# Range: 16 ~ 512
-	meshBufferOpaqueMB = 128
+	meshBufferOpaqueMB = 256
 	#Size of the translucent cloud cube buffer for the sync-free mesh path, in MB (24 bytes per cube).
 	# Default: 96
 	# Range: 16 ~ 512

@@ -10,7 +10,7 @@ hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
 [[files]]
 file = "config/bettersimpleclouds-client.toml"
-hash = "75ab8c6e1ac2c3dc28d30c889d8929f0b13e663b94ca702d9589012e5ef5ddf3"
+hash = "9bb532eca4be3b013d4bae056d96b624cdd71df5f8c1d1dd23cf5ed9f991c298"
 
 [[files]]
 file = "config/bettersimpleclouds-common.toml"
