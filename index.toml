@@ -59,6 +59,10 @@ file = "config/resourcepackoverrides.json"
 hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
 
 [[files]]
+file = "config/sable_player_ragdoll-server.toml"
+hash = "e31c43d36ae6913b6cacc41ccee4b8898efb911e83bb3a6d7d2d47934a049282"
+
+[[files]]
 file = "config/simpleclouds-client.toml"
 hash = "26ce6e12cbd634c8e61b411a6adf71211e75c38d03150ee874bde6539d74a95b"
 
