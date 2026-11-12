@@ -176,7 +176,7 @@ hash = "60a60884357c2622c4d518ecfe91163b097cff8cec92c823008bce3199707541"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/sandevistan.json"
-hash = "a19dd0b489e73c14632da7104f816b647eae548a72f49bc4e228927ded79c5a0"
+hash = "be948e7cf3f1d941ce1f27b32a76bbb1c26831c57828ad6d9e51c97e83a45194"
 
 [[files]]
 file = "kubejs/data/cocktailsdelight/recipe/cooking/grenadine.json"
@@ -289,6 +289,10 @@ hash = "060bd52b51c34858bd443c493243499e953c5abd39c65c5534028e4bb6690182"
 [[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
+
+[[files]]
+file = "kubejs/server_scripts/chromeware_titanium.js"
+hash = "b95ae099d8d388eec159f7f2cd03376066ddfedfeaeced3387b93c157551e4e2"
 
 [[files]]
 file = "kubejs/server_scripts/immersive_aircraft.js"
