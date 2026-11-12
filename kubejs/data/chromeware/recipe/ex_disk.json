@@ -10,10 +10,10 @@
       "tag": "c:plates/titanium"
     },
     "C": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:hdd1"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     }
   },
   "pattern": [

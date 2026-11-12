@@ -4,10 +4,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:amethyst_shard"
+      "item": "create_radar:sonar_sensor"
     },
     "B": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     },
     "C": {
       "item": "chromeware:clairvoyant"

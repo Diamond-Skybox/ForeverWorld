@@ -10,10 +10,10 @@
       "item": "create:powered_latch"
     },
     "C": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     },
     "E": {
       "item": "minecraft:comparator"

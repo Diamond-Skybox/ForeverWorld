@@ -7,10 +7,10 @@
       "item": "chromeware:empty_syringe"
     },
     "B": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:plastic_sheet"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "D": {
       "tag": "c:plates/titanium"

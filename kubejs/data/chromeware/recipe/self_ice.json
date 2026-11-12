@@ -7,10 +7,10 @@
       "tag": "c:plates/titanium"
     },
     "B": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     },
     "C": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     },
     "D": {
       "item": "create:polished_rose_quartz"

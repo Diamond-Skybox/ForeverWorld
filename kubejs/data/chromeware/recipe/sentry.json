@@ -7,7 +7,7 @@
       "tag": "c:plates/titanium"
     },
     "B": {
-      "item": "create:redstone_link"
+      "item": "opencomputers:redstonecard2"
     },
     "C": {
       "item": "chromeware:kiroshi_optics"

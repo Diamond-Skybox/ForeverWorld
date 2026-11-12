@@ -7,13 +7,13 @@
       "tag": "c:plates/titanium"
     },
     "B": {
-      "item": "create:redstone_link"
+      "item": "opencomputers:wlancard1"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "D": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "E": {
       "item": "minecraft:redstone"

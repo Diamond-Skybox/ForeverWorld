@@ -10,10 +10,10 @@
       "tag": "c:plates/titanium"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     },
     "D": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:plastic_sheet"
     },
     "E": {
       "item": "create:precision_mechanism"

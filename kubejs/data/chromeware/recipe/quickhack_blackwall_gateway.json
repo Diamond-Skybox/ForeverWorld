@@ -4,10 +4,10 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:sturdy_sheet"
+      "item": "opencomputers:internetcard"
     },
     "B": {
-      "item": "create:redstone_link"
+      "item": "opencomputers:linkedcard"
     },
     "C": {
       "item": "create:precision_mechanism"
@@ -16,7 +16,7 @@
       "item": "minecraft:netherite_ingot"
     },
     "E": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "F": {
       "item": "minecraft:nether_star"

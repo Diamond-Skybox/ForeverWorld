@@ -4,19 +4,19 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:amethyst_shard"
+      "item": "exposure_space:excellent_telescopic_lens"
     },
     "B": {
       "item": "create:precision_mechanism"
     },
     "C": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     },
     "D": {
       "item": "chromeware:visual_cortex_support"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip4"
     }
   },
   "pattern": [

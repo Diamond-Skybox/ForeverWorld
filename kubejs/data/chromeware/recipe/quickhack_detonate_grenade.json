@@ -10,13 +10,13 @@
       "item": "minecraft:tnt"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "D": {
       "item": "create:precision_mechanism"
     },
     "E": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "F": {
       "item": "minecraft:dispenser"

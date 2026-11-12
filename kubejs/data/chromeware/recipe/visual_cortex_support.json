@@ -4,13 +4,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     },
     "B": {
-      "item": "minecraft:spyglass"
+      "item": "exposure_space:normal_telescopic_lens"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "D": {
       "tag": "c:plates/steel"

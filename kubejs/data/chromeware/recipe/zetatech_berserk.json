@@ -16,13 +16,13 @@
       "item": "create:precision_mechanism"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip3"
     },
     "F": {
       "item": "create:andesite_alloy"
     },
     "G": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:plastic_sheet"
     },
     "H": {
       "item": "create:sturdy_sheet"

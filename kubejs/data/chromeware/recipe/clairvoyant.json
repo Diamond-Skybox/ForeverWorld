@@ -7,13 +7,13 @@
       "tag": "c:plates/titanium"
     },
     "B": {
-      "item": "minecraft:amethyst_shard"
+      "item": "opencomputers:motionsensor"
     },
     "C": {
       "item": "chromeware:kiroshi_optics"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     }
   },
   "pattern": [

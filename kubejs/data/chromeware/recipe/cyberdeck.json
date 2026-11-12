@@ -7,7 +7,7 @@
       "item": "create:sturdy_sheet"
     },
     "B": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     },
     "C": {
       "item": "create:redstone_link"
@@ -16,7 +16,7 @@
       "tag": "c:plates/steel"
     },
     "E": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:componentbus1"
     },
     "F": {
       "item": "create:precision_mechanism"
@@ -25,7 +25,7 @@
       "tag": "c:plates/titanium"
     },
     "H": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:cpu2"
     }
   },
   "pattern": [

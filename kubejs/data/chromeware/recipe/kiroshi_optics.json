@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:andesite_alloy"
+      "item": "synaxis:camera"
     },
     "B": {
       "item": "create:goggles"
@@ -13,7 +13,7 @@
       "tag": "c:plates/steel"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     }
   },
   "pattern": [

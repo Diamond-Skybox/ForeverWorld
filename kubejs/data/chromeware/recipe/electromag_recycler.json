@@ -7,7 +7,7 @@
       "item": "minecraft:lightning_rod"
     },
     "B": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip4"
     },
     "C": {
       "item": "chromeware:feedback_circuit"
@@ -16,7 +16,7 @@
       "tag": "c:plates/titanium"
     },
     "E": {
-      "item": "create:precision_mechanism"
+      "item": "opencomputers:batteryupgrade2"
     }
   },
   "pattern": [

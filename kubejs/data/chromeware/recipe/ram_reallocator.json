@@ -4,13 +4,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:ram7"
     },
     "B": {
       "item": "create:precision_mechanism"
     },
     "C": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip4"
     },
     "D": {
       "item": "chromeware:camillo_ram_manager"

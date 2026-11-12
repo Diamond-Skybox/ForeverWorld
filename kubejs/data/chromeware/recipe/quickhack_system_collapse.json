@@ -16,10 +16,10 @@
       "item": "minecraft:diamond"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip4"
     },
     "F": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     }
   },
   "pattern": [

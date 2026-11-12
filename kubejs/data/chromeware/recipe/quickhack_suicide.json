@@ -13,10 +13,10 @@
       "item": "create:precision_mechanism"
     },
     "D": {
-      "item": "minecraft:diamond"
+      "item": "opencomputers:chipdiamond"
     },
     "E": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "F": {
       "item": "create:sequenced_gearshift"

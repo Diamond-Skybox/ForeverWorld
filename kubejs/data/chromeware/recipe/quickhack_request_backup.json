@@ -4,13 +4,13 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:redstone_link"
+      "item": "opencomputers:wlancard1"
     },
     "B": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     },
     "C": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "D": {
       "tag": "c:plates/titanium"

@@ -13,13 +13,13 @@
       "tag": "c:plates/titanium"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "E": {
       "tag": "c:plates/steel"
     },
     "F": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:ram4"
     }
   },
   "pattern": [

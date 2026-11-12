@@ -10,10 +10,10 @@
       "tag": "c:plates/titanium"
     },
     "C": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     },
     "E": {
       "item": "minecraft:redstone"

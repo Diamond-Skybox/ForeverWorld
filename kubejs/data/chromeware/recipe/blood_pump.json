@@ -10,7 +10,7 @@
       "item": "create:fluid_pipe"
     },
     "C": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:plastic_sheet"
     },
     "D": {
       "item": "create:mechanical_pump"

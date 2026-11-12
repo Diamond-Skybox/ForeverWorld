@@ -16,10 +16,10 @@
       "item": "create:powered_toggle_latch"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip3"
     },
     "F": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:eeprom"
     }
   },
   "pattern": [

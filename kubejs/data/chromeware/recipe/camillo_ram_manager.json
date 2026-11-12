@@ -7,13 +7,13 @@
       "tag": "c:plates/titanium"
     },
     "B": {
-      "item": "create:polished_rose_quartz"
+      "item": "opencomputers:ram2"
     },
     "C": {
-      "item": "minecraft:comparator"
+      "item": "opencomputers:cu"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip1"
     }
   },
   "pattern": [

@@ -13,10 +13,10 @@
       "tag": "c:plates/titanium"
     },
     "D": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip3"
     },
     "E": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     }
   },
   "pattern": [

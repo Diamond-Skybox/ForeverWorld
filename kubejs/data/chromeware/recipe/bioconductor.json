@@ -16,7 +16,7 @@
       "tag": "c:plates/steel"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     }
   },
   "pattern": [

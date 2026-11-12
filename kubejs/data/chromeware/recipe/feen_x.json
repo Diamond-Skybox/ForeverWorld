@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:copper_sheet"
+      "item": "tfmg:copper_wire"
     },
     "B": {
       "item": "create:polished_rose_quartz"
@@ -16,7 +16,7 @@
       "tag": "c:plates/steel"
     },
     "E": {
-      "item": "create:electron_tube"
+      "item": "opencomputers:chip2"
     }
   },
   "pattern": [
