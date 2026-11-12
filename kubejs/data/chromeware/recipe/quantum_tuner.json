@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "tag": "c:plates/titanium"
+      "item": "advanced_ae:quantum_alloy_plate"
     },
     "B": {
       "item": "create:polished_rose_quartz"

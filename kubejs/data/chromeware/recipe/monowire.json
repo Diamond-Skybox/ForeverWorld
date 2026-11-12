@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "minecraft:string"
+      "item": "pantographsandwires:wire_coil"
     },
     "B": {
       "tag": "c:plates/titanium"

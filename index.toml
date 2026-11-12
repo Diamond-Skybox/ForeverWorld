@@ -372,7 +372,7 @@ hash = "810ace776ef89e5c039341921d033c9128089ad22d843c9b2eb9b80ea60fdf4c"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/monowire.json"
-hash = "d32844ed08e3a4388771c77443d321f23b6889fbb010b5df7044286720ea72a5"
+hash = "d5f1d26a292131287b8ed64f519388d192c99bba34a88c594e0520da4f7408f3"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/neofiber.json"
@@ -412,7 +412,7 @@ hash = "b1fd43ba4c240c3107e02da98992ba9345ed38dc93dc0b4c0a228674c6321131"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/quantum_tuner.json"
-hash = "bf113b6a7851c11aaa4eefb3ff70b44e3ea58ce414f944a43ae3a79921c865d2"
+hash = "4fdcfe0cf24082ec56a84b1f9e9592922e92055f16c7c2a9237cbc056102331c"
 
 [[files]]
 file = "kubejs/data/chromeware/recipe/quickhack_bait.json"

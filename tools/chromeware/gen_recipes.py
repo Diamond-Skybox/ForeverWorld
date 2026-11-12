@@ -7,7 +7,8 @@ Implant capacity costs are read from config/chromeware-server.toml.
 
 Rules, in this order:
   1. per-recipe parts (PARTS): OpenComputers: Rebooted memory, processors, storage and cards where the implant is one,
-     and sensors and lenses for the optics
+     sensors and lenses for the optics, Advanced AE quantum alloy plates in the Quantum Tuner and Pantographs and
+     Wires wire coils in the Monowire
   2. Create copper sheets by what they are in the implant (COPPER): TFMG copper wire in electrical parts, TFMG plastic
      sheets in medical and fluid parts and housings, TFMG rubber sheets in tendons and padding
   3. Create electron tubes -> OpenComputers microchips by implant tier (capacity cost 0-8 tier 1, 9-20 tier 2, 21-35
@@ -42,10 +43,12 @@ PARTS = {
     'cyberdeck': {'create:electron_tube': OC + 'cpu2', 'create:polished_rose_quartz': OC + 'componentbus1'},
     'mechatronic_core': {'create:electron_tube': OC + 'cpu1'},
     'cox_2_cybersomatic_optimizer': {'create:electron_tube': OC + 'cpu4'},
-    'quantum_tuner': {'create:electron_tube': OC + 'apu3'},
+    'quantum_tuner': {'create:electron_tube': OC + 'apu3', 'create:brass_sheet': 'advanced_ae:quantum_alloy_plate'},
     'sandevistan': {'create:electron_tube': OC + 'apu3'},
     'cogito_lattice': {'create:polished_rose_quartz': OC + 'alu'},
     'ex_disk': {'create:polished_rose_quartz': OC + 'hdd1'},
+    # other parts
+    'monowire': {'minecraft:string': 'pantographsandwires:wire_coil'},
     # power
     'microgenerator': {'create:cogwheel': OC + 'generatorupgrade'},
     'electromag_recycler': {'create:precision_mechanism': OC + 'batteryupgrade2'},
