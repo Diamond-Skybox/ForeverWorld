@@ -1,15 +1,15 @@
 name = "Forever Fixes"
-filename = "foreverfixes-1.23.2.jar"
+filename = "foreverfixes-1.23.3.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Diamond-Skybox/Forever-Fixes-1.21.1/releases/download/v1.23.2/foreverfixes-1.23.2.jar"
+url = "https://github.com/Diamond-Skybox/Forever-Fixes-1.21.1/releases/download/v1.23.3/foreverfixes-1.23.3.jar"
 hash-format = "sha256"
-hash = "cf97449007e755d3204988139550686e0e548ab9946537294a84118ec64fb12c"
+hash = "ca3ab632532fcbc20bc9c13f94ab649f9cb7964047e785579fb5d762c8713280"
 
 [update]
 [update.github]
 branch = "main"
 regex = "^foreverfixes-[0-9.]+\\.jar$"
 slug = "Diamond-Skybox/Forever-Fixes-1.21.1"
-tag = "v1.23.2"
+tag = "v1.23.3"
