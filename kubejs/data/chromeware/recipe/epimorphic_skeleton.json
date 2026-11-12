@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "item": "create:sturdy_sheet"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "  A  ",
+    "BCDCB",
+    "  E  ",
+    " CDC ",
+    " A A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:epimorphic_skeleton"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:sturdy_sheet"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "ABCBA",
+    "ADCDA",
+    " A A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:chitin"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "create:seats"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:brass_casing"
+    }
+  },
+  "pattern": [
+    " S ",
+    "BMB",
+    "ACA"
+  ],
+  "result": {
+    "id": "chromeware:surgery_chair",
+    "count": 1
+  },
+  "show_notification": false
+}

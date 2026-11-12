@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "C": {
+      "item": "chromeware:kiroshi_optics"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    " C ",
+    " D "
+  ],
+  "result": {
+    "id": "chromeware:clairvoyant",
+    "count": 1
+  },
+  "show_notification": false
+}

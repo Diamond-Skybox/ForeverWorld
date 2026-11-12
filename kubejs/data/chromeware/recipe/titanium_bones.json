@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    " AB",
+    "ACA",
+    "BA "
+  ],
+  "result": {
+    "id": "chromeware:titanium_bones",
+    "count": 1
+  },
+  "show_notification": false
+}

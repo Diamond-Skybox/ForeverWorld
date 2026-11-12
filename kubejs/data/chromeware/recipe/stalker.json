@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "chromeware:clairvoyant"
+    }
+  },
+  "pattern": [
+    "ABA",
+    " C "
+  ],
+  "result": {
+    "id": "chromeware:stalker",
+    "count": 1
+  },
+  "show_notification": false
+}

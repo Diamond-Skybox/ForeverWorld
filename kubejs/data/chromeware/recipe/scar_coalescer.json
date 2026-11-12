@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    " D "
+  ],
+  "result": {
+    "id": "chromeware:scar_coalescer",
+    "count": 1
+  },
+  "show_notification": false
+}

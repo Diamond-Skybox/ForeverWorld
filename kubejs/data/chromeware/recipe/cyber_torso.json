@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:sturdy_sheet"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "DAEAD",
+    " DCD ",
+    " B B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:cyber_torso"
+  },
+  "show_notification": false
+}

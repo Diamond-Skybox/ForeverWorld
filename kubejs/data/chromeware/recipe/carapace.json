@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    "A A"
+  ],
+  "result": {
+    "id": "chromeware:carapace",
+    "count": 1
+  },
+  "show_notification": false
+}

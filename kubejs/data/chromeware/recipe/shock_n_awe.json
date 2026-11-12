@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "minecraft:lightning_rod"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E "
+  ],
+  "result": {
+    "id": "chromeware:shock_n_awe",
+    "count": 1
+  },
+  "show_notification": false
+}

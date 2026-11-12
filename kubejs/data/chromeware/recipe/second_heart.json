@@ -1,0 +1,40 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "create:andesite_alloy"
+    },
+    "E": {
+      "item": "create:mechanical_pump"
+    },
+    "F": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "G": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    " A A ",
+    "ABCBA",
+    "CDEFC",
+    " AGA ",
+    "  A  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:second_heart"
+  },
+  "show_notification": false
+}

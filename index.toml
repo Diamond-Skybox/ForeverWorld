@@ -175,8 +175,420 @@ file = "kubejs/data/boss_checklist/server_bosses_ids.json"
 hash = "60a60884357c2622c4d518ecfe91163b097cff8cec92c823008bce3199707541"
 
 [[files]]
+file = "kubejs/data/chromeware/recipe/adrenaline_booster.json"
+hash = "5b1d0a31803ca5a5bd389ee30d247279b8f0c14e078673e36d14412d3f5b5a45"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/adrenaline_converter.json"
+hash = "48561ce968afd5b0f6e7634ab8ae8b87680ca69300cbe2652282f46af898e098"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/adreno_trigger.json"
+hash = "f0696696c271a26cf267389efa339f2bd358ef2bcac1c7eb14ce6fb571c7092d"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/atomic_sensors.json"
+hash = "dd0ee9c6407b2a9f057137311e3c2528e236cffc63dd152c11765a95a96de6a1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/axolotl.json"
+hash = "beca2a5e9589eb37b20f5d0734bd58acbd24124010403b86898d5d8b012b61a1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/bioconductor.json"
+hash = "5ff1ee20a1904a415381d341c27f4c58adf51a7e479c7c0e997d2eb9f07901f1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/biomonitor.json"
+hash = "c929f5ccf774bebafc4d53fb6b4c2cf711d94be12c96921a7a0f97d28d05c62f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/bionic_joints.json"
+hash = "c8c5d24e80f4189c371a28255455c915add79c651ef6d0cbbf795e3bb23bf456"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/black_mamba.json"
+hash = "32fbac5375ef05b30ed95d724b012958a037d5d6565e5ca285c9d9f3347de776"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/blood_pump.json"
+hash = "6e8c2a538997dc77733c84b520cc6783c19502e5eca2c2dbd1d69f99b5b5ec39"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/camillo_ram_manager.json"
+hash = "ca3621985f5e0de89650cd7c3c025ad078143ee182216f5600ac1d82ac47241d"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/carapace.json"
+hash = "69c98e88c9595c992a66a55b1f73e5441d0f0959ed0d9192aa879f7d1c53b350"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/chitin.json"
+hash = "36ddb43dc0e2737a5de7287ccc06f71ca24d8d14ea30c4e89ccc8547fe0219c8"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/chrome_compressor.json"
+hash = "f8c505907438096cccf2fa38b488b08d40c18769b9c8df2dc8f96281ca958d47"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/clairvoyant.json"
+hash = "5ecf7ca9479b9a132fe86a0eb1535f2c9173e7835cc4c524ee546fc6c16019d2"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/clutch_padding.json"
+hash = "e4699cc1fb646c70dd7836a51f0d7a8d2cb5fa0bab2f63d72939cb5d28786510"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cockatrice.json"
+hash = "7feecda29c1b53098f43910eaa5d31537bfbca39e4477f880a5f880d4408ac52"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cogito_lattice.json"
+hash = "17d4d221c49495e7559fcbe02d94b3cb246113fd3d4077fa36982aec6ac5a1d6"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/countershell.json"
+hash = "74a13ee9e6e90e190f8b9960df942458ed81d14b3893cc71125113b811a3bb24"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cox_2_cybersomatic_optimizer.json"
+hash = "47fbd7db5f9531e7d707aeef4ea846ada4b8c650348c5e2677458b33e4e0cdda"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cyber_arm.json"
+hash = "e293eb725908d944013678bc6f071b84b83839bf13608f8426e50af1263d3d19"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cyber_leg.json"
+hash = "1be81b98a4290e9a0b26923a9c484a0b009102bef2881cde4f03dd6b4e633604"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cyber_torso.json"
+hash = "440831a4ece084fc00e65b802f316650bc4ed4893a3fd6bbea90809bc9220451"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/cyberdeck.json"
+hash = "75b3db75ed47b281d8888c202364f7f0d07e1520d69626ce98062a57d3e2ca9d"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/deep_field_visual_interface.json"
+hash = "f84ae96c2af8a88d8580b3adc98850d6b7d1aed94c42b7c8c26d06db28ca70de"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/dense_marrow.json"
+hash = "5828dd038038790291074a3c3c7cb032aca297faa9cda3ccef1feae95ab65d14"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/doomsayer.json"
+hash = "df22f67782701b91c2d88602890f851a21f339c2d8537276e7026d7ed4b9702c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/electromag_recycler.json"
+hash = "92ae0cfdb90e49aeb4f406f7cde3db989d1cbe3a00c9ed30f9d87a19887ca9c0"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/empty_syringe.json"
+hash = "90d4fd648fc3e17a3085e972e4d53310a37d236e8b5eb623527bb7fb4069d68c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/epimorphic_skeleton.json"
+hash = "67ffbf79a394d0ee7c0c4489a3fb55979d2018a8a5c682a81c8a91f2a3a8be79"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/ex_disk.json"
+hash = "2666929eb6f0c769b4fd60945977879b1fcb0e1869e9f35bda8ecdf753a8181c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/feedback_circuit.json"
+hash = "0c88479398cd39aaab04ede1838c10cdede7dd992f3d09a0a74644c14d461fa9"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/feen_x.json"
+hash = "e4033e454d5e7e5c639695994530a78a49d827f7f437abde407046b11a1617bd"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/fortified_ankles.json"
+hash = "a19b5dd88542570ae0bfcc30121e18d1149ac93e891be6d160c974654c3c9641"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/gorilla_arms.json"
+hash = "72a6a56b0f01eeb6813b2eb2a7290e024bfe0ea6b8a01d83ba88ea339ce31b6f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/handle_wrap.json"
+hash = "523e2e4e7482128b9915bd5d306765aabd671d8e9694536ad9da20cdf294c450"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/heal_on_kill.json"
+hash = "340b8cdc22c58274551e25190fa6469991f7b4ecf2b2cdeed11312c35525116e"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/immovable_force.json"
+hash = "612de15a19aebad4185a938b503cf51d5a18fe015876460867715eb168d892cf"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/isometric_stabilizer.json"
+hash = "abe69b5c267c6f9a60ddd913df85fc4efba9d2a7943b5de38549f709e4ad0c08"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/jenkins_tendons.json"
+hash = "b757382a43cffef094a149eaaa1fcba99eca1b7ae6e1bd53ab693b92c30ef2cf"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/kinetic_frame.json"
+hash = "2cfe21f050efc05397f932b8927ad8d2cebbf7e75576835a9c389ee164a4503c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/kiroshi_optics.json"
+hash = "7519cbe88b7ac8f413a7e85d0e8c1f3142bac47d3673a17fe717b3b2d93e8a7f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/leeroy_ligament_system.json"
+hash = "6d16448350dfddfa4c5d12dfe1795b3b55ead9abc75863f23973e4f9afbfc419"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/lynx_paws.json"
+hash = "073bed05e96e9e8f5a08927a23fb9f112d3bc1a570e02c096bb9ecfb37b018b1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/mantis_blades.json"
+hash = "9375b94d5c58156dbd3e4af4fdd32272a8d4123b273e473ef0602f92e3f8ee90"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/mechatronic_core.json"
+hash = "27dc66a8bba221573fc7bab0f576c4b4b69092d55aa7f7bdaf1f61d867397781"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/memory_boost.json"
+hash = "dcbcc328dc80386a33c007ba5fda5f6a56cae5789de0fb7a34930443f72cec1e"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/microgenerator.json"
+hash = "c8ea3efa63d69e5b6d1d0191369f5ed81a59956d36ddfa330d3e8b6fa9782852"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/microrotors.json"
+hash = "810ace776ef89e5c039341921d033c9128089ad22d843c9b2eb9b80ea60fdf4c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/monowire.json"
+hash = "b40bb5636f1cd119a2e33318b0bd993aeffdd53a85f6a106629f3a9bed8a725d"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/neofiber.json"
+hash = "4f9fa42750c4ee58a458c31664dcc1b81215705da43f41896f8c68b333f71cc8"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/newton_module.json"
+hash = "d4adbb716fb2c33ed3d0f63722639a73340a05aa9914f5d1625918359756424a"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/optical_camo.json"
+hash = "536dc24a174539e296d0f113223999283d429dcac872b69573754b6806b41f02"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/pain_editor.json"
+hash = "d769ebf8e5f771e2641a75fbfb3cbd321e690ad883a2d74a025faa6027a1f68a"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/painducer.json"
+hash = "2e2957eb8eedf5deabcb8800ab5dfa9fdf999f11b5a466821541e74da9217f61"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/para_bellum.json"
+hash = "0f835e0cac09e13426ac6b27220b6d282d36c55ef278c1f7265a8a28041e59cd"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/peripheral_inverse.json"
+hash = "214cc21c0e6b68e4c228b7afe88c8488f956cddd81fa8c29e2a8a3f1f894c3c4"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/projectile_launch_system.json"
+hash = "e90cec3499d595ffcc4ad50708a8c8db52a6e1a3c034661a186dd14da6a7ef22"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/proxishield.json"
+hash = "c5ab663516c9d9ce96cf6f99cf26e51013e864a9208b43095e37761dbd4fb1fc"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quantum_tuner.json"
+hash = "528963a21f61358b4f783663ace4dd53f2648c1e373f303343ffa1913b71f0f6"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_bait.json"
+hash = "cb77129a544500096eb6c28235a7de4c8339dd74c9d7a4152f8f2ad83dfc8401"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_blackwall_gateway.json"
+hash = "19cc14ec83f2db4a248b0ff49a11ecb07bbd9b72c9bb118cffbb95ea34874834"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_contagion.json"
+hash = "94c7239fd8ca37add20a39d09e5d9baaf1ed00ec784f993bcaeabb2e6670f49f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_cripple_movement.json"
+hash = "4830af04cc30731d8ef1a9c14c3cb99c1d0b4d233811c46617cde5a74ee0dfe0"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_cyberpsychosis.json"
+hash = "d5ac7502083cc471f031b4fbd80fc72f189a75e73f7f6d561b371afa583a88f4"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_cyberware_malfunction.json"
+hash = "4bf94b508a035009a4486ef1305fc0bf72ec75cb9f8d2e97c4ba513e4c7f2eea"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_detonate_grenade.json"
+hash = "a944144d07a9a385e57c08dfa33edda9375f68af369c66968dc77eef3f50c139"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_memory_wipe.json"
+hash = "3b74b8335e675a713c9c8a4ac6fae9f29b3a96a8475d99646c225b6a15ec03b1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_overheat.json"
+hash = "8c277a3f04080039cb46d84b46a7cae9e86551e9d606b570eafc44192769e07b"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_reboot_optics.json"
+hash = "ce88321bc7f36e540c506fa0a7a051db740d4aa4b47fcfecf09ae6ab0389b726"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_remote_activation.json"
+hash = "5f25b3178b6e01b56fceae81f965d8d22656ec297db393f9281585d774a6c47c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_request_backup.json"
+hash = "6588638371e27e4e6459f2e2a24df9c8ccdd47e367c0dd99cc25cef161c74262"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_short_circuit.json"
+hash = "27f75d623022e0789c991db281348bfa00d9a220945464729b2991ac093c7079"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_suicide.json"
+hash = "42ef35e656f78b40f39430c11e158952046468bb55ff2b05d965318493de7781"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_synapse_burnout.json"
+hash = "6c3deeee5cc2c46b6985cd494d4f408835cea01c371078903073f0f45eebc1e1"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_system_collapse.json"
+hash = "72041d81b997ee7d118d8fc879be21a9a52d2c6781571c12902bb29d883b39c0"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/quickhack_weapon_glitch.json"
+hash = "877a523cc6d0c77befc9d0cbd161a2193ff43b590e4ca2666012484dbfc5c186"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/ram_reallocator.json"
+hash = "bc22b26cddfcb91bfe33e3c3f4e980496e4cd06aaedd74a3ac9e1b9d786d94a3"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/ram_recoup.json"
+hash = "1c50613705d7c02349af416ec355680d6df4224ceb6661047074d648457d3b44"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/ram_upgrade.json"
+hash = "496f3f11947fe9a13f3a3d7769e2ce8f00340370d03b8411cb27eb72c822a504"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/rangeguard.json"
+hash = "34594039c5425bd80406dbc4fd801aa465b241a911ba348e29f6a1a72ca3db24"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/rara_avis.json"
+hash = "a56a1e9c1fea0ee97b7d41fd3c7a75b28bf3a61039b9bf46243f97bc7e28fd8d"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/reflex_tuner.json"
+hash = "d34430b325f8896ec8c0a998489cdf812ccff17ce0f921b2e3b1d66ea8138822"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/reinforced_tendons.json"
+hash = "3fea3509703e8283ec654a0fbf320ededbf75cec9b12966f97608cece0ed1c84"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/revulsor.json"
+hash = "919dde82d0e021d01b374c85b1383c69223360b7a41b38ec6296be896b8cc146"
+
+[[files]]
 file = "kubejs/data/chromeware/recipe/sandevistan.json"
-hash = "be948e7cf3f1d941ce1f27b32a76bbb1c26831c57828ad6d9e51c97e83a45194"
+hash = "31d7f3d933eae0addfbb4dafc241ee882f2db2007996f2ed3d350eaed00c386e"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/scar_coalescer.json"
+hash = "de940b95bb283e98bcb344b0adb6fc7ac36a75f4146a4fdf4c84330288bc4791"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/scarab.json"
+hash = "2d414d7ba96ac76895a6babcb4f51b6089ee7c8e86a1356e3522ea10debb0611"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/second_heart.json"
+hash = "6897d0110e592b0e6a2e40b0b408587eb4ab8b4a30fa45b4899a55d8b489710f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/self_ice.json"
+hash = "1534a6a74be8e3a41dc319048b7730375ae99e974267868bc16c8c3c16716a54"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/sentry.json"
+hash = "b9d08465b220498a3b140f7f7bafe6ed34ed28c5a5f80b58ee449672552d57f3"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/shock_absorber.json"
+hash = "2fd4d5cfec83eabd47bc54289661f0a05b4923c1f9f9558bdae665f3d59cb0a5"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/shock_n_awe.json"
+hash = "223863c7fd5b168b70e8f2c0c1695060e27879ccbb96579b39707e1e5bb78366"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/spring_joints.json"
+hash = "6e2cb1d8ce24afb966460397de6168e4da6e4333b585e4b60e61e89ea549247c"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/stabber.json"
+hash = "2dcd2d8702dd2e781b2f2a2b051b546b44a902a9e31ce83bfc1ca5cece7ff11f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/stalker.json"
+hash = "3521695a787d94e0827379a5e76c1f94d72ad9575afaf4066659d07a9f8422dc"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/subdermal_armor.json"
+hash = "f35bb5f562ee84deb4cddd2a4e844c59c901343579ee1aec5395d9c2c1a9604f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/surgery_chair.json"
+hash = "ea840154a2e1d6104f61facf29ad50a0804daf11cd59972d25eac9fa28a4e7c5"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/threat_evac.json"
+hash = "bb4b08699b03da24c160009ed07967d7e2894c103bf6555d7330d20a8ec0a998"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/titanium_bones.json"
+hash = "f107a3485db387d2fa7cfe636783d0bee4d87e40b402576c093e5bd3c68b6d1e"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/tyrosine_injector.json"
+hash = "216b41515c059d5b169ddbb76fd99289c9b586123ccc3962f062b9f13c99c212"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/universal_booster.json"
+hash = "c87fb198846bc95ffa7b31137a0a372d942b6709fbf52e43ff72dff14825f34f"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/visual_cortex_support.json"
+hash = "49a1151820ab08f6669560c19b0fa268c5882f2bf0607518cd2322c82aa013e5"
+
+[[files]]
+file = "kubejs/data/chromeware/recipe/zetatech_berserk.json"
+hash = "5ce56e663ed2bccb4e36296763f0cfab36d5b470965726d334e8575b40114786"
 
 [[files]]
 file = "kubejs/data/cocktailsdelight/recipe/cooking/grenadine.json"
@@ -289,10 +701,6 @@ hash = "060bd52b51c34858bd443c493243499e953c5abd39c65c5534028e4bb6690182"
 [[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
-
-[[files]]
-file = "kubejs/server_scripts/chromeware_titanium.js"
-hash = "b95ae099d8d388eec159f7f2cd03376066ddfedfeaeced3387b93c157551e4e2"
 
 [[files]]
 file = "kubejs/server_scripts/immersive_aircraft.js"

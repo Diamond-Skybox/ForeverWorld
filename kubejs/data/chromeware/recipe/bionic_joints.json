@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:shaft"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "id": "chromeware:bionic_joints",
+    "count": 1
+  },
+  "show_notification": false
+}

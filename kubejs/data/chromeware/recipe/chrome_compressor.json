@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "tag": "c:plates/steel"
+    },
+    "F": {
+      "item": "create:zinc_ingot"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    " CDC ",
+    " EFE ",
+    " E E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:chrome_compressor"
+  },
+  "show_notification": false
+}

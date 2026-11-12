@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "minecraft:dispenser"
+    },
+    "C": {
+      "item": "synaxis:dynamic_joint_motor"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE",
+    " E "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:projectile_launch_system"
+  },
+  "show_notification": false
+}

@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:sturdy_sheet"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "create:redstone_link"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    },
+    "E": {
+      "item": "create:polished_rose_quartz"
+    },
+    "F": {
+      "item": "create:precision_mechanism"
+    },
+    "G": {
+      "tag": "c:plates/titanium"
+    },
+    "H": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "DEFED",
+    "GBHBG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:cyberdeck"
+  },
+  "show_notification": false
+}

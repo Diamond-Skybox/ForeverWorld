@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "minecraft:spyglass"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BC ",
+    "ADA"
+  ],
+  "result": {
+    "id": "chromeware:visual_cortex_support",
+    "count": 1
+  },
+  "show_notification": false
+}

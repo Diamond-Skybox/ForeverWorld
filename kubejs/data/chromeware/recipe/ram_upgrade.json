@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:polished_rose_quartz"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "item": "create:zinc_nugget"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    },
+    "E": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    " AB",
+    "CDC",
+    "EA "
+  ],
+  "result": {
+    "id": "chromeware:ram_upgrade",
+    "count": 1
+  },
+  "show_notification": false
+}

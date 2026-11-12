@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "chromeware:empty_syringe"
+    },
+    "B": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "A A",
+    " B ",
+    "CDC"
+  ],
+  "result": {
+    "id": "chromeware:tyrosine_injector",
+    "count": 1
+  },
+  "show_notification": false
+}

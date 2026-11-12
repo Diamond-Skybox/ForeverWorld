@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "create:andesite_alloy"
+    },
+    "C": {
+      "item": "create:propeller"
+    },
+    "D": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "id": "chromeware:microrotors",
+    "count": 1
+  },
+  "show_notification": false
+}

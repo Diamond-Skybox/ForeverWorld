@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    "A A",
+    "AAA",
+    " A "
+  ],
+  "result": {
+    "id": "chromeware:subdermal_armor",
+    "count": 1
+  },
+  "show_notification": false
+}

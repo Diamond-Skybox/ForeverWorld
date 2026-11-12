@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:leather"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " AB",
+    "CBA",
+    "B  "
+  ],
+  "result": {
+    "id": "chromeware:handle_wrap",
+    "count": 1
+  },
+  "show_notification": false
+}

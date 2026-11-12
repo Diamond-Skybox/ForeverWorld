@@ -1,0 +1,37 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:precision_mechanism"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "create:shaft"
+    },
+    "E": {
+      "item": "synaxis:dynamic_joint_motor"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E ",
+    "CDC",
+    " F "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:cyber_arm"
+  },
+  "show_notification": false
+}

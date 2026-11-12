@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "minecraft:comparator"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "tag": "c:plates/steel"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "id": "chromeware:feedback_circuit",
+    "count": 1
+  },
+  "show_notification": false
+}

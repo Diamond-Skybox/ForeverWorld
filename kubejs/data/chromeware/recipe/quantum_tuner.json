@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:polished_rose_quartz"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "item": "create:rotation_speed_controller"
+    },
+    "F": {
+      "item": "minecraft:clock"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    "ACDCA",
+    "BDEDB",
+    " AFA "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:quantum_tuner"
+  },
+  "show_notification": false
+}

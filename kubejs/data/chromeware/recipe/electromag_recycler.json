@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:lightning_rod"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "chromeware:feedback_circuit"
+    },
+    "D": {
+      "tag": "c:plates/titanium"
+    },
+    "E": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "id": "chromeware:electromag_recycler",
+    "count": 1
+  },
+  "show_notification": false
+}

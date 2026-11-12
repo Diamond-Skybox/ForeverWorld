@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:piston"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "create:belt_connector"
+    },
+    "D": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "D D"
+  ],
+  "result": {
+    "id": "chromeware:reinforced_tendons",
+    "count": 1
+  },
+  "show_notification": false
+}

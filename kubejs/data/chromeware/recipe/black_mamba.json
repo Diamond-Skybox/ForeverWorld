@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "chromeware:empty_syringe"
+    },
+    "C": {
+      "item": "minecraft:spider_eye"
+    },
+    "D": {
+      "tag": "c:plates/titanium"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "F": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    " F "
+  ],
+  "result": {
+    "id": "chromeware:black_mamba",
+    "count": 1
+  },
+  "show_notification": false
+}

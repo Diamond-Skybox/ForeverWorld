@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "create:copper_sheet"
+    },
+    "D": {
+      "item": "create:zinc_nugget"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "id": "chromeware:shock_absorber",
+    "count": 1
+  },
+  "show_notification": false
+}

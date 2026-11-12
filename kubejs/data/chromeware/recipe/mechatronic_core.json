@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    " E "
+  ],
+  "result": {
+    "id": "chromeware:mechatronic_core",
+    "count": 1
+  },
+  "show_notification": false
+}

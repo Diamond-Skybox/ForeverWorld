@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:clock"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    },
+    "E": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "id": "chromeware:newton_module",
+    "count": 1
+  },
+  "show_notification": false
+}

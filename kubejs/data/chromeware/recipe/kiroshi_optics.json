@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "B": {
+      "item": "create:goggles"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "id": "chromeware:kiroshi_optics",
+    "count": 1
+  },
+  "show_notification": false
+}

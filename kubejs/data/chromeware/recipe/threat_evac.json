@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "chromeware:empty_syringe"
+    },
+    "B": {
+      "tag": "c:plates/titanium"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "create:copper_sheet"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    " D "
+  ],
+  "result": {
+    "id": "chromeware:threat_evac",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:copper_sheet"
+    },
+    "B": {
+      "item": "create:polished_rose_quartz"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "tag": "c:plates/steel"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CBC",
+    "DED"
+  ],
+  "result": {
+    "id": "chromeware:feen_x",
+    "count": 1
+  },
+  "show_notification": false
+}

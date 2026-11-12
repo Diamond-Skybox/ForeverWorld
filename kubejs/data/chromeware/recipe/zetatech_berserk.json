@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "chromeware:empty_syringe"
+    },
+    "B": {
+      "item": "create:zinc_nugget"
+    },
+    "C": {
+      "tag": "c:plates/titanium"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    },
+    "G": {
+      "item": "create:copper_sheet"
+    },
+    "H": {
+      "item": "create:sturdy_sheet"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "   AB",
+    "  CDA",
+    " CEC ",
+    "FDG  ",
+    "HI   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "chromeware:zetatech_berserk"
+  },
+  "show_notification": false
+}

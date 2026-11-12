@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/steel"
+    },
+    "B": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "tag": "c:plates/titanium"
+    }
+  },
+  "pattern": [
+    "AA AA",
+    "AB BA",
+    "CDCDC",
+    "E   E"
+  ],
+  "result": {
+    "count": 2,
+    "id": "chromeware:gorilla_arms"
+  },
+  "show_notification": false
+}

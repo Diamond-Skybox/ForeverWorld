@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "ABA",
+    " C "
+  ],
+  "result": {
+    "id": "chromeware:fortified_ankles",
+    "count": 1
+  },
+  "show_notification": false
+}

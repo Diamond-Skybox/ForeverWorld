@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "A A",
+    "ABA",
+    "C C"
+  ],
+  "result": {
+    "id": "chromeware:lynx_paws",
+    "count": 1
+  },
+  "show_notification": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:zinc_nugget"
+    },
+    "C": {
+      "item": "create:sturdy_sheet"
+    },
+    "D": {
+      "item": "create:electron_tube"
+    },
+    "E": {
+      "tag": "c:plates/steel"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EDE"
+  ],
+  "result": {
+    "id": "chromeware:heal_on_kill",
+    "count": 1
+  },
+  "show_notification": false
+}

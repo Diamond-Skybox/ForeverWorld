@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "minecraft:leather"
+    },
+    "C": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    " A "
+  ],
+  "result": {
+    "id": "chromeware:clutch_padding",
+    "count": 1
+  },
+  "show_notification": false
+}

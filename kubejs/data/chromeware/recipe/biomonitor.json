@@ -1,0 +1,28 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:plates/titanium"
+    },
+    "B": {
+      "item": "create:stressometer"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "id": "chromeware:biomonitor",
+    "count": 1
+  },
+  "show_notification": false
+}
