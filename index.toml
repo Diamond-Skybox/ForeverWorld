@@ -723,6 +723,14 @@ file = "kubejs/data/vampirism/loot_table/inject/stronghold_library.json"
 hash = "e63ef789b1ae5ee6c481e028e44b404be5b2059511a54921e1481467501f6c91"
 
 [[files]]
+file = "kubejs/data/vegandelight/tags/item/not_vegan.json"
+hash = "125a603c21b761413528e123b3d8ecc6ffd679036d2178e831e1a578160690aa"
+
+[[files]]
+file = "kubejs/data/vegandelight/tags/item/vegan.json"
+hash = "07b677f2bfd01a4c62e9966574d80f4b0596365897dd20392740ccc7d5c786df"
+
+[[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
 
