@@ -2753,11 +2753,6 @@ hash = "17adb6b0067e90b95e1c7636470e353e089cc39cfc3baca6ba38b3a74cde5b85"
 metafile = true
 
 [[files]]
-file = "mods/pv-addon-soundphysics.pw.toml"
-hash = "bb9d22cfbfc00ef46daff5fd1fa6b427cf12a78be11a2c7445af376ad9efd33d"
-metafile = true
-
-[[files]]
 file = "mods/ramadan-delight.pw.toml"
 hash = "eaae3cd8e1e338109bf83d00076311e4f10f1b5e4a9c4ec7baf65f77d65fdcea"
 metafile = true
@@ -3030,11 +3025,6 @@ metafile = true
 [[files]]
 file = "mods/soul-fire-d.pw.toml"
 hash = "aa7a2c186bf1ce65441be06d1c9a5af18b054098e4bdc37273fb4e75f0d27fc5"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-aeronautics.pw.toml"
-hash = "e3b7cbf10acc89d3c0adb4b538cf4305e3f50f1910053c75c474676f8b9bf83a"
 metafile = true
 
 [[files]]
