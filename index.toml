@@ -703,6 +703,26 @@ file = "kubejs/data/tombstone/tags/entity_type/increase_alignment.json"
 hash = "060bd52b51c34858bd443c493243499e953c5abd39c65c5534028e4bb6690182"
 
 [[files]]
+file = "kubejs/data/vampirism/loot_table/inject/abandoned_mineshaft.json"
+hash = "343d90dc71f9ad9d1c1c31d6a7bf285cd4c96118c0b88f724e7dcfcc9eda95a5"
+
+[[files]]
+file = "kubejs/data/vampirism/loot_table/inject/desert_pyramid.json"
+hash = "9289d5baa7de712491432a01d548f1e223d06bd7732e470c4efdb93ec07cfe93"
+
+[[files]]
+file = "kubejs/data/vampirism/loot_table/inject/jungle_temple.json"
+hash = "05b59549070ba39402e79684257f89ec1de14249c1e2b3c4e2abc7d104d3de10"
+
+[[files]]
+file = "kubejs/data/vampirism/loot_table/inject/stronghold_corridor.json"
+hash = "c4d10d228478076c446b7e4ceb4eb6706366a58aa3cec07310545cad265de17a"
+
+[[files]]
+file = "kubejs/data/vampirism/loot_table/inject/stronghold_library.json"
+hash = "e63ef789b1ae5ee6c481e028e44b404be5b2059511a54921e1481467501f6c91"
+
+[[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
 

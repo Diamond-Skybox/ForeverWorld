@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "functions": [
+            {
+              "faction": {
+                "id": "vampirism:vampire"
+              },
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:amulet",
+          "type": "minecraft:item",
+          "weight": 333
+        },
+        {
+          "functions": [
+            {
+              "faction": {
+                "id": "vampirism:vampire"
+              },
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:ring",
+          "type": "minecraft:item",
+          "weight": 333
+        },
+        {
+          "functions": [
+            {
+              "faction": {
+                "id": "vampirism:vampire"
+              },
+              "function": "vampirism:add_refinement_set"
+            }
+          ],
+          "name": "vampirism:obi_belt",
+          "type": "minecraft:item",
+          "weight": 333
+        },
+        {
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "max": 0.6,
+                "min": 0.6,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "vampirism:blood_bottle",
+          "type": "minecraft:item",
+          "weight": 194
+        },
+        {
+          "name": "vampirism:garlic",
+          "type": "minecraft:item",
+          "weight": 146
+        },
+        {
+          "functions": [
+            {
+              "function": "vampirism:add_book_nbt"
+            }
+          ],
+          "name": "vampirism:vampire_book",
+          "type": "minecraft:item",
+          "weight": 78
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 12753
+        }
+      ]
+    }
+  ]
+}
