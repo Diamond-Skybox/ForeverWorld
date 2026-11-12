@@ -50,10 +50,10 @@ showVivecraftNotice = true
 	thunderAttenuationDistance = 2000
 	#Specifies if new rain sounds should replace the vanilla ones.
 	#Default: true
-	customRainSounds = true
+	customRainSounds = false
 	#Specifies if custom rain rendering should be used. Automatically disabled when using Pretty/Particle Rain.
 	#Default: true
-	renderCustomRain = true
+	renderCustomRain = false
 
 #Visual
 [visual]
@@ -68,7 +68,7 @@ showVivecraftNotice = true
 	transparency = true
 	#Specifies if a purely visual 2D atmospheric cloud layer should render.
 	#Default: true
-	atmosphericClouds = true
+	atmosphericClouds = false
 
 #Seed
 [seed]
@@ -91,7 +91,7 @@ showVivecraftNotice = true
 	testSidesThatAreOccluded = false
 	#Specifies if 'rain' beneath storm clouds should appear or not. Disabling can improve performance, especially when in VR.
 	#Default: true
-	renderStormFog = true
+	renderStormFog = false
 	#Specifies the quality of the level of detail. A lower setting makes clouds lower quality faster.
 	#Default: HIGH
 	#Allowed Values: LOW, MEDIUM, HIGH

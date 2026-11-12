@@ -1,0 +1,12 @@
+name = "Hoarfrost: Snow & Blizzards"
+filename = "hoarfrost-neoforge-1.21.1-1.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0a9209d712ef5ed2617b91e279f2025a6e460ed9"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9340460
+project-id = 1736975

@@ -10,7 +10,7 @@ hash = "ba382558cdd778cbab64d6e24b0892fc51364555410bded9e26f06ea70689537"
 
 [[files]]
 file = "config/bettersimpleclouds-client.toml"
-hash = "e7d2a63dd17a62d0bdfe18cda735e2ba7bed19860253fb4f5b7e50c91f74d640"
+hash = "75ab8c6e1ac2c3dc28d30c889d8929f0b13e663b94ca702d9589012e5ef5ddf3"
 
 [[files]]
 file = "config/bettersimpleclouds-common.toml"
@@ -42,6 +42,10 @@ file = "config/hemodynamics.json"
 hash = "0f72d9c2fbbd986a1d65833943aeca5ed7d161d77504a36f830770da9f4dacfc"
 
 [[files]]
+file = "config/hoarfrost-server.toml"
+hash = "c979f6ab2efd821fbe43515aede05f730c3c01a106e259dcdd2374ba9c983f14"
+
+[[files]]
 file = "config/invtweaks-client.toml"
 hash = "6a15400a1a1d18f4eacdc2d33f8fec856a04c0f8b2a76a4e87b2bc147909c72d"
 preserve = true
@@ -56,7 +60,7 @@ hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "cc511d78b0c93028e8eafb9f9fda1919ded7cf4a0c15b1ce93eca45c0f38b4a2"
+hash = "26ce6e12cbd634c8e61b411a6adf71211e75c38d03150ee874bde6539d74a95b"
 
 [[files]]
 file = "config/simpleclouds-common.toml"
@@ -64,7 +68,7 @@ hash = "1a8f15342cdda674661e2e1883f56ae591b8daf580315baa3a99d2f200ad204b"
 
 [[files]]
 file = "config/simpleclouds-server.toml"
-hash = "d85f7747f4514b67793234f7cd940f422cad8c83506b07d536ff9da01d145ac1"
+hash = "a3679c2d577d1ec0a0017e2b1571b40032f895438eefb4feca1a105103d74348"
 
 [[files]]
 file = "kubejs/assets/astralsorcery/lang/en_us.json"
@@ -1329,6 +1333,11 @@ hash = "05421fcf8dd2b7fd0d41af7b0899ce83c06e977899277347daecc80288e05f09"
 metafile = true
 
 [[files]]
+file = "mods/diegesis.pw.toml"
+hash = "cb1e49bcf4dd673050831fba2e364b16c21959d6eec49f2e0e44f63d24ed28bf"
+metafile = true
+
+[[files]]
 file = "mods/discerning-the-eldritch.pw.toml"
 hash = "eedfba7c42113671df742d7c3e264799e7a90c42068470ddadb2506c5d1db9e7"
 metafile = true
@@ -1839,6 +1848,11 @@ hash = "8938384665c05e0be99a4a9398687c83d4765c82d327b1f61d15ddbb7c3b2911"
 metafile = true
 
 [[files]]
+file = "mods/hands-on-delight.pw.toml"
+hash = "93c742aca9aad4464fc184b5554a740e9c511e1465f6f9fcf9b20c966719aa21"
+metafile = true
+
+[[files]]
 file = "mods/hazen-n-stuff.pw.toml"
 hash = "fce782d9e0860ca68b66b821d2e13c4698353440a0287c2e800269e372ce9b24"
 metafile = true
@@ -1861,6 +1875,11 @@ metafile = true
 [[files]]
 file = "mods/hexerei.pw.toml"
 hash = "c954f52b54853d2775eb155983cb9a1f7e2363645789471f5f74203a0cb6e64e"
+metafile = true
+
+[[files]]
+file = "mods/hoarfrost-snow-blizzards.pw.toml"
+hash = "c8f7491d15208bbdf29ec194bdab0dd82a40f5cf2407ec78318b8b9d6aeafd2a"
 metafile = true
 
 [[files]]
@@ -1976,6 +1995,11 @@ metafile = true
 [[files]]
 file = "mods/interiors.pw.toml"
 hash = "624f4f1b0abf7ea4e82645e022bb8c868b1665f59f84d1d2cf63fe21387ec976"
+metafile = true
+
+[[files]]
+file = "mods/inventory-backups.pw.toml"
+hash = "578a138c41622ce4960928afbe1b3cb01a2e9400fd52629f8f3ea36172718615"
 metafile = true
 
 [[files]]
@@ -2256,6 +2280,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "cbb15e2b77b0ece1184c2f8d9144e99940ee8b35fe30c74c55ebf9ebb5e78600"
+metafile = true
+
+[[files]]
+file = "mods/living-wind.pw.toml"
+hash = "ca62d176646b1531c3c797975a9f81d44d6fe0aca60b60cdcd4a71b831e44449"
 metafile = true
 
 [[files]]
@@ -2626,6 +2655,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "a89367e9a6cf43f8a118c7d46f2e45b2deb94405b6c91cb8470b2f8683d53b59"
+metafile = true
+
+[[files]]
+file = "mods/petrichor-rain-storms.pw.toml"
+hash = "4c697a76b105f5b6b61d20c0351609c109bfaabf53ec162fc68ef3a5182e753d"
 metafile = true
 
 [[files]]

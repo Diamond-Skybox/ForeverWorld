@@ -10,7 +10,7 @@
 	#outgrows its slot is moved to a bigger one on its next generation (the shader stops at the slot
 	#capacity instead of spilling into its neighbour, which is what glitched Simple Clouds' own
 	#'concurrent' mode). Turn off to fall back to Simple Clouds' stock mesh path. Applies live.
-	syncFreeMeshPath = true
+	syncFreeMeshPath = false
 	#Rebuild only the cloud chunks whose picture would change, ON by default (sync-free mesh path only).
 	#Simple Clouds rebuilds EVERY cloud chunk in view on every mesh cycle. What changes a chunk is known:
 	#a cloud's edge moving through it (a cloud is a fixed noise field cut out by a circle that drifts
@@ -201,7 +201,7 @@
 	#distance, never under cover, and only inside a raining cloud region - so rain stops at the cloud's
 	#edge. Density follows the rain strength of the storm overhead; snow falls as slow fluttering
 	#flakes. Vanilla's ground splashes are unchanged. Off = Simple Clouds' own rain.
-	downpourRain = true
+	downpourRain = false
 	#Density multiplier of the downpour: how many streaks fall at full rain strength relative to the
 	#maximum below (0.1 = a drizzle, 1 = normal, 3 = a wall of water). Applies live.
 	# Default: 1.0
@@ -236,14 +236,14 @@
 	#Not under a shader pack (the pack fogs its own world). 0 = off. Applies live.
 	# Default: 100
 	# Range: 0 ~ 200
-	rainFogStrength = 100
+	rainFogStrength = 0
 	#Wet ground, ON by default (needs the rain weather): rain shows on what it falls on. Flat tops
 	#open to the sky go dark and glossy and mirror the sky at low angles, puddles collect in the
 	#hollows as the rain goes on - soaked in half a minute of heavy rain, a few minutes of drizzle -
 	#and it all dries out some minutes after the rain stops. Within 48 blocks of the camera, on the
 	#game's own terrain; not under a shader pack (the pack's own puddles and fog are the ones there).
 	#Applies live.
-	rainWetGround = true
+	rainWetGround = false
 
 #Storm fog (distant rain) - how Simple Clouds' far rain wall behaves.
 [storm]

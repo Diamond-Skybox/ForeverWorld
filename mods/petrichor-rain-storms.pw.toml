@@ -1,0 +1,12 @@
+name = "Petrichor: Rain & Storms"
+filename = "petrichor-neoforge-1.21.1-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d00366fcf0f4dceeff3d06a6d5637f3893d191b"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9340454
+project-id = 1729574

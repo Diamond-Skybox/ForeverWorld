@@ -1,0 +1,17 @@
+name = "Rustling Leaves"
+filename = "rustling_leaves-neoforge-1.21.1-2.8.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "325d1de49b4612831b7cf5accc09bb452beeb243"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
+description = "Falling leaves and leaf litter on the ground that reacts to wind and footsteps. Looks great, but costs frame rate around forests."
+
+[update.curseforge]
+file-id = 9432219
+project-id = 1729578

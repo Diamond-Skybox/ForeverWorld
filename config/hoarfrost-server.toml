@@ -1,0 +1,52 @@
+[weather]
+	#Light snow: a few slow crystals in still air, silent. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 4
+	# Range: 0 ~ 100
+	lightSnowWeight = 4
+	#Snow: a steady snowfall with a soft breeze. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 5
+	# Range: 0 ~ 100
+	snowWeight = 5
+	#Heavy snow: thick snowfall, the land fading into white. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 3
+	# Range: 0 ~ 100
+	heavySnowWeight = 3
+	#Heavy snow with large flakes tumbling down through calm air. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 2
+	# Range: 0 ~ 100
+	heavyLargeFlakesWeight = 2
+	#Light blizzard: fine snow driven by a fresh wind. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 2
+	# Range: 0 ~ 100
+	lightBlizzardWeight = 2
+	#Blizzard: a howling snowstorm. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 1
+	# Range: 0 ~ 100
+	blizzardWeight = 1
+	#Heavy blizzard: a whiteout. Relative chance when it starts to snow and every five minutes of a snowfall.
+	# Default: 0
+	# Range: 0 ~ 100
+	heavyBlizzardWeight = 0
+	#A thunderstorm in snowy land is one of the blizzards.
+	thunderBlizzard = true
+	#With Serene Seasons: snow falls and lies where the season makes it cold (temperate land in winter, none in a warm summer), and deep winter brings heavier snow and blizzards.
+	followSeasons = true
+	#Snow falls in snowy land under a clear sky too: mostly light snow, now and then a steady snowfall, and once
+	#in a while a spell without any. Storms still come with the vanilla weather.
+	fairWeatherSnow = false
+	#Percent of five-minute spells of clear weather in which no snow falls in snowy land.
+	# Default: 15
+	# Range: 0 ~ 100
+	clearSpells = 15
+
+[drifts]
+	#While snow falls with wind, snow layers pile up in the lee of walls, trees and hills. Changes the world (adds snow layer blocks, never removes anything); only under the open sky.
+	enabled = true
+	#Highest drift in snow layers (8 = a full block). 4 or less can always be walked over.
+	# Default: 4
+	# Range: 1 ~ 8
+	maxLayers = 4
+	#How fast drifts grow. 1 = a drift of four layers takes a blizzard of a few minutes.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	speed = 1.0

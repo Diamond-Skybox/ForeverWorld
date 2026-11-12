@@ -1,0 +1,12 @@
+name = "Inventory Backups"
+filename = "inventorybackups-neoforge-1.21.1-3.2.0.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "a7c710b848be744e045a9bf7bff15b824bca9a9a"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9305575
+project-id = 836385
