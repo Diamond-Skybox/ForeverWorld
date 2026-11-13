@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "pattern": [
-    " S ",
+    "NS ",
     "KMK",
     "KCK"
   ],
@@ -18,6 +18,9 @@
     },
     "C": {
       "item": "let_it_walk:klaxium_casing"
+    },
+    "N": {
+      "item": "opencomputers:navigationcard"
     }
   },
   "result": {

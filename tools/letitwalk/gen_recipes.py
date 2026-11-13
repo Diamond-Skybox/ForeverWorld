@@ -6,7 +6,7 @@ Run from the pack root:  python3 tools/letitwalk/gen_recipes.py <path to let_it_
 The walker parts take Synaxis machine parts and OpenComputers: Rebooted computer parts:
   Pilot Controls            electron tube      -> OC microchip (tier 1)
   Remote Pilot Controller   Create transmitter -> OC wireless network card (tier 1)
-  Walker Core               shaft              -> OC CPU (tier 2)
+  Walker Core               shaft              -> OC CPU (tier 2), plus an OC navigation card in the top row
   Positioner                shafts             -> Synaxis hydraulic linear actuators
   Articulation Unit         cogwheel step      -> Synaxis dynamic joint motor
   Stabilization Module      electron tube step -> Synaxis IMU, Synaxis PID controller and an OC microchip (tier 2)
@@ -24,6 +24,10 @@ SWAPS = {
     'crafting/leg_positioner': {'create:shaft': {'item': 'synaxis:hydraulic_linear_actuator'}},
     'sequenced_assembly/articulation_unit': {'create:cogwheel': {'item': 'synaxis:dynamic_joint_motor'}},
     'sequenced_assembly/jet_nozzle': {'create:iron_sheet': {'tag': 'c:plates/steel'}},
+}
+# extra keys added to a shaped recipe's pattern: recipe -> (row index, new row, {key: ingredient})
+PATTERN_ADD = {
+    'crafting/walker_core': (0, 'NS ', {'N': {'item': OC + 'navigationcard'}}),
 }
 # a deploying step whose item is replaced by several deploying steps
 EXPAND = {
@@ -60,7 +64,7 @@ def expand(recipe, item, replacements):
 
 def main(jar):
     with zipfile.ZipFile(jar) as z:
-        for name in sorted(set(SWAPS) | set(EXPAND)):
+        for name in sorted(set(SWAPS) | set(EXPAND) | set(PATTERN_ADD)):
             recipe = json.loads(z.read(f'data/let_it_walk/recipe/{name}.json'))
             out = recipe
             if name in SWAPS:
@@ -71,6 +75,12 @@ def main(jar):
                     raise SystemExit(f'{name}: {missing} not in the recipe any more')
             if name in EXPAND:
                 out = expand(out, *EXPAND[name])
+            if name in PATTERN_ADD:
+                row, new_row, keys = PATTERN_ADD[name]
+                old = out['pattern'][row]
+                if len(old) != len(new_row) or any(a != b for a, b in zip(old, new_row) if a != ' '):
+                    raise SystemExit(f'{name}: pattern row {row} is {old!r} now, cannot add {keys}')
+                out = dict(out, pattern=out['pattern'][:row] + [new_row] + out['pattern'][row + 1:], key={**out['key'], **keys})
             target = os.path.join(OUT, name + '.json')
             os.makedirs(os.path.dirname(target), exist_ok=True)
             with open(target, 'w') as f:
