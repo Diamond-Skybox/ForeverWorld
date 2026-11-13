@@ -1,0 +1,45 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 600,
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:sugar"
+        },
+        {
+          "item": "minecraft:honey_bottle"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "children": [
+        {
+          "item": "minecraft:sugar"
+        },
+        {
+          "item": "minecraft:honey_bottle"
+        }
+      ]
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "trailandtales_delight:curd_block"
+  }
+}

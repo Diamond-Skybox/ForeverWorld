@@ -187,6 +187,38 @@ file = "kubejs/data/boss_checklist/server_bosses_ids.json"
 hash = "60a60884357c2622c4d518ecfe91163b097cff8cec92c823008bce3199707541"
 
 [[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/apple_jelly.json"
+hash = "5c426aa15cc4a209be833141cbc4cdea0a5c885da45e42157943813dadb76b18"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/cheesy_pasta.json"
+hash = "3dcef4f58d77c3539d5d6b8d2c0b6392ad5e7218f3a000ba0c50b5e62c63dd50"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/creamy_onion_soup.json"
+hash = "fd6586e67e94d1e825c6594114e7b2ae663a8408ef0c616442f871c2764167aa"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/fiery_fondue_pot.json"
+hash = "2ecc1f79cc48933366591eb665b3d0e722cb3b8f6d043a26eac8968abb5ab69e"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/glow_berry_marmalade.json"
+hash = "49c92ade3b2c22ad6998938c257111c9f2343b1e348a1064d4305aecd9c185d6"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/horror_lasagna.json"
+hash = "ee34283694410ca1c2b85d2ae501d7495a26ddfe43b5937acb2f52d0f481a3c5"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/sweet_berry_jam.json"
+hash = "fb122b2eac596155cb4673dd5d3cefc4128baacad4b291729923171148d4b201"
+
+[[files]]
+file = "kubejs/data/brewinandchewin/recipe/cooking/vegetable_omelet.json"
+hash = "297d83ccb906046bbae5bfc665109e75a46c4c8e6848b4781345c2688579992f"
+
+[[files]]
 file = "kubejs/data/chromeware/recipe/adrenaline_booster.json"
 hash = "54f5f32b9dffc58c0a0ffa4bd5236b49526bb0164daba037e2f9beabf2a62f88"
 
@@ -627,12 +659,316 @@ file = "kubejs/data/endfight/function/tick.mcfunction"
 hash = "e7e4ac10fd02e90def31767f9343817bb44055700bb6fd142efa353992dd58cb"
 
 [[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/apple_cider.json"
+hash = "d95ad6c5cc1cb39eafbc62a45dce42bed94fe5ca27374e5b762468e85ebbec4a"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/baked_cod_stew.json"
+hash = "ffdaac4948015dd6f3410adbd673d8088d822279960ba449888fc1df1a76797b"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/beef_stew.json"
+hash = "0e3b7d910136917476eb3958e505907aa0bcbefebc0f368fca975203ce949005"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/beetroot_soup.json"
+hash = "a1bb2cd4cdfb301b3ee95fb79c31592421c2ddf095281764eb0557b69cb6e3cc"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/bone_broth.json"
+hash = "6346389f3ec657d262b3584a22e782fa9f125524550a8739b64cb0eedabf3154"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/chicken_soup.json"
+hash = "051baf72a31b7be5341669c4d8431c2db3b18ab28283238bb9aefc0c5ced0270"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/fish_stew.json"
+hash = "82822bd7a93c48a693e1c8464e2ea426d5b3537bbcc955a8f8cdc7003bf6f030"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/fried_rice.json"
+hash = "6b284ed851894aed1cef8468eff231306601a19520e4d2576654553e4b19b99f"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/glow_berry_custard.json"
+hash = "f158b02acf65ccdf8fb8f314fcde5c9fa472970354e529bd2925978f6628ed45"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/hot_cocoa.json"
+hash = "92e64936ace0edc1528a67c4ad408d7adff2f335d40b45118ec62c8a1e6007b4"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/mushroom_rice.json"
+hash = "46a2110daec5c5fd19a0e131d3c27b9ec92914f456d48c21bcb53b1b8dc69d95"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/noodle_soup.json"
+hash = "3db7538ab5e91c488b89c43142329ce1c5e793c4ab9e3ac895e780766f004592"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/pasta_with_meatballs.json"
+hash = "a111a1bb55013e1953411a64db5162cae14d114a6f5564219942031c1b7c7e94"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/pasta_with_mutton_chop.json"
+hash = "36c2de292381f9505ff4e767e2aa117b34a6d79c1dc6f69162c9ea735305f0c9"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/pumpkin_soup.json"
+hash = "134dda3c506577b279646e713718dafd920a211a63fce15e3e77d381e960cd1c"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/ratatouille.json"
+hash = "599036bba390740d1d54769330328501facb32512569fd9343374a91d179a808"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/squid_ink_pasta.json"
+hash = "9ad8992a2b6e17623d3ade65369692643ded5b793e6fc5747edb97bf28847c0d"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/stuffed_pumpkin_block.json"
+hash = "b606694f6f1d73be46298ce2f1d51b9000d923aab20fd509be3646292c6b7965"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/tomato_sauce.json"
+hash = "8b8f1241bef0ee414102db60e57b2d906d28712549dcec3ea6c4e432d029cde6"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/vegetable_noodles.json"
+hash = "08037a99b8de3b6b6f14151f794f3d7414322e955e7ca15a9924d73c9ebf73e4"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/cooking/vegetable_soup.json"
+hash = "778651fc5f525d5a54c936272702566e1bc7d184b21403b7a152916fb53f17ca"
+
+[[files]]
 file = "kubejs/data/foreverworld/function/endfight_tick.mcfunction"
 hash = "306f1569b52afea8a77d8e1028f6a7d50afacede82f75e0e32d2f743324b369a"
 
 [[files]]
 file = "kubejs/data/foreverworld/predicate/in_the_end.json"
 hash = "66bcacbfd7ebdcc6951f8435dfe1a723783b9d4c0f283707748397a213e68c6a"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/pot/fd_compat/brewinandchewin/cooking/vegetable_omelet.json"
+hash = "75a566050c1e266775d0ecb97a7a7064d9152b0780d8ce6755f54b294a7588bb"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/pot/fd_compat/farmersdelight/cooking/fried_rice.json"
+hash = "a50c040d2bb040effe5da5c561a1a679eed13197678c626ad237a3caa9419ca0"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_2.json"
+hash = "d1ad76f575818fc746bbb4e5929d4d8015819452799c3a2ed35513c4503721c4"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_3.json"
+hash = "77d0b5bef9551caf8d9256c31d0f24a0e89c008baa5c6f628430c17a50a32fae"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_4.json"
+hash = "b1c302ee9c36204f5ea435f83833cb4017979bf9808c009da124a0af8ff36b92"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_5.json"
+hash = "328ea827a4de64a5a71e5036171dc53da9c94e0edef8c0028bf77e0c68026398"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_6.json"
+hash = "5ab038cd26d29842ea5894f5d832084db316ec501505cee1886d8c9f990693eb"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_7.json"
+hash = "a735496339fe5cc8f14c4bdff2d588555b0f376d1fedabc5dd5c3fbe21d650b8"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_8.json"
+hash = "d91b5aeba2656d7b3da3cc7db6141637a9d35cec2c021e7c7aaa898f06e39e40"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/dumpling_count_9.json"
+hash = "9eb43b72c599fbe1b4eeacda18491aae7ad9f8a9d95750b7d916f39162762ae2"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/apple_jelly.json"
+hash = "afa1af68c82e8f24649855418cbdbde34f9448081b1a2fd37e028c8871dd3f83"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/cheesy_pasta.json"
+hash = "c95b9f469bfdff61eabc33e65c1550de82f0fd8c0dc38370cd8b02ac5e0033f6"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/creamy_onion_soup.json"
+hash = "55d392a35d5deb3f7ea7945166229a1a0efc0572e4261158d9afb9c008071d6c"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/fiery_fondue_pot.json"
+hash = "4d9af1fc9fa66d2b58ebac0be589e9ba974738750edce817c76592fdedf0404d"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/glow_berry_marmalade.json"
+hash = "7822c0dff45a9e7fbacb1a72b9a03993e54de408f716540a22dc68bc1a8226e4"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/horror_lasagna.json"
+hash = "7ccf8b6992644ac074c4a80e252c538e152db7e2be8f52094d2d464857ec88bd"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/brewinandchewin/cooking/sweet_berry_jam.json"
+hash = "196ca2bafa25587ffbc1152a3886c83677c2255b11a3b5b40efd11eb0b5a0790"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/apple_cider.json"
+hash = "433638297c0ba8e483bacec5f707dd923ed14c042148f8551b7e79458287664f"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/baked_cod_stew.json"
+hash = "ddc36df3c89e08f4f5b77232e253361c518daafe3b2c220951a025716f009c1c"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/beef_stew.json"
+hash = "deb8b91d1977366ae3f1ba2588484f1eeae716bb59af80f4a663648136e3c306"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/beetroot_soup.json"
+hash = "d7dc85573a855180c1ebd600bc6bf717bb3d969d3304664d151cdbba56585516"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/bone_broth.json"
+hash = "61f419237eb8d4afe7ad62fde77199421a6d91526a35eba70cf67e0c8173a320"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/chicken_soup.json"
+hash = "d0b1f0c53b0b62d516a60f1ec2d591eb8eec1c08db5d4c83308688b2a7ebf99c"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/fish_stew.json"
+hash = "34ffa983451326c05f98bd8949e859e89244c0248929849022b5e21417c2bde0"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/glow_berry_custard.json"
+hash = "7011c243796aceb0a8b82d1966af5ede4d9fcef856396b6f40f21ae8bb631936"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/hot_cocoa.json"
+hash = "c11007364cee21f3a091b9522117a06bbc452420b69daa81aae2b611924a16d9"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/mushroom_rice.json"
+hash = "6046a415fa0c8e68599fc1550e0a4cbf0a6f4c5c2969e2230d567ee54a15068c"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/noodle_soup.json"
+hash = "127ff6875e434e43ff124a82b78052f782832498ff49dae9dbfd834b259cdc32"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/pasta_with_meatballs.json"
+hash = "edfc027a2b7eedebe5a909923e2a954eb82dd19e1e8ad3bb7b30d8da58c93a06"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/pasta_with_mutton_chop.json"
+hash = "c9c734d6a1bed7ebbefff9d38752c38faaf75204bf84864cdd4e2ec1f868f013"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/pumpkin_soup.json"
+hash = "759c5eb0a15ff6f3ff9ddd798274f82f06c43dfe24ed7ce3bbcbc578f28191f2"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/ratatouille.json"
+hash = "6255ffab58838da09b79765d8b3546cfa28d9eb682deca2f30022ec5b879d12a"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/squid_ink_pasta.json"
+hash = "d4687cfae432011da7a44cbd1b8d6fc35ebf98a10a4fe85e6be9b04165e4f811"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/stuffed_pumpkin_block.json"
+hash = "681771dc9ec517afe4572648baf8e3269c99957093c4739442c07e1a7e4c4309"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/tomato_sauce.json"
+hash = "7ffd661b13e2e59ede6fe198954dd9437cacb81398cac1a712d7b2872145753b"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/vegetable_noodles.json"
+hash = "263d6465ed85a566e9715aae034eb1498993d91381cda68616caa570f354d721"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/farmersdelight/cooking/vegetable_soup.json"
+hash = "3f0c2267e0b3d9743a5b19bd0d1c1f9b7c6acb952abe2dacbba15464f1695f25"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/batter.json"
+hash = "55d6e977c7736ac5c7990773970958a881ba0c896074a5bc93a9ef97417dfecf"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/bell_pepper_pasta.json"
+hash = "f5c1c721b585c2b3ca101ce7d8e9a4f35e5e51acd06b4c849f0c75c3976b6138"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/chocolate_coffee.json"
+hash = "abd82869572b243e6996c0534ab558f4a78614053f8c22d8021e4b09e264c2fc"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/coffee.json"
+hash = "8a7b361fba5cdef033cda2d8b365f1566f1b05d5dafac8d99ad69b21727b8678"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/coffee_braised_beef.json"
+hash = "8759805d881acf363da3013188d4b8e447aecccca0a74b75558d245ba761c6de"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/dark_coffee.json"
+hash = "b0311f1002dd93e9af6a14006292052b146dc66736cd5069838161d04633e997"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/honey_coffee.json"
+hash = "da808268c2a12b595d0fecea2a3cc3249fb5ad4b04caca303a67a033e68df913"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/milk_coffee.json"
+hash = "d79862876ba40ab01bf5022c4eff583595e3902a4a09d1b59b536661d0e68e38"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/stuffed_bell_pepper_green.json"
+hash = "a947794e179d40eaf48ac5739d323815210f25f8fc634cc4d1cfc843dd2d503f"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/stuffed_bell_pepper_red.json"
+hash = "4a08e8a97001fcac642e4f19b925dedac39769c50588b72c21b9a03ac8e0a5e3"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/stuffed_bell_pepper_yellow.json"
+hash = "d78c0e11adf1220dd06230514b9be4decc86470cff6fd327f9d525a6be9f075e"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/syrup.json"
+hash = "230c4fc9fe0a1a1fe239b2ef68bdaf84a4dfc7c22e0d779432f150afd3e178bc"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/rusticdelight/cooking/syrup_coffee.json"
+hash = "15101e30b309eadcad3dd9ae03768fea5f124c27abf37dabace1ee1a10e2472e"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/trailandtales_delight/cooking/ancient_coffee.json"
+hash = "d3a106fbf424435a54701b3dcc7f6ad20719706810fc09bb597bee0408848d65"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/trailandtales_delight/cooking/cherry_petal_tea.json"
+hash = "014e4fd6b2671d4c4c70ff8715da85a1dede6b7ccb29275d2c1459b1367046f4"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/trailandtales_delight/cooking/curd_block.json"
+hash = "9a69612c6f6e87d4f86683cdf30d860f71f1f052400cbe9f7a1d44e693f4bcef"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/trailandtales_delight/cooking/pitcher_plant_tea.json"
+hash = "f21a5768e7ad7f94359f27fbca7d4b6eb5f1b43d0825b6f0726c86e735164738"
+
+[[files]]
+file = "kubejs/data/kaleidoscope_cookery/recipe/stockpot/fd_compat/trailandtales_delight/cooking/torchflower_tea.json"
+hash = "0df4bb9e292823814f8c73c0be3b10ab94c9dc70ffcf1b87c0c4e2af416529f5"
 
 [[files]]
 file = "kubejs/data/kubejs/dimension_physics/overworld.json"
@@ -759,12 +1095,84 @@ file = "kubejs/data/rocketnautics/universe_planets/overworld.json"
 hash = "4016e2948b4eebb9973e69fbdfe607275a6331b6aeee63e3d3a8d27b97eea5fa"
 
 [[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/batter.json"
+hash = "7b818479165f72e894c9eb9d48ba73d50dedf360424f1548dea55b54951fb026"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/bell_pepper_pasta.json"
+hash = "f2d11c5d19e0084c946dca366b42d03022f9fa4fe06b799bd418235e84595e32"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/chocolate_coffee.json"
+hash = "27f50464bf9ca819ac130b768d343282e509782be50f6b2774a8edd83fca9294"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/coffee.json"
+hash = "d50b2cd33408b7234c737b11ef4dc50f03802ec480639e1a7e5ed83767e7fdb4"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/coffee_braised_beef.json"
+hash = "29e9244e3f7edf547a6f490e525fb8c16aeb527d0c1427e677505eab8e061f02"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/dark_coffee.json"
+hash = "509fbef69b3df523fac564a0ecae007c4a8937b9df04625fbcbeb83d38972f23"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/honey_coffee.json"
+hash = "136addc5cb01c401959e51792e3729a99bf99f4d0ded41c7f96d99ec9c44d62b"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/milk_coffee.json"
+hash = "b77e879bf59c2175f693169058ec57d48d865ac80bf21e1752b6064366a4a4b0"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/stuffed_bell_pepper_green.json"
+hash = "d127a41e12fe41da57becd22c1d57ee9aaff6f4049fb5138b6676272b7fbf0e5"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/stuffed_bell_pepper_red.json"
+hash = "fd371ff4a72b5b8a64af6a8c2128fc191d975abae7f2065a5b342e130c55dca0"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/stuffed_bell_pepper_yellow.json"
+hash = "8f13eeb7e5dadf9aa38af42018afbd95ceb057c4e6b999aed0f0c8f6cafa63f2"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/syrup.json"
+hash = "571c7d3aba3c33530af069a743df998c8ac703ed28ff98a7e705f01863ed2d60"
+
+[[files]]
+file = "kubejs/data/rusticdelight/recipe/cooking/syrup_coffee.json"
+hash = "27aa9ae7a157ae30e1856012e0fb4d75ea9bfd74dbeb593b4e9f3d66f0740d8a"
+
+[[files]]
 file = "kubejs/data/sunflowerdelight/recipe/cooking/spawn/sunflower_oil_bottle_spawn.json"
 hash = "b0a211163cf98f5531da969af32d9e741b8660f04a10300adcec05010a6e3873"
 
 [[files]]
 file = "kubejs/data/tombstone/tags/entity_type/increase_alignment.json"
 hash = "060bd52b51c34858bd443c493243499e953c5abd39c65c5534028e4bb6690182"
+
+[[files]]
+file = "kubejs/data/trailandtales_delight/recipe/cooking/ancient_coffee.json"
+hash = "267474455f709d0556a6583d5f5dad41bed23f145a1aae69d4093dd58fe3374e"
+
+[[files]]
+file = "kubejs/data/trailandtales_delight/recipe/cooking/cherry_petal_tea.json"
+hash = "8d12bbe280893829b3b99af4d3dc71c85a2a7dc2e274fc1913eb11d0480d1f50"
+
+[[files]]
+file = "kubejs/data/trailandtales_delight/recipe/cooking/curd_block.json"
+hash = "0fef6ddb99563be64e4e84b6ba93c9e7de16070b63d3c103f11c7b667b5443c8"
+
+[[files]]
+file = "kubejs/data/trailandtales_delight/recipe/cooking/pitcher_plant_tea.json"
+hash = "c0f6580af876dfd44128019bf1ac3836c81175acb874fed2160276dd3e762bea"
+
+[[files]]
+file = "kubejs/data/trailandtales_delight/recipe/cooking/torchflower_tea.json"
+hash = "f1b37c5f0593bf8cd420cf6093106b5a2b76455afddb35039605433de203b5eb"
 
 [[files]]
 file = "kubejs/data/vampirism/loot_table/inject/abandoned_mineshaft.json"
