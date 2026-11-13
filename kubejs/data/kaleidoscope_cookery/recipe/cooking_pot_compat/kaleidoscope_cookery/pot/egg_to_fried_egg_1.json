@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_cookery:fried_egg"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

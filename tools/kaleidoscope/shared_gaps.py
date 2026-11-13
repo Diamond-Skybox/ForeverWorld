@@ -8,7 +8,7 @@
 # the cooking pot recipes), except results in #kaleidoscope_cookery:only_stockpot_output_recipe, so the cooking pot -> stockpot gap
 # is only those; the other way has no fallback.
 # A Kaleidoscope dish only "fits" the cooking pot with at most 6 ingredients (the pot's slots); the stockpot and wok take 9.
-import collections, json, os, re, sys, zipfile
+import collections, json, os, sys, zipfile
 sys.path.insert(0, os.path.dirname(__file__))
 import recipe_index as R
 
@@ -16,57 +16,11 @@ MODS = sys.argv[1]
 VERBOSE = '-v' in sys.argv
 
 
-def mod_ids(mods):
-    ids = {'minecraft', 'neoforge', 'c'}
-    for j in os.listdir(mods):
-        if not j.endswith('.jar'):
-            continue
-        try:
-            z = zipfile.ZipFile(os.path.join(mods, j))
-        except Exception:
-            continue
-        def scan(zf):
-            for n in zf.namelist():
-                if n == 'META-INF/neoforge.mods.toml':
-                    for m in re.finditer(r'^\s*modId\s*=\s*"([^"]+)"', zf.read(n).decode('utf-8', 'replace'), re.M):
-                        ids.add(m.group(1))
-                elif n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
-                    try:
-                        import io
-                        scan(zipfile.ZipFile(io.BytesIO(zf.read(n))))
-                    except Exception:
-                        pass
-        scan(z)
-    return ids
-
-
-LOADED = mod_ids(MODS)
-
-
-def holds(c):
-    if not isinstance(c, dict):
-        return True
-    t = c.get('type', '')
-    if t.endswith('mod_loaded'):
-        return c.get('modid') in LOADED
-    if t.endswith(':not'):
-        return not holds(c.get('value'))
-    if t.endswith(':and'):
-        return all(holds(x) for x in c.get('values', []))
-    if t.endswith(':or'):
-        return any(holds(x) for x in c.get('values', []))
-    if t.endswith(':false'):
-        return False
-    if t.endswith('item_exists'):
-        return c.get('item', ':').split(':')[0] in LOADED
-    return True
+LOADED = R.loaded_mods(MODS)
 
 
 def active(j):
-    """loads: its conditions hold and every item it makes belongs to an installed mod (else the recipe fails to load)"""
-    if not isinstance(j, dict):
-        return False
-    return all(holds(c) for c in j.get('neoforge:conditions', [])) and all(r.split(':')[0] in LOADED for r in R.results(j))
+    return R.active(j, LOADED)
 
 
 def ingredients(j):

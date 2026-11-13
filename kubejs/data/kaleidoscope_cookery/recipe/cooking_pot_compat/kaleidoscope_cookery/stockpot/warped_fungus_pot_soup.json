@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_cookery:warped_fungus_pot_soup"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:flower_pot"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

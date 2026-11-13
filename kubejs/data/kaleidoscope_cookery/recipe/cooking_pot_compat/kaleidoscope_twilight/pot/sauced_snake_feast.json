@@ -1,0 +1,41 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_twilight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_twilight:raw_naga_meat"
+    },
+    {
+      "item": "twilightforest:mushgloom"
+    },
+    {
+      "item": "twilightforest:mushgloom"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    },
+    {
+      "item": "twilightforest:torchberries"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_twilight:sauced_snake_feast"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

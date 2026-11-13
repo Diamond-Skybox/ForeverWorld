@@ -1,0 +1,36 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "kaleidoscope_cookery:stuffed_dough_food"
+    },
+    {
+      "item": "kaleidoscope_cookery:stuffed_dough_food"
+    },
+    {
+      "item": "kaleidoscope_cookery:stuffed_dough_food"
+    },
+    {
+      "item": "kaleidoscope_cookery:stuffed_dough_food"
+    },
+    {
+      "item": "kaleidoscope_cookery:stuffed_dough_food"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
+  "result": {
+    "count": 5,
+    "id": "kaleidoscope_cookery:shengjian_mantou"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

@@ -1,0 +1,41 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_twilight"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "twilightforest:blueberry"
+    },
+    {
+      "item": "kaleidoscope_twilight:twilight_fern"
+    },
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:foods/raw_mutton"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_twilight:stuffed_puzzle_croissant"
+  },
+  "container": {
+    "count": 1,
+    "id": "twilightforest:crumble_horn"
+  },
+  "experience": 1.0,
+  "cookingtime": 200
+}

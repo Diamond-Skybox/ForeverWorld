@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:foods/raw_mutton"
+    },
+    {
+      "tag": "c:vegetables/soul_pepper"
+    },
+    {
+      "tag": "c:vegetables/soul_pepper"
+    },
+    {
+      "tag": "c:vegetables/soul_pepper"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_nether:soul_lamb_chop"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 450
+}

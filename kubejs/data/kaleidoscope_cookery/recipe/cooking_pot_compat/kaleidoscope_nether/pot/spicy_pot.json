@@ -1,0 +1,58 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:raw_meats"
+    },
+    {
+      "tag": "c:raw_meats"
+    },
+    [
+      {
+        "tag": "c:vegetables/carrot"
+      },
+      {
+        "tag": "c:vegetables/potato"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    {
+      "tag": "c:vegetables/lettuce"
+    },
+    [
+      {
+        "tag": "c:vegetables/pepper"
+      },
+      {
+        "tag": "c:hot_spices"
+      }
+    ],
+    [
+      {
+        "tag": "c:vegetables/pepper"
+      },
+      {
+        "tag": "c:hot_spices"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_nether:spicy_pot"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

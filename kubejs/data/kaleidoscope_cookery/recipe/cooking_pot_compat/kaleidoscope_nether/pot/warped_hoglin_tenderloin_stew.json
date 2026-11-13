@@ -1,0 +1,55 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    [
+      {
+        "tag": "c:warped_fruits"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      }
+    ],
+    [
+      {
+        "tag": "c:warped_fruits"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      }
+    ],
+    [
+      {
+        "tag": "c:warped_fruits"
+      },
+      {
+        "item": "minecraft:warped_fungus"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_nether:warped_hoglin_tenderloin_stew"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

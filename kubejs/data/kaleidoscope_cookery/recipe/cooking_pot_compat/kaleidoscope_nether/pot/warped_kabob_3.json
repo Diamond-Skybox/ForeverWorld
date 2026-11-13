@@ -1,0 +1,40 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:warped_fruits"
+    },
+    {
+      "tag": "c:warped_fruits"
+    },
+    {
+      "tag": "c:warped_fruits"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:warped_fungus"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "kaleidoscope_nether:warped_kabob"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:stick"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

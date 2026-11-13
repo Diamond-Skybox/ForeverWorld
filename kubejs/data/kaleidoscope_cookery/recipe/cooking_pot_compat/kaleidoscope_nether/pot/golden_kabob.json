@@ -1,0 +1,28 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_nether"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "tag": "c:foods/raw_beef"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "kaleidoscope_nether:golden_kabob"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:stick"
+  },
+  "experience": 1.0,
+  "cookingtime": 300
+}

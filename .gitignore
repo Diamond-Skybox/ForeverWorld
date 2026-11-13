@@ -1,3 +1,4 @@
 .vscode/
 *.jar
 !PackHelper.jar
+__pycache__/

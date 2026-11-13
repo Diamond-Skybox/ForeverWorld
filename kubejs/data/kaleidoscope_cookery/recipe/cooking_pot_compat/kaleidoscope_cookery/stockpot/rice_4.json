@@ -1,0 +1,34 @@
+{
+  "type": "farmersdelight:cooking",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "ingredients": [
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    },
+    {
+      "tag": "c:grain/rice"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "kaleidoscope_cookery:cooked_rice"
+  },
+  "container": {
+    "count": 1,
+    "id": "minecraft:bowl"
+  },
+  "experience": 1.0,
+  "cookingtime": 400
+}

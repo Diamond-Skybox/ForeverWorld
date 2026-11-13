@@ -64,6 +64,52 @@ def results(j):
                         ids.append(inner['id'])
     return ids
 
+def loaded_mods(mods):
+    """mod ids in a mods folder (neoforge.mods.toml, jar-in-jar included), plus minecraft/neoforge/c"""
+    import io
+    ids = {'minecraft', 'neoforge', 'c'}
+    def scan(zf):
+        for n in zf.namelist():
+            if n == 'META-INF/neoforge.mods.toml':
+                ids.update(re.findall(r'^\s*modId\s*=\s*"([^"]+)"', zf.read(n).decode('utf-8', 'replace'), re.M))
+            elif n.startswith('META-INF/jarjar/') and n.endswith('.jar'):
+                try:
+                    scan(zipfile.ZipFile(io.BytesIO(zf.read(n))))
+                except Exception:
+                    pass
+    for j in os.listdir(mods):
+        if j.endswith('.jar'):
+            try:
+                scan(zipfile.ZipFile(os.path.join(mods, j)))
+            except Exception:
+                pass
+    return ids
+
+def holds(c, loaded):
+    """a neoforge:conditions entry, evaluated against the loaded mod ids (unknown condition types count as true)"""
+    if not isinstance(c, dict):
+        return True
+    t = c.get('type', '')
+    if t.endswith('mod_loaded'):
+        return c.get('modid') in loaded
+    if t.endswith(':not'):
+        return not holds(c.get('value'), loaded)
+    if t.endswith(':and'):
+        return all(holds(x, loaded) for x in c.get('values', []))
+    if t.endswith(':or'):
+        return any(holds(x, loaded) for x in c.get('values', []))
+    if t.endswith(':false'):
+        return False
+    if t.endswith('item_exists'):
+        return c.get('item', ':').split(':')[0] in loaded
+    return True
+
+def active(j, loaded):
+    """loads: its conditions hold and every item it makes belongs to an installed mod (else the recipe fails to load)"""
+    if not isinstance(j, dict):
+        return False
+    return all(holds(c, loaded) for c in j.get('neoforge:conditions', [])) and all(r.split(':')[0] in loaded for r in results(j))
+
 if __name__ == '__main__':
     import collections
     idx = index(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
