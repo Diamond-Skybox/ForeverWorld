@@ -63,10 +63,6 @@ file = "config/sable_player_ragdoll-server.toml"
 hash = "e31c43d36ae6913b6cacc41ccee4b8898efb911e83bb3a6d7d2d47934a049282"
 
 [[files]]
-file = "config/sabledestructive-common.toml"
-hash = "8c4975ba22a161f79a98610e23f35bbdc2195f5440a997718e5faa21c603d36c"
-
-[[files]]
 file = "config/simpleclouds-client.toml"
 hash = "26ce6e12cbd634c8e61b411a6adf71211e75c38d03150ee874bde6539d74a95b"
 
@@ -3363,11 +3359,6 @@ metafile = true
 [[files]]
 file = "mods/rustic-delight.pw.toml"
 hash = "da498af1ed216ed01132378b3e53c3f0056f94eeab1b84174af09a7c91351cc6"
-metafile = true
-
-[[files]]
-file = "mods/sable-destructive.pw.toml"
-hash = "f69251be10257f9e5e9e22ab821cf19182e898fca8443d4524763f3d9dcdd57c"
 metafile = true
 
 [[files]]
