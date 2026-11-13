@@ -11,6 +11,7 @@ The walker parts take Synaxis machine parts and OpenComputers: Rebooted computer
   Articulation Unit         cogwheel step      -> Synaxis dynamic joint motor
   Stabilization Module      electron tube step -> Synaxis IMU, Synaxis PID controller and an OC microchip (tier 2)
   Jet Nozzle                iron sheet step    -> steel sheet (#c:plates/steel)
+  Jet Foot                  + OC hover upgrade (tier 2) on top of the foot and nozzle
 Every other recipe is left to the mod. Only changed recipes are written; each is listed.
 """
 import json, os, sys, zipfile
@@ -28,6 +29,10 @@ SWAPS = {
 # extra keys added to a shaped recipe's pattern: recipe -> (row index, new row, {key: ingredient})
 PATTERN_ADD = {
     'crafting/walker_core': (0, 'NS ', {'N': {'item': OC + 'navigationcard'}}),
+}
+# whole new patterns: recipe -> (expected old pattern, new pattern, {key: ingredient} added)
+PATTERN_SET = {
+    'crafting/jet_foot': (['F', 'J'], ['H', 'F', 'J'], {'H': {'item': OC + 'hoverupgrade2'}}),
 }
 # a deploying step whose item is replaced by several deploying steps
 EXPAND = {
@@ -64,7 +69,7 @@ def expand(recipe, item, replacements):
 
 def main(jar):
     with zipfile.ZipFile(jar) as z:
-        for name in sorted(set(SWAPS) | set(EXPAND) | set(PATTERN_ADD)):
+        for name in sorted(set(SWAPS) | set(EXPAND) | set(PATTERN_ADD) | set(PATTERN_SET)):
             recipe = json.loads(z.read(f'data/let_it_walk/recipe/{name}.json'))
             out = recipe
             if name in SWAPS:
@@ -75,6 +80,11 @@ def main(jar):
                     raise SystemExit(f'{name}: {missing} not in the recipe any more')
             if name in EXPAND:
                 out = expand(out, *EXPAND[name])
+            if name in PATTERN_SET:
+                expected, pattern, keys = PATTERN_SET[name]
+                if out['pattern'] != expected:
+                    raise SystemExit(f"{name}: pattern is {out['pattern']} now, expected {expected}")
+                out = dict(out, pattern=pattern, key={**out['key'], **keys})
             if name in PATTERN_ADD:
                 row, new_row, keys = PATTERN_ADD[name]
                 old = out['pattern'][row]

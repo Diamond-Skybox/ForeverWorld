@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "H",
+    "F",
+    "J"
+  ],
+  "key": {
+    "F": {
+      "item": "let_it_walk:leg_foot"
+    },
+    "J": {
+      "item": "let_it_walk:jet_nozzle"
+    },
+    "H": {
+      "item": "opencomputers:hoverupgrade2"
+    }
+  },
+  "result": {
+    "id": "let_it_walk:jet_foot",
+    "count": 1
+  }
+}
