@@ -1,0 +1,221 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexsmobs:void_worm",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:warped_mosco",
+      "required": false
+    },
+    {
+      "id": "aquamirae:captain_cornelia",
+      "required": false
+    },
+    {
+      "id": "aquamirae:eel",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:wilden_boss",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:infernal_dragon",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:kraken",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:sandworm",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:underworld_knight",
+      "required": false
+    },
+    {
+      "id": "block_factorys_bosses:yeti",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:gauntlet",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:lich",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:obsidilith",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:void_blossom",
+      "required": false
+    },
+    {
+      "id": "botania:doppleganger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ancient_remnant",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ender_guardian",
+      "required": false
+    },
+    {
+      "id": "cataclysm:ignis",
+      "required": false
+    },
+    {
+      "id": "cataclysm:maledictus",
+      "required": false
+    },
+    {
+      "id": "cataclysm:netherite_monstrosity",
+      "required": false
+    },
+    {
+      "id": "cataclysm:scylla",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_harbinger",
+      "required": false
+    },
+    {
+      "id": "cataclysm:the_leviathan",
+      "required": false
+    },
+    {
+      "id": "chronomancy:rift_maker",
+      "required": false
+    },
+    {
+      "id": "croaks:croak_king",
+      "required": false
+    },
+    {
+      "id": "darkdoppelganger:dark_doppelganger",
+      "required": false
+    },
+    {
+      "id": "discerning_the_eldritch:ascended_one",
+      "required": false
+    },
+    {
+      "id": "galosphere:berserker",
+      "required": false
+    },
+    {
+      "id": "gametechbcs_spellbooks:hard_dead_king",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:invoker",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:dead_king",
+      "required": false
+    },
+    {
+      "id": "irons_spellbooks:fire_boss",
+      "required": false
+    },
+    {
+      "id": "kaleidoscope_twilight:umbral_sunflower",
+      "required": false
+    },
+    {
+      "id": "mca:grim_reaper",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:ferrous_wroughtnaut",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:frostmaw",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:sculptor",
+      "required": false
+    },
+    {
+      "id": "mowziesmobs:umvuthi",
+      "required": false
+    },
+    {
+      "id": "neovitae:daemonium_doloris",
+      "required": false
+    },
+    {
+      "id": "skeletons_rising:drownedcaptain",
+      "required": false
+    },
+    {
+      "id": "skeletons_rising:leaderofundeadarmy",
+      "required": false
+    },
+    {
+      "id": "skeletons_rising:skeleton_prime",
+      "required": false
+    },
+    {
+      "id": "totemic:baykok",
+      "required": false
+    },
+    {
+      "id": "traveloptics:enraged_dead_king",
+      "required": false
+    },
+    {
+      "id": "traveloptics:the_nightwarden",
+      "required": false
+    },
+    {
+      "id": "twilight_spellbooks:ominous_lich",
+      "required": false
+    },
+    {
+      "id": "twilightforest:alpha_yeti",
+      "required": false
+    },
+    {
+      "id": "twilightforest:hydra",
+      "required": false
+    },
+    {
+      "id": "twilightforest:knight_phantom",
+      "required": false
+    },
+    {
+      "id": "twilightforest:lich",
+      "required": false
+    },
+    {
+      "id": "twilightforest:minoshroom",
+      "required": false
+    },
+    {
+      "id": "twilightforest:naga",
+      "required": false
+    },
+    {
+      "id": "twilightforest:snow_queen",
+      "required": false
+    },
+    {
+      "id": "twilightforest:ur_ghast",
+      "required": false
+    }
+  ]
+}

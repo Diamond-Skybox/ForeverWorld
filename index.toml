@@ -139,6 +139,10 @@ file = "kubejs/assets/wispwillow/lang/en_us.json"
 hash = "459e80bd8999b1d060572523b5e93031f882be6c54b22384bfa427231808c284"
 
 [[files]]
+file = "kubejs/data/ars_nouveau/tags/entity_type/drygmy_blacklist.json"
+hash = "d87798f00fbe72e80408d136e8dd97cee474f5f2b190b2694abec78f8d99a3ad"
+
+[[files]]
 file = "kubejs/data/arsdelight/recipe/cooking/dawnberry_hornbeer.json"
 hash = "b0a211163cf98f5531da969af32d9e741b8660f04a10300adcec05010a6e3873"
 
@@ -631,6 +635,10 @@ file = "kubejs/data/kubejs/dimension_physics/overworld.json"
 hash = "e08ce9ad3f97e53f59d48087f59dbbb35d4f74e6bcb03b0c404fdbf35ff1c580"
 
 [[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/jet_foot.json"
+hash = "034a0951582bbe4e245fd622ec41ebe94f3c214dc3116cc7b6a2d5627af53f8c"
+
+[[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/leg_positioner.json"
 hash = "55342d3d03a7d086d089bb3e2dcc735d55266f0cfc6b1b2e3ea9ba2aac048ee0"
 
@@ -644,7 +652,7 @@ hash = "759eaa00e731284cd1b59702e531a393d583adb5fe21d7193410e3dc8cebdf35"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/walker_core.json"
-hash = "5e54541b642fde83454715cd0baa8d3cd3a1689e88761b3341dcb83dc5bdd4c8"
+hash = "3a09bc458a1e22b572fa85efb11bec39be9a47603f36272e78032822468c44ce"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/sequenced_assembly/articulation_unit.json"
@@ -3044,16 +3052,6 @@ hash = "88d1b4cc5e1bde0416141f5da158e9995206f98c70687291e95f37e8cf938ea3"
 metafile = true
 
 [[files]]
-file = "mods/occult-engineering.pw.toml"
-hash = "42358fd55d908d2a3e778ea13e83cd2ce2a797c945119b96236b1e3b3a387684"
-metafile = true
-
-[[files]]
-file = "mods/occultism.pw.toml"
-hash = "4b00e653e525d8d575512bbb0e121342e84a36a8d17d06f0fecdf73f14fa38b7"
-metafile = true
-
-[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "ea5d48ba3cbe0032d74b9eb887c7921bdec5a190df2e741e4257a0ac12249852"
 metafile = true
@@ -3176,11 +3174,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph_plus.pw.toml"
 hash = "5af5d570b335a1eaa1bd36735f06556072e58a5f843b96e31dbba89b5751eda3"
-metafile = true
-
-[[files]]
-file = "mods/polymorphic-occultism.pw.toml"
-hash = "00a9fbf43f15c3e5fd8d0cbbdcf143b2eb520f11ff54744f6b77fdffb98a4b40"
 metafile = true
 
 [[files]]
