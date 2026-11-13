@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "building",
+  "key": {
+    "K": {
+      "tag": "c:ingots/klaxium"
+    },
+    "P": {
+      "tag": "c:plates/klaxium"
+    }
+  },
+  "pattern": [
+    " K ",
+    "PPP"
+  ],
+  "result": {
+    "id": "let_it_walk:leg_foot",
+    "count": 1
+  },
+  "show_notification": false
+}

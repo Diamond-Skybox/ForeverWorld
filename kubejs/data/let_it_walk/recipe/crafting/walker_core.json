@@ -1,11 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
   "category": "building",
-  "pattern": [
-    "NS ",
-    "KMK",
-    "KCK"
-  ],
   "key": {
     "S": {
       "item": "opencomputers:cpu2"
@@ -23,8 +19,14 @@
       "item": "opencomputers:navigationcard"
     }
   },
+  "pattern": [
+    "NS ",
+    "KMK",
+    "KCK"
+  ],
   "result": {
     "id": "let_it_walk:walker_core",
     "count": 1
-  }
+  },
+  "show_notification": false
 }

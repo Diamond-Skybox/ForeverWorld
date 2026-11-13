@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "building",
+  "key": {
+    "P": {
+      "tag": "c:plates/klaxium"
+    },
+    "A": {
+      "item": "let_it_walk:articulation_unit"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "S"
+  ],
+  "result": {
+    "id": "let_it_walk:leg_swivel",
+    "count": 2
+  },
+  "show_notification": false
+}

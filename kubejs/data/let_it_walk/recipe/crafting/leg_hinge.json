@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "building",
+  "key": {
+    "P": {
+      "tag": "c:plates/klaxium"
+    },
+    "A": {
+      "item": "let_it_walk:articulation_unit"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "P"
+  ],
+  "result": {
+    "id": "let_it_walk:leg_hinge",
+    "count": 2
+  },
+  "show_notification": false
+}

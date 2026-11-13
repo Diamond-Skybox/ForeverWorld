@@ -1,10 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
   "category": "redstone",
-  "pattern": [
-    "LTL",
-    " S "
-  ],
   "key": {
     "L": {
       "item": "create:analog_lever"
@@ -16,8 +13,13 @@
       "item": "let_it_walk:klaxium_sheet"
     }
   },
+  "pattern": [
+    "LTL",
+    " S "
+  ],
   "result": {
     "id": "let_it_walk:remote_pilot_controller",
     "count": 1
-  }
+  },
+  "show_notification": false
 }

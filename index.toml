@@ -635,24 +635,44 @@ file = "kubejs/data/kubejs/dimension_physics/overworld.json"
 hash = "e08ce9ad3f97e53f59d48087f59dbbb35d4f74e6bcb03b0c404fdbf35ff1c580"
 
 [[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/climbing_foot.json"
+hash = "fb99d4ab26781acfa2f7a5d1395881299fb32d2e3dbd9cbaaddaf5b2943ca278"
+
+[[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/jet_foot.json"
-hash = "034a0951582bbe4e245fd622ec41ebe94f3c214dc3116cc7b6a2d5627af53f8c"
+hash = "4457924d5a6dc00d90dda27f37d38ac8bb91dc98a5e562034e40e990d47f2f36"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/jet_mount.json"
+hash = "40f412049b52ba10cd63e18a82a84173f08522af9d40a61348f4610257832802"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/leg_foot.json"
+hash = "343d369fc0f25c761f238215d83791582b9f575da41666c5bc3ce2816bc42a90"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/leg_hinge.json"
+hash = "a9b36b66f6ce14863c9642a904e40fe97968df9d87a6710c2eb0b3843ca9a2b4"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/leg_positioner.json"
-hash = "55342d3d03a7d086d089bb3e2dcc735d55266f0cfc6b1b2e3ea9ba2aac048ee0"
+hash = "cbb2a53c4c7cd1ff5874dd2347bdd8ba92408e6ae8912670e13c22238b0b8c77"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/leg_swivel.json"
+hash = "a9876b9e0076179c93fa4657685d8f4be883762ee7d9cf7b866e6bbbe555f908"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/pilot_controls.json"
-hash = "3072bb43da5056c88e2d4ce32dd51dba35d485d22ef496f802181e1306ffe282"
+hash = "125d3ee143ac1e28a83f60614920abc74f28cec553a0fa6dfb0726a4fcb2cd72"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/remote_pilot_controller.json"
-hash = "759eaa00e731284cd1b59702e531a393d583adb5fe21d7193410e3dc8cebdf35"
+hash = "a8399ca48aa8efd20b599c340fca8f7b8071f91cab14b7b80d5be4b99273e3ad"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/crafting/walker_core.json"
-hash = "3a09bc458a1e22b572fa85efb11bec39be9a47603f36272e78032822468c44ce"
+hash = "1b414a6500c31ab48b5700c78de294ed96e7ca27f814d4f98bc8f35c8da1f47f"
 
 [[files]]
 file = "kubejs/data/let_it_walk/recipe/sequenced_assembly/articulation_unit.json"

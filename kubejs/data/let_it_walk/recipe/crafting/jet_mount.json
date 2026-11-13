@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "building",
+  "key": {
+    "N": {
+      "tag": "c:nuggets/klaxium"
+    },
+    "P": {
+      "tag": "c:plates/klaxium"
+    }
+  },
+  "pattern": [
+    "NPN"
+  ],
+  "result": {
+    "id": "let_it_walk:jet_mount",
+    "count": 1
+  },
+  "show_notification": false
+}

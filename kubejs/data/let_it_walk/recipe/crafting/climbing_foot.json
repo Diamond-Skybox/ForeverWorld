@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "building",
+  "key": {
+    "F": {
+      "item": "let_it_walk:leg_foot"
+    },
+    "S": {
+      "item": "let_it_walk:klaxium_spike"
+    }
+  },
+  "pattern": [
+    "S S",
+    " F ",
+    "S S"
+  ],
+  "result": {
+    "id": "let_it_walk:climbing_foot",
+    "count": 1
+  },
+  "show_notification": false
+}

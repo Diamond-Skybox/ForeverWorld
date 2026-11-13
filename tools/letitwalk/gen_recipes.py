@@ -12,7 +12,8 @@ The walker parts take Synaxis machine parts and OpenComputers: Rebooted computer
   Stabilization Module      electron tube step -> Synaxis IMU, Synaxis PID controller and an OC microchip (tier 2)
   Jet Nozzle                iron sheet step    -> steel sheet (#c:plates/steel)
   Jet Foot                  + OC hover upgrade (tier 2) on top of the foot and nozzle
-Every other recipe is left to the mod. Only changed recipes are written; each is listed.
+Every crafting-table recipe for a walker part becomes a Create mechanical crafting recipe (same pattern); the Klaxium
+nugget/ingot conversions stay on the crafting table. Only changed recipes are written; each is listed.
 """
 import json, os, sys, zipfile
 
@@ -67,9 +68,21 @@ def expand(recipe, item, replacements):
     return dict(recipe, sequence=steps)
 
 
+KEEP_CRAFTING_TABLE = {'crafting/klaxium_ingot_from_nuggets', 'crafting/klaxium_nugget'}
+
+
+def mechanical(recipe):
+    if recipe.get('type') != 'minecraft:crafting_shaped':
+        return recipe
+    return {'type': 'create:mechanical_crafting', 'accept_mirrored': True, 'category': recipe.get('category', 'misc'),
+            'key': recipe['key'], 'pattern': recipe['pattern'], 'result': recipe['result'], 'show_notification': False}
+
+
 def main(jar):
     with zipfile.ZipFile(jar) as z:
-        for name in sorted(set(SWAPS) | set(EXPAND) | set(PATTERN_ADD) | set(PATTERN_SET)):
+        crafting = {n[len('data/let_it_walk/recipe/'):-5] for n in z.namelist()
+                    if n.startswith('data/let_it_walk/recipe/crafting/') and n.endswith('.json')}
+        for name in sorted(set(SWAPS) | set(EXPAND) | set(PATTERN_ADD) | set(PATTERN_SET) | (crafting - KEEP_CRAFTING_TABLE)):
             recipe = json.loads(z.read(f'data/let_it_walk/recipe/{name}.json'))
             out = recipe
             if name in SWAPS:
@@ -91,6 +104,10 @@ def main(jar):
                 if len(old) != len(new_row) or any(a != b for a, b in zip(old, new_row) if a != ' '):
                     raise SystemExit(f'{name}: pattern row {row} is {old!r} now, cannot add {keys}')
                 out = dict(out, pattern=out['pattern'][:row] + [new_row] + out['pattern'][row + 1:], key={**out['key'], **keys})
+            if name not in KEEP_CRAFTING_TABLE:
+                if out.get('type') == 'minecraft:crafting_shapeless':
+                    raise SystemExit(f'{name}: shapeless, give it a pattern before making it mechanical crafting')
+                out = mechanical(out)
             target = os.path.join(OUT, name + '.json')
             os.makedirs(os.path.dirname(target), exist_ok=True)
             with open(target, 'w') as f:
