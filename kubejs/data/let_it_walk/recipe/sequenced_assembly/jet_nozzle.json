@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/klaxium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "let_it_walk:jet_nozzle"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_jet_nozzle"
+        },
+        {
+          "tag": "c:plates/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_jet_nozzle"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_jet_nozzle"
+        },
+        {
+          "item": "create:fluid_pipe"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_jet_nozzle"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_jet_nozzle"
+        },
+        {
+          "type": "neoforge:tag",
+          "amount": 250,
+          "tag": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_jet_nozzle"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_jet_nozzle"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_jet_nozzle"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "let_it_walk:incomplete_jet_nozzle"
+  }
+}

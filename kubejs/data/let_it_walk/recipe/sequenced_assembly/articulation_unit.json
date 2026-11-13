@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/klaxium"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "let_it_walk:articulation_unit"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_articulation_unit"
+        },
+        {
+          "item": "synaxis:dynamic_joint_motor"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_articulation_unit"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_articulation_unit"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_articulation_unit"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_articulation_unit"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_articulation_unit"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "let_it_walk:incomplete_articulation_unit"
+  }
+}

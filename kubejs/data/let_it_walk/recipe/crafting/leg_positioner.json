@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P",
+    "NS",
+    "S "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/klaxium"
+    },
+    "N": {
+      "tag": "c:nuggets/klaxium"
+    },
+    "S": {
+      "item": "synaxis:hydraulic_linear_actuator"
+    }
+  },
+  "result": {
+    "id": "let_it_walk:leg_positioner",
+    "count": 1
+  }
+}

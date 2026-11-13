@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " S ",
+    "KMK",
+    "KCK"
+  ],
+  "key": {
+    "S": {
+      "item": "opencomputers:cpu2"
+    },
+    "K": {
+      "tag": "c:ingots/klaxium"
+    },
+    "M": {
+      "item": "let_it_walk:stabilization_module"
+    },
+    "C": {
+      "item": "let_it_walk:klaxium_casing"
+    }
+  },
+  "result": {
+    "id": "let_it_walk:walker_core",
+    "count": 1
+  }
+}

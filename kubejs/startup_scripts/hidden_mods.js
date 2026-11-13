@@ -7,6 +7,6 @@ StartupEvents.modifyCreativeTab('computercraft:tab', event => {
 StartupEvents.modifyCreativeTab('advancedperipherals:advancedperipherals', event => {
 	;['weak_automata_core', 'end_automata_core', 'husbandry_automata_core', 'overpowered_weak_automata_core', 'overpowered_end_automata_core',
 		'overpowered_husbandry_automata_core', 'chunk_controller', 'smart_glasses', 'smart_glasses_netherite', 'smart_glasses_interface',
-		'glasses_interface', 'ar_controller', 'hotkey_module', 'nightvision_module', 'overlay_module', 'keyboard', 'smart_chestplate']
+		'ar_controller', 'hotkey_module', 'nightvision_module', 'overlay_module', 'keyboard', 'smart_chestplate']
 		.forEach(id => event.remove(`advancedperipherals:${id}`))
 })

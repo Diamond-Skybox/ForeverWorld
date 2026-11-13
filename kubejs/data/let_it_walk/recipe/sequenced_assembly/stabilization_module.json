@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:precision_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "let_it_walk:stabilization_module"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        },
+        {
+          "item": "synaxis:cimulink_imu"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        },
+        {
+          "item": "synaxis:cimulink_pid_controller"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        },
+        {
+          "item": "opencomputers:chip2"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        },
+        {
+          "tag": "c:nuggets/klaxium"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        },
+        {
+          "tag": "c:nuggets/klaxium"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "let_it_walk:incomplete_stabilization_module"
+        }
+      ],
+      "results": [
+        {
+          "id": "let_it_walk:incomplete_stabilization_module"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "let_it_walk:incomplete_stabilization_module"
+  }
+}

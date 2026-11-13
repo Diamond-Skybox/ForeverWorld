@@ -631,6 +631,34 @@ file = "kubejs/data/kubejs/dimension_physics/overworld.json"
 hash = "e08ce9ad3f97e53f59d48087f59dbbb35d4f74e6bcb03b0c404fdbf35ff1c580"
 
 [[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/leg_positioner.json"
+hash = "55342d3d03a7d086d089bb3e2dcc735d55266f0cfc6b1b2e3ea9ba2aac048ee0"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/pilot_controls.json"
+hash = "3072bb43da5056c88e2d4ce32dd51dba35d485d22ef496f802181e1306ffe282"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/remote_pilot_controller.json"
+hash = "759eaa00e731284cd1b59702e531a393d583adb5fe21d7193410e3dc8cebdf35"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/crafting/walker_core.json"
+hash = "5e54541b642fde83454715cd0baa8d3cd3a1689e88761b3341dcb83dc5bdd4c8"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/sequenced_assembly/articulation_unit.json"
+hash = "ce805f791878dc90aada96ea93a9ff58187112a94b03a2874d9131127f29719c"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/sequenced_assembly/jet_nozzle.json"
+hash = "0cea40c247de3b7cc447a9e07d329e76f9dfce01f5d94ca48b9e73f3d73dde28"
+
+[[files]]
+file = "kubejs/data/let_it_walk/recipe/sequenced_assembly/stabilization_module.json"
+hash = "d021cd34a29cf55f801b7c139b53278535e1d553e8146fd2a63d244639abb958"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/entity_type/undead.json"
 hash = "776d72977fa595184d7b76f533d8905080c3cd5ccb060a5c60fe238279274cce"
 
@@ -748,7 +776,7 @@ hash = "eef4b124a57735bb7b2ff6b1e5c388bedb8045e14286bf5c44d7bfa48f67bc48"
 
 [[files]]
 file = "kubejs/startup_scripts/hidden_mods.js"
-hash = "02fa592d07f9458dbaf0bb8176b73e9b110eaad1643ece234cfd687c6592612e"
+hash = "f8f8219e96f538e1d0bf10843d1a5ea4552f26c86769c99e87087bb3f5c50d46"
 
 [[files]]
 file = "mods/accents.pw.toml"
