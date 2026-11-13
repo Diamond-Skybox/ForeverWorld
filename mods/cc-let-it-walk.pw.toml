@@ -1,0 +1,13 @@
+name = "CC: Let it walk"
+filename = "letitwalk_cc-0.0.2-alpha.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "98ad7ab379cd574464b50f575e164d735435a3ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9544892
+project-id = 1796642

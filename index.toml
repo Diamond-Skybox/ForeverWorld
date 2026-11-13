@@ -1201,6 +1201,11 @@ hash = "bfd13032421058cf6f9ad150cc182427589f5db8496c03c32f5519ad951bb6bd"
 metafile = true
 
 [[files]]
+file = "mods/cc-let-it-walk.pw.toml"
+hash = "bf4f4a480ef65a97c1f29cc5583c7c617d9f978ac769d3377867c0422bf223dc"
+metafile = true
+
+[[files]]
 file = "mods/cc-synaxis-connector.pw.toml"
 hash = "8c063fd449fe7a109ff1a4b3fe1865597251ec7e17af107fb8d1da64e463869b"
 metafile = true
@@ -1433,11 +1438,6 @@ metafile = true
 [[files]]
 file = "mods/create-cosmonatics.pw.toml"
 hash = "125ca73d567f53c903617233c30b319ffa044123b44c9eef466c47fee87ac20f"
-metafile = true
-
-[[files]]
-file = "mods/create-curios-jetpack.pw.toml"
-hash = "bf552212fb194eb5881e08a050b3123450f6e8cd75c2f4988a88c080cc12cf6b"
 metafile = true
 
 [[files]]
@@ -2663,6 +2663,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "376ed1179b6e970193b5311595e53eaf38835f01aab61864f939c5ad0b68e3a3"
+metafile = true
+
+[[files]]
+file = "mods/let-it-walk.pw.toml"
+hash = "0bf08f8e608e27fcb8c7f198618e08e19dfa01602a892e8110ed04efeea23463"
 metafile = true
 
 [[files]]
