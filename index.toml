@@ -1501,11 +1501,6 @@ hash = "5840e746ebf9389c345c48fb33ab7789c9e306e9b4712d59ab3e5a61a9ad8862"
 metafile = true
 
 [[files]]
-file = "mods/create-jetpack.pw.toml"
-hash = "2ababc7f394c7cbf4cc3091e1085b60f9dc1e32a253164723741171b54b72308"
-metafile = true
-
-[[files]]
 file = "mods/create-liquid-fuel.pw.toml"
 hash = "f31a2cc2e2aabe8d21f1bb47d73966a1dd81b183cd8e22eefa46d61c73593396"
 metafile = true
