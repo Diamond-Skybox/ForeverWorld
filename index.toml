@@ -63,6 +63,10 @@ file = "config/sable_player_ragdoll-server.toml"
 hash = "e31c43d36ae6913b6cacc41ccee4b8898efb911e83bb3a6d7d2d47934a049282"
 
 [[files]]
+file = "config/sabledestructive-common.toml"
+hash = "8c4975ba22a161f79a98610e23f35bbdc2195f5440a997718e5faa21c603d36c"
+
+[[files]]
 file = "config/simpleclouds-client.toml"
 hash = "26ce6e12cbd634c8e61b411a6adf71211e75c38d03150ee874bde6539d74a95b"
 
