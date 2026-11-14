@@ -803,6 +803,18 @@ file = "kubejs/data/vegandelight/tags/item/vegan.json"
 hash = "07b677f2bfd01a4c62e9966574d80f4b0596365897dd20392740ccc7d5c786df"
 
 [[files]]
+file = "kubejs/data/zombie_variants/neoforge/biome_modifier/deep_dark_zombies.json"
+hash = "e12ca306fa1442562e97cf5ecc62fa3b65d8d9bd11d3d0b42d03085b8c5e23e6"
+
+[[files]]
+file = "kubejs/data/zombie_variants/neoforge/biome_modifier/lush_zombies.json"
+hash = "e12ca306fa1442562e97cf5ecc62fa3b65d8d9bd11d3d0b42d03085b8c5e23e6"
+
+[[files]]
+file = "kubejs/data/zombie_variants/neoforge/biome_modifier/mushroom_zombies.json"
+hash = "e12ca306fa1442562e97cf5ecc62fa3b65d8d9bd11d3d0b42d03085b8c5e23e6"
+
+[[files]]
 file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
 
