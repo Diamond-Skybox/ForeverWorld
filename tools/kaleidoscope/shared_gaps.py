@@ -8,6 +8,8 @@
 # the cooking pot recipes), except results in #kaleidoscope_cookery:only_stockpot_output_recipe, so the cooking pot -> stockpot gap
 # is only those; the other way has no fallback.
 # A Kaleidoscope dish only "fits" the cooking pot with at most 6 ingredients (the pot's slots); the stockpot and wok take 9.
+# This reads jars and kubejs/data only: the cooking pot copies kubejs/server_scripts/kaleidoscope_cooking_pot.js adds at load time
+# (for the stockpot/wok-only dishes counted here) aren't seen, so those gaps still show; the script logs what it covered.
 import collections, json, os, sys, zipfile
 sys.path.insert(0, os.path.dirname(__file__))
 import recipe_index as R
