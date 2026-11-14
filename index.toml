@@ -55,6 +55,10 @@ file = "config/lootr-common.toml"
 hash = "5c4312beee88ac13f9aac78e0e97f8577d93f4d17f83866c41a75aa935e7d870"
 
 [[files]]
+file = "config/mealmastery-server.toml"
+hash = "0ade93f14314ef23011a519f1fd8b1cd11466743b1684efc4701010184174a5c"
+
+[[files]]
 file = "config/resourcepackoverrides.json"
 hash = "e22a7c9bbda7ad5b0df6fd0c86e3fbcd6d3e5f728d0cf05ba72b26ad85788f73"
 
