@@ -2516,11 +2516,6 @@ hash = "a2850101d748e4e0ef5b069fce4b420855890d469aca46d878f1bdb8b5ca6568"
 metafile = true
 
 [[files]]
-file = "mods/jei-enhancements.pw.toml"
-hash = "68344faa181bcf929f306bcf676f7c79b3310c1b476b58d4ede7f22b4c2a1b95"
-metafile = true
-
-[[files]]
 file = "mods/jei-malum.pw.toml"
 hash = "b08c1bd457137bcd07c21586cb8e0a2861308b26a60b5e59ace24bc5669aeec4"
 metafile = true
