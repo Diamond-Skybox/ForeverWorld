@@ -1,13 +1,13 @@
 name = "OpenComputers II"
-filename = "oc2-MC1.21.1-neoforge-0.10.1+6e94a86.jar"
+filename = "oc2-MC1.21.1-neoforge-0.12.1+d672c55.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xkOonJ4E/versions/IfMezzGa/oc2-MC1.21.1-neoforge-0.10.1%2B6e94a86.jar"
+url = "https://cdn.modrinth.com/data/xkOonJ4E/versions/k4kCG0NG/oc2-MC1.21.1-neoforge-0.12.1%2Bd672c55.jar"
 hash-format = "sha512"
-hash = "d5c6822391cfac53a2ea0028eaa1c7de99ad76d73a3ee3dcfa103288189013434197cb679f4a7e9a1557ffa8529a771c6d6c57b336e8add5c67e4edc051707e7"
+hash = "f25a836be162a1c4f63559ccee37ef3e5b16cc92c256bf1777f85c250e5b473b430665f8bead1e5a15627cde4f8a9a3623522cecbccf8b1baa11cbe51c2df5a9"
 mode = "url"
 
 [update.modrinth]
 mod-id = "xkOonJ4E"
-version = "IfMezzGa"
+version = "k4kCG0NG"

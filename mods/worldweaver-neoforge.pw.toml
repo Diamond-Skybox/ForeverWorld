@@ -1,13 +1,13 @@
 name = "WorldWeaver"
-filename = "worldweaver-21.0.30.jar"
+filename = "worldweaver-21.0.31.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/R8uGDQpB/versions/21KphEsG/worldweaver-21.0.30.jar"
+url = "https://cdn.modrinth.com/data/R8uGDQpB/versions/KxUUeX9u/worldweaver-21.0.31.jar"
 hash-format = "sha512"
-hash = "4a136bc2f4b86c4d3e2ba75c691f241a8af1c16ce1580f1c205f3a6c1a904cd881e0df369564f2d1011769756fc99e8d42593268a575c9545fd8bda430dc3846"
+hash = "5c3077f4f5a2d690a9f361a3fe6260e4792d697998acf9e3c2ce9b2533efdb08da31bdfb2799e54d1ab6c92ec899eb1c956c12202f4298c16aa05d2e7944f393"
 mode = "url"
 
 [update.modrinth]
 mod-id = "R8uGDQpB"
-version = "21KphEsG"
+version = "KxUUeX9u"

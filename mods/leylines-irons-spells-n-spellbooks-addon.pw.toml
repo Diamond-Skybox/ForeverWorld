@@ -1,12 +1,12 @@
 name = "Leyline Spellbooks"
-filename = "leylines-1.1.1.jar"
+filename = "leylines-1.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "05725dca1c923223b333685cdb3149354cbd913b"
+hash = "ecac2f64caf1846d142bc711a82cf40290ba27eb"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9316434
+file-id = 9579676
 project-id = 1636676

@@ -1,12 +1,12 @@
 name = "Better Inventory"
-filename = "betterinventory-neoforge-1.21.1-2.0.2.jar"
+filename = "betterinventory-neoforge-1.21.1-2.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "643b6357bbea1a4c30c58836eb4ee052fa8c950c"
+hash = "ef06038f4ac0eb07c1bf2e3793b602a472fad34c"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9304282
+file-id = 9555179
 project-id = 1618019

@@ -1,12 +1,12 @@
-name = "Realistic Takeoff - Immersive Aircraft"
-filename = "[NeoForge - 1.21.1] Realistic Takeoff [IA] - 0.0.10.jar"
+name = "Realistic Takeoff [IA]"
+filename = "Realistic-Takeoff-IA-0.0.11-Universal.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "026202609b830234858d6cab9c01cd1234fbd691"
+hash = "d7e490cf22bab3d89f84543c7693518ccdf5d8ec"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9321436
+file-id = 9586848
 project-id = 1584149

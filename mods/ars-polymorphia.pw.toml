@@ -1,13 +1,13 @@
 name = "Ars Polymorphia"
-filename = "ars_polymorphia-1.0.3.jar"
+filename = "ars_polymorphia-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/11rOt9Bv/versions/k4Ud6Gzk/ars_polymorphia-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/11rOt9Bv/versions/6do8wFXz/ars_polymorphia-1.0.4.jar"
 hash-format = "sha512"
-hash = "5b49c363403efdb2759daed8bc000e33e5c56abbe7ed34acca5c3327504e28628314fd4cd5b04bee6cec6811a44ffac748c69762068c5a76e39f312671ed2de4"
+hash = "e14ebc147f4e2dd42822b03c257ef5eea692aa1c22701fd903ca4c9c6af29d0dff60310b9d481e97a484f7b7e7fb74faa3e399f2309a6441443db3c88c808407"
 mode = "url"
 
 [update.modrinth]
 mod-id = "11rOt9Bv"
-version = "k4Ud6Gzk"
+version = "6do8wFXz"

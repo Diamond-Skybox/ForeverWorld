@@ -1,12 +1,12 @@
-name = "Realistic Landing - Immersive Aircraft"
-filename = "[NeoForge - 1.21.1] Realistic Landing [IA] - 0.0.9.jar"
+name = "Realistic Landing [IA]"
+filename = "Realistic-Landing-IA-0.0.10-Universal.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7a639cac181f0791ca911fe4e5c7679bf62c8a54"
+hash = "7bc98289c0685ab39fa4d27798c4793b42893223"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9321419
+file-id = 9586822
 project-id = 1566496

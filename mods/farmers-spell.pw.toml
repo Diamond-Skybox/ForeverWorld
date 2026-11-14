@@ -1,13 +1,13 @@
-name = "Farmer's Spell 'n Spell Book"
-filename = "farmers-spell-n-spellbook-1.0.7.0-1.21.1.jar"
+name = "Farmer's Spell 'n Spellbooks"
+filename = "farmers-spell-n-spellbook-1.0.7.1-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/UWV8H4F4/versions/qNEKVQY9/farmers-spell-n-spellbook-1.0.7.0-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/UWV8H4F4/versions/4F8DZu21/farmers-spell-n-spellbook-1.0.7.1-1.21.1.jar"
 hash-format = "sha512"
-hash = "b5ec281605459718f6a17add9bc4bc61b526c890c7e64e7f0ed4dfec64d722ca78439a02f2ec7910d9d7636899b4e93d3d04d037f15e8cf31b11f654bdb84727"
+hash = "99107b3b2a1c8f1a120ebbe427ef3a7e83a0b19d2548b63887d2b9c38ff9158a8bfacb587dfeb7f3ccf082eb87c6bff804bf5bb05970ad5f2a20a32d4234d8bf"
 mode = "url"
 
 [update.modrinth]
 mod-id = "UWV8H4F4"
-version = "qNEKVQY9"
+version = "4F8DZu21"

@@ -1,12 +1,12 @@
 name = "Better Shipwrecks"
-filename = "bettershipwrecks-1.3.3+neoforge-1.21.1.jar"
+filename = "bettershipwrecks-1.3.8-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ff1b883951bbb533e283ee507eeed0eb8fe3cb52"
+hash = "2386765d7de7a63220f6df3af288ccf46cdb75a1"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9334134
+file-id = 9596393
 project-id = 1717003

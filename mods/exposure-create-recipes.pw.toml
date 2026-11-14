@@ -1,12 +1,12 @@
-name = "Exposure Create Recipes"
-filename = "exposure_create-neoforge-1.21.1-0.1.0.jar"
+name = "Exposure: Create Recipes"
+filename = "exposure_create-neoforge-1.21.1-0.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dba2ba41624cb10ca6cb1ae20fd2c9000bd37f48"
+hash = "c3de3657bb828a785c59e8b7994eddbe246aa4bd"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9088675
+file-id = 9392341
 project-id = 1731721

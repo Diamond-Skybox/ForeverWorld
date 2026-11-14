@@ -1,13 +1,13 @@
 name = "Delight o' Flight"
-filename = "DelightoFlight-1.21.1-1.3.4.jar"
+filename = "DelightoFlight-1.21.1-1.4.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/97QHDzCq/versions/scD0qSUU/DelightoFlight-1.21.1-1.3.4.jar"
+url = "https://cdn.modrinth.com/data/97QHDzCq/versions/d8OqjuEH/DelightoFlight-1.21.1-1.4.3.jar"
 hash-format = "sha512"
-hash = "ea8042f72f874f281deb912ad6984f2feaddcbbc12e45c4bf00cb92a35d1c1ba1a3df2edc1c5cd5021dceea9978b74141f8e0612a1dcdab0e7300f2deca597d9"
+hash = "eee4a4f7656fe2c85739b73f1b1ef2919e11169465a0f0a7fe64c265b1c908569556fea7eadd6a4b832df7aa3d96704ccfc126cafe3a2bf75fc244098e5b1f80"
 mode = "url"
 
 [update.modrinth]
 mod-id = "97QHDzCq"
-version = "scD0qSUU"
+version = "d8OqjuEH"

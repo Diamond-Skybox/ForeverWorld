@@ -1,13 +1,13 @@
 name = "Just Enough Resources"
-filename = "JustEnoughResources-NeoForge-1.21.1-1.6.0.60.jar"
+filename = "JustEnoughResources-NeoForge-1.21.1-1.6.0.66.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/T9VecgxP/JustEnoughResources-NeoForge-1.21.1-1.6.0.60.jar"
+url = "https://cdn.modrinth.com/data/uEfK2CXF/versions/pTW8XhMJ/JustEnoughResources-NeoForge-1.21.1-1.6.0.66.jar"
 hash-format = "sha512"
-hash = "521e9c893ac5a798ee170bbf6583f8c9f1e02738d0d169419cb1616baf784e16966279ada22fa195b584032ff7e1126b2b8f17c4632242ccee668b857c5df7ab"
+hash = "ac329fc1d1e6379cd519e7e3ffd0b2d0c83b2d8c6e1f402cd4cff837f79f90c6b26475ea2a4b84647f1ab2b977db1a5867e41c54d14c70b74b1bbc62e309fbc6"
 mode = "url"
 
 [update.modrinth]
 mod-id = "uEfK2CXF"
-version = "T9VecgxP"
+version = "pTW8XhMJ"

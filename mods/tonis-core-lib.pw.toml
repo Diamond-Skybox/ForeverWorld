@@ -1,0 +1,12 @@
+name = "TONI's Core Lib"
+filename = "tonicore-neoforge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c5f3f8b14e76e5de0766c3698af3c2468d8986f"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9558284
+project-id = 1785763

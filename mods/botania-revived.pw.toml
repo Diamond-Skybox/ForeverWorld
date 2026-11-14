@@ -1,12 +1,12 @@
 name = "Botania Revived"
-filename = "Botania-Revived-1.21.1-1.0.4-NeoForge.jar"
+filename = "Botania-Revived-1.21.1-2.0.2-NeoForge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "631a71bd3f8d306c20204609eb585358ee89f25a"
+hash = "b333e5ac4fd55b0e8822238ced0b25b193db9628"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9379207
+file-id = 9577651
 project-id = 1725641

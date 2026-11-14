@@ -1,13 +1,13 @@
 name = "Clockwork"
-filename = "clockwork-neoforge-1.21.1-1.1.6.jar"
+filename = "clockwork-neoforge-1.21.1-1.1.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/h3OPQqBm/versions/DxUqeFE6/clockwork-neoforge-1.21.1-1.1.6.jar"
+url = "https://cdn.modrinth.com/data/h3OPQqBm/versions/WjKTmKOZ/clockwork-neoforge-1.21.1-1.1.7.jar"
 hash-format = "sha512"
-hash = "44c1c9c388836410a72be7a658dfb0ef7130ec5bb0dd726db75a0e2e3704f58c327d0b9d642fc87afd6a672e5c72ee27b70d4edb1304c098e5e8f79e37a21dce"
+hash = "07c1c801dd42f9ddee90726ec158f90e0f1840d325b21dd179da79e361573d4ab2a313ad91de2602d61955ec11aca9f15ab83e81844794f3eb301e3fc14b8279"
 mode = "url"
 
 [update.modrinth]
 mod-id = "h3OPQqBm"
-version = "DxUqeFE6"
+version = "WjKTmKOZ"

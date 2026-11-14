@@ -1,12 +1,12 @@
-name = "Kaleidoscope: Immersive Eating"
-filename = "kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.5.jar"
+name = "Kaleidoscope: ImmersiveEating"
+filename = "kaleidoscope_ImmersiveEating-neoforge1.21.1-1.5.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bb27c11337a67791d9c3319ae369b8293960c28e"
+hash = "3f0f86965d3b76e65c3e292cfe90442c04fdd4da"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9312166
+file-id = 9505749
 project-id = 1659858

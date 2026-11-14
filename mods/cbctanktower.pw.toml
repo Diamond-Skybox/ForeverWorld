@@ -1,0 +1,13 @@
+name = "CBC Tank Tower"
+filename = "cbc-tank-tower-0.9.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CcnNVqVP/versions/v5xiBlcP/cbc-tank-tower-0.9.0.jar"
+hash-format = "sha512"
+hash = "cf4cc029c36b6cd458615b14f788b2ccf2c618163fd5491aed193c3ac98a62ae8afdcc3cc01256b3d2153fe94b90c712b933aaea9313ab40fb69257b92ebc235"
+mode = "url"
+
+[update.modrinth]
+mod-id = "CcnNVqVP"
+version = "v5xiBlcP"

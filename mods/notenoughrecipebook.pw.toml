@@ -1,13 +1,13 @@
-name = "Not Enough Recipe Book [NERB]"
-filename = "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar"
+name = "Not Enough Recipe Book"
+filename = "nerb-neoforge-0.6.2+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bQh7xzFq/versions/8SBaRv1t/Not Enough Recipe Book-NEOFORGE-0.4.3%2B1.21.jar"
+url = "https://cdn.modrinth.com/data/bQh7xzFq/versions/JxnUIrYz/nerb-neoforge-0.6.2%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "544f83caec2e894e7422571f154bb5a470e9156d5b5b70e6352c754f1bac47ac2c055893064faae2d05ca3a8bef699343c851c925c2c1f8c3ace7de38cfd67ed"
+hash = "5a743ecb42bce83e473f85b8765c832e79fb77999f167b651f649cdff8b7849c39647b95cdfcd829ac320c6cf41cfa6fcfc73bbf1a4818280c281b880f5a6f8c"
 mode = "url"
 
 [update.modrinth]
 mod-id = "bQh7xzFq"
-version = "8SBaRv1t"
+version = "JxnUIrYz"

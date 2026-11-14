@@ -1,13 +1,13 @@
 name = "BCLib"
-filename = "bclib-21.0.28.jar"
+filename = "bclib-21.0.29.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/7bdKEtKC/versions/oza4iUdA/bclib-21.0.28.jar"
+url = "https://cdn.modrinth.com/data/7bdKEtKC/versions/oXFXNq58/bclib-21.0.29.jar"
 hash-format = "sha512"
-hash = "97872800c6fb1555cb4dfb4da2db24a460c437b7b2cb9ab2fdfb5c76d93e6c8f0939d19124a3c4ef3d34135cc4727dcfd233a94b45068dec336302bfda2908c2"
+hash = "08f9d6b1bb0736883355edc98776a49887a00e41415e227714844a3fd63e6c2381f4d1382feda029f138b256d5b14daa5fcedf827078d017fef63a40444784c3"
 mode = "url"
 
 [update.modrinth]
 mod-id = "7bdKEtKC"
-version = "oza4iUdA"
+version = "oXFXNq58"

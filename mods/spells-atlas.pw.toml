@@ -1,12 +1,12 @@
 name = "Spell Atlas"
-filename = "spell_atlas-1.91.1.jar"
+filename = "spell_atlas-1.92.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "759ae156e540a19a8f89a664c7d661acd2c37290"
+hash = "2194da5c618f1aab87b1c3c0c349c5ca7343c3b1"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9357789
+file-id = 9588969
 project-id = 1710649
