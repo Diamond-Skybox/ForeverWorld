@@ -3107,13 +3107,28 @@ hash = "dd20b317a075f16ef2d515b01b0eb46df5919250399402945dabf44fb50007ee"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-delight.pw.toml"
+hash = "23844f05fe3206c75572860c88d21beb4241107cd457d805cdc462cf2d78b2da"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-kaleidoscope.pw.toml"
 hash = "50e466221a44039f67cbce2477b94c10dd2af449a2a90db3c08a36274e457cf6"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-tfmg.pw.toml"
+hash = "650e34c293960ac8675db821e8c3be6d26fe638805946c3882a69e9dcd35f230"
+metafile = true
+
+[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "30198e4a0435d2b9c7606f2157df2393284d91dcf3f9f6d7c26497db44d404d6"
+metafile = true
+
+[[files]]
+file = "mods/kubejsable.pw.toml"
+hash = "61dd0d97d0f485ade204d4972f050a1e920b82ba95a5d21be29bb8a18098544e"
 metafile = true
 
 [[files]]
@@ -3239,6 +3254,11 @@ metafile = true
 [[files]]
 file = "mods/loot-journal-neoforge.pw.toml"
 hash = "01318cf9bf28e0e5e92cd361528c87c0e0689c7993d50deb11ae97ad893aa7e4"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "59429b0971dd4f6df7c746da804be582978ed5ea8ac368eabd6f95ea69453ea6"
 metafile = true
 
 [[files]]

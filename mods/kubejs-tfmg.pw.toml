@@ -1,0 +1,13 @@
+name = "KubeJS TFMG"
+filename = "tfmgjs-1.21.1-1.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HXlL9LeK/versions/8swmtqE6/tfmgjs-1.21.1-1.2.8.jar"
+hash-format = "sha512"
+hash = "6af46fb76650e4be8b8892645939127547117909dd3eefddd9146f0e1d65871b005998b2460c4cdde0c15c436fd335633f973afdc790f101f3b1fabb7ead7a54"
+mode = "url"
+
+[update.modrinth]
+mod-id = "HXlL9LeK"
+version = "8swmtqE6"
