@@ -1216,7 +1216,7 @@ hash = "7500e701bbbdf5a1862a044aaaec5e0d34dd11edd2da4f391af9e31cf7751387"
 
 [[files]]
 file = "kubejs/server_scripts/kaleidoscope_cooking_pot.js"
-hash = "94dda9aaba6731b6ae06351370061318c6acc0b7058d34c66994c3086c0e6fdf"
+hash = "6a1fecca6fb3cc7df7146646c21bd517af29f6d64832c79ae7a3c72695ffb901"
 
 [[files]]
 file = "kubejs/server_scripts/unobtainable.js"

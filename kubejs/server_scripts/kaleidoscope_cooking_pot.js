@@ -8,6 +8,9 @@
 //   carrier -> container (stockpot default bowl, wok default none); a tag carrier (the Nether "... rice" dishes are served onto a
 //   bowl of #c:foods/cooked_rice) becomes an ingredient with a bowl container, the rice's bowl coming back as its remainder;
 //   result (servings) as-is; time -> cookingtime (stockpot 300, wok 200).
+// A list of alternatives (Kaleidoscope writes [a, b] as one ingredient) becomes a neoforge:compound ingredient: Farmer's Delight's
+// recipe reader (via KubeJS Delight's schema) only takes objects. Source recipes naming an item that doesn't exist (recipes for mods
+// that aren't installed still reach this event) are skipped quietly.
 // Skipped: a copy with the same ingredients as a cooking pot recipe for another dish, or as another copy (the pot takes whichever it
 // finds first, so one dish would become unmakeable: meat pie loses to dumplings), and texture-only variants with equal ingredients.
 
@@ -46,6 +49,14 @@ ServerEvents.recipes(event => {
 		})
 		return out
 	}
+	const itemIds = x => Array.isArray(x) ? x.reduce((a, v) => a.concat(itemIds(v)), [])
+		: x && typeof x == 'object' ? Object.keys(x).reduce((a, k) => a.concat((k == 'item' || k == 'id') && typeof x[k] == 'string' ? [x[k]]
+			: typeof x[k] == 'object' ? itemIds(x[k]) : []), []) : []
+	// format first: a malformed id (one source recipe's result is "'farmersdelight:mutton_chops'") throws inside KubeJS's id parser
+	// past any try/catch and ends the whole recipes handler
+	const KCP_ID = /^[a-z0-9_.-]+:[a-z0-9_.\/-]+$/
+	const exists = id => { if (!KCP_ID.test(id)) return false; try { return Item.exists(id) } catch (e) { return false } }
+	const compound = i => Array.isArray(i) ? { type: 'neoforge:compound', children: i.map(compound) } : i
 	const sigOf = ings => ings.map(i => JSON.stringify(i)).sort().join('|')  // ingredient multiset (Kaleidoscope and FD write them alike)
 	const each = (type, fn) => event.forEachRecipe({ type: type }, r => fn(String(r.getId()), JSON.parse(String(r.json))))
 
@@ -63,14 +74,15 @@ ServerEvents.recipes(event => {
 		if (!routed[x] && x.split(':')[0] != 'minecraft') (dishes[x] = dishes[x] || []).push({ id: id, json: j, stockpot: KCP_STOCKPOT.indexOf(t) >= 0 })
 	})))
 
-	let made = 0, covered = 0, tooBig = 0
+	let made = 0, covered = 0, tooBig = 0, absent = 0
 	const skipped = []
 	Object.keys(dishes).sort().forEach(dish => {
 		const seen = {}
 		let any = false
 		dishes[dish].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0).forEach(src => {
 			const j = src.json
-			const ings = (j.ingredients || []).slice()
+			if (!itemIds([j.ingredients, j.result, j.carrier]).every(exists)) { absent++; return }
+			const ings = (j.ingredients || []).map(compound)
 			let carrier, time
 			if (src.stockpot) {
 				const base = j.soup_base || 'minecraft:water'
@@ -83,7 +95,7 @@ ServerEvents.recipes(event => {
 				time = j.time || 200
 			}
 			if (Array.isArray(carrier)) carrier = carrier.length ? carrier[0] : null
-			if (carrier && carrier.tag) { ings.push(carrier); carrier = { item: 'minecraft:bowl' } }
+			if (carrier && carrier.tag) { ings.push(compound(carrier)); carrier = { item: 'minecraft:bowl' } }
 			if (ings.length > KCP_SLOTS) return
 			const sig = sigOf(ings)
 			if (seen[sig]) return
@@ -104,6 +116,7 @@ ServerEvents.recipes(event => {
 		else tooBig++
 	})
 	console.info('Kaleidoscope -> cooking pot: ' + made + ' recipes for ' + covered + ' dishes; ' + tooBig +
-		' dishes have no recipe that fits (too many ingredients or a clash)')
+		' dishes have no recipe that fits (too many ingredients or a clash); ' + absent +
+		' source recipes skipped for items that don\'t exist')
 	skipped.forEach(s => console.info('  skipped ' + s))
 })
