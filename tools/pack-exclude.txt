@@ -1,0 +1,17 @@
+# Mods in the "ForeverWorld - Test" reference instance that the pack must NOT get.
+# One Prism .index name per line (as in Test's mods/.index/, without .pw.toml); tools/prism2packwiz.py skips them even when named.
+# Jars without an index entry (foreverbackups, which has no download source) are listed for the record.
+
+# user, 2026-11-06
+shine
+# server-only / diagnostics tools
+spark
+foreverbackups
+
+# user, 2026-11-14: BBS and its add-ons, the Photon editor and related (Test only)
+bbs-fs
+bbs-cml-edition
+bbs-photon-addon
+irlights-bbs-addon
+photon-editor
+kilagraph
