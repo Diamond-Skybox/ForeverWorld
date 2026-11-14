@@ -739,6 +739,10 @@ file = "kubejs/server_scripts/cc_bridge_recipes.js"
 hash = "3c2db2e277ea1d6c40a451841c3cb99e83ad6e3397ca481c43f8435c54ec593f"
 
 [[files]]
+file = "kubejs/server_scripts/industrial_iron.js"
+hash = "2adbef04f9d415a805cd8fc91319ced0497784c9d609864c60b39c162c27b9d0"
+
+[[files]]
 file = "kubejs/server_scripts/kaleidoscope_cooking_pot.js"
 hash = "6a1fecca6fb3cc7df7146646c21bd517af29f6d64832c79ae7a3c72695ffb901"
 
