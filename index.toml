@@ -1397,11 +1397,6 @@ hash = "b7dcc9329bc3a7eb085f942aa652000526d3d6793141e1fa3b234ff0855240e8"
 metafile = true
 
 [[files]]
-file = "mods/ars-ocultas.pw.toml"
-hash = "95e9c5fd69e5754278a2fca5c22c4312aee7e888bfb965dbd52400083eab50b5"
-metafile = true
-
-[[files]]
 file = "mods/ars-polymorphia.pw.toml"
 hash = "c60dadb5e1841f424891cb593d5b3eea5a08d0ecb0a2fa505de429c5cd6b5af7"
 metafile = true
