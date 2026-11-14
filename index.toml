@@ -56,7 +56,7 @@ hash = "5c4312beee88ac13f9aac78e0e97f8577d93f4d17f83866c41a75aa935e7d870"
 
 [[files]]
 file = "config/mealmastery-server.toml"
-hash = "cf5850e7a64f0f0ddf418a0e84ff969364a554d836ca825deda7688feef42462"
+hash = "c921a8ff39d1ef7ee6f9c840147ab64a0b624eec24414bfc7eb35512bcce0ef0"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
@@ -101,6 +101,10 @@ hash = "fe47172fd505b770bd9752fea3adeeac9a31424c4e37e754275796e9bcbe1012"
 [[files]]
 file = "kubejs/assets/forbidden_arcanus/lang/en_us.json"
 hash = "a8e602cd409158e40538d8317190c5efb32fb223a9e851ec1030b16daa3fbc4d"
+
+[[files]]
+file = "kubejs/assets/foreverworld/lang/en_us.json"
+hash = "3dcec6ff3764fde0f4ce9343a27b340c46ebcfe033823d11b122e37811dbef9b"
 
 [[files]]
 file = "kubejs/assets/foreverworld/tooltips/definition/sandevistan.json"
@@ -325,6 +329,70 @@ hash = "778651fc5f525d5a54c936272702566e1bc7d184b21403b7a152916fb53f17ca"
 [[files]]
 file = "kubejs/data/foreverworld/function/endfight_tick.mcfunction"
 hash = "306f1569b52afea8a77d8e1028f6a7d50afacede82f75e0e32d2f743324b369a"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/cooking_level_100.json"
+hash = "1a22dd1ee8c815adfd1925357fa66233bef634872f0c14442c5c466a22a50806"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/cooking_level_25.json"
+hash = "ca8a8557bfbe9da8be72471b941ef227a6e83c6a87c4cdee024fdd7b7a7e3d5d"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/cooking_level_50.json"
+hash = "39691ce0d65c800cf4cdbcead88814392a3355aacdce1f634aa31f4da19a2439"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/cooking_level_75.json"
+hash = "0edd31f72371add74037c876be6ca8748507a3d3a276f8d2e247da6facf2ba69"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/ingredients_100.json"
+hash = "458fd5f2673cd9757b4cbb782e5a8cf41272d4f63b7611cd50c6fbef440956cd"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/ingredients_250.json"
+hash = "cb4f0069a10745040f0bd7d4bbe138600ef2ac31b7e4a48b189460ed34e0bb73"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/ingredients_500.json"
+hash = "968ae74c364c55744df36bcb3b2214a2eb4c888d334231f01ceb27223ebf0f85"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/mastered_100.json"
+hash = "91ff6fac5eab5132899984036b782e66f0b26cff73f706a1607a4ffd735a68cf"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/mastered_25.json"
+hash = "d3d8ccf8ab2f104c7f2208992d3585d871fe39a67c83e5b44ba881c46b1641d0"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/mastered_250.json"
+hash = "9750ab7643e6e12c8480c29aa4fb56e8a103df41b4cf09bd8777ddcd27e935d2"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/mastered_50.json"
+hash = "3d5d308d5547d838fd7e2b93224eeabfd92fb8aecd3877874e70f76b4624b303"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/unique_meals_100.json"
+hash = "e9410dfce87c16bc9ddfd40a221238cd4bae2b479956b93942a5d167f88a9b22"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/unique_meals_1000.json"
+hash = "e94e6568fcf0f1496d806ebdb8d7354c8c528bfe11099fe70dcc554d67c19be3"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/unique_meals_1500.json"
+hash = "6ac3257dae7a39121613f3031e8d9919037d80c69ac76b87f4a77efcd8803b87"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/unique_meals_250.json"
+hash = "e251bdaabc520477fb92e68fc05797f6ffedf5dd9327e4cb923eb025b840b63d"
+
+[[files]]
+file = "kubejs/data/foreverworld/mealmastery/milestones/unique_meals_500.json"
+hash = "7b6dc9259b5031caede715ccd6c8a9ab695da77e8f03d116b10b26ef29571703"
 
 [[files]]
 file = "kubejs/data/foreverworld/predicate/in_the_end.json"

@@ -34,7 +34,7 @@ experimentationDailyCap = 60
 baseXpPerMeal = 1
 # Level curve. With the defaults, level 27 costs 1,738 XP.
 levelCurveBase = 100
-levelCurveLinear = 63
+levelCurveLinear = 330
 levelCurveQuadratic = 0
 # Levelling stops here. Earned XP past it is kept, not discarded.
 maxLevel = 100
@@ -90,7 +90,7 @@ pointsPerServing = 1
 intendedMethodBonus = 0
 # Cooking XP bonus per mastered dish, as a fraction, and its ceiling.
 # The safest reward shape: mastery improves progression, not the food.
-xpBonusPerMasteredDish = 0.005
+xpBonusPerMasteredDish = 0.002
 xpBonusCap = 0.25
 
 # What mastery does in play. These are real mechanical effects.
