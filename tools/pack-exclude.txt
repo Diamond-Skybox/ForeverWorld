@@ -15,3 +15,7 @@ bbs-photon-addon
 irlights-bbs-addon
 photon-editor
 kilagraph
+
+# user, 2026-11-14: Sinytra Connector + Forgified Fabric API (Test only)
+connector
+forgified-fabric-api
