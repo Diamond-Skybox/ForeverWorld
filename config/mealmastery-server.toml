@@ -215,7 +215,7 @@ unattendedWindowTicks = 1200
 [compatibility]
 # Extra blocks treated as cooking workstations, for addons with their own.
 # "modid:block" or "modid:block=modid:method".
-extraWorkstationBlocks = ["kaleidoscope_cookery:stockpot=kaleidoscope_cookery:stockpot", "kaleidoscope_cookery:pot=kaleidoscope_cookery:pot"]
+extraWorkstationBlocks = ["kaleidoscope_cookery:stockpot=kaleidoscope_cookery:stockpot", "kaleidoscope_cookery:pot=kaleidoscope_cookery:pot", "brewinandchewin:keg=brewinandchewin:fermenting"]
 # Menu classes never treated as culinary, on top of the built-in list.
 excludedMenuClasses = []
 # Recipe type ids to ignore, e.g. "farmersdelight:cutting".

@@ -56,7 +56,7 @@ hash = "5c4312beee88ac13f9aac78e0e97f8577d93f4d17f83866c41a75aa935e7d870"
 
 [[files]]
 file = "config/mealmastery-server.toml"
-hash = "0ade93f14314ef23011a519f1fd8b1cd11466743b1684efc4701010184174a5c"
+hash = "cf5850e7a64f0f0ddf418a0e84ff969364a554d836ca825deda7688feef42462"
 
 [[files]]
 file = "config/resourcepackoverrides.json"
@@ -3117,7 +3117,7 @@ metafile = true
 
 [[files]]
 file = "mods/diegesis.pw.toml"
-hash = "cb1e49bcf4dd673050831fba2e364b16c21959d6eec49f2e0e44f63d24ed28bf"
+hash = "9424400b8ddedb35d15d48637af0a71196ad3278cb517faf48ae1a12c7044f5b"
 metafile = true
 
 [[files]]
@@ -3632,7 +3632,7 @@ metafile = true
 
 [[files]]
 file = "mods/hands-on-delight.pw.toml"
-hash = "93c742aca9aad4464fc184b5554a740e9c511e1465f6f9fcf9b20c966719aa21"
+hash = "fabbc96ea5b30d8afda009c802fe460cf7bfe4b658430d9d5ee4814fe4481391"
 metafile = true
 
 [[files]]

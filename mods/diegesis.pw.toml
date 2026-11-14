@@ -1,12 +1,12 @@
 name = "Diegesis"
-filename = "diegesis-neoforge-1.21.1-1.0.0-beta.7.jar"
+filename = "diegesis-neoforge-1.21.1-1.0.0-beta.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9f35216f49d3f7c0189bab4261f4a63f1d0ceb84"
+hash = "77ec2e0edd8fa47e571a7ae18f3e6d2ad630db2f"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9551298
+file-id = 9601318
 project-id = 1790227
