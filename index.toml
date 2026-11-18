@@ -885,6 +885,11 @@ hash = "71793a24cd9d833c5c9a2f676f9e02eb397c20594448a94acfdd8b709eb494d1"
 metafile = true
 
 [[files]]
+file = "mods/almanac.pw.toml"
+hash = "c421b93edffa990f17af938ad9e28765dd616e9e903e1adef39ad9fa92dc0b71"
+metafile = true
+
+[[files]]
 file = "mods/alshanexs-familiars.pw.toml"
 hash = "1e262ba813fb508bf4722b0b957b4deb65675d7e74a6e406f85b395f0eab7586"
 metafile = true
@@ -2777,6 +2782,11 @@ metafile = true
 [[files]]
 file = "mods/let-it-walk.pw.toml"
 hash = "0bf08f8e608e27fcb8c7f198618e08e19dfa01602a892e8110ed04efeea23463"
+metafile = true
+
+[[files]]
+file = "mods/let-me-despawn.pw.toml"
+hash = "c10231e2f36235b517928b82be751436b92a65aa9716a31a582fdd0c2399f20e"
 metafile = true
 
 [[files]]
