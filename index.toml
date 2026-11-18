@@ -886,7 +886,7 @@ metafile = true
 
 [[files]]
 file = "mods/almanac.pw.toml"
-hash = "c421b93edffa990f17af938ad9e28765dd616e9e903e1adef39ad9fa92dc0b71"
+hash = "e5fd0fbf470447639cb59bbeaac11fcca31d515322f12fa411357dbb06033ef4"
 metafile = true
 
 [[files]]
@@ -2786,7 +2786,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "c10231e2f36235b517928b82be751436b92a65aa9716a31a582fdd0c2399f20e"
+hash = "0e0cf3b8774abb73cff065836faa3c7274802f77834500c7533f4eb3d908bf21"
 metafile = true
 
 [[files]]
