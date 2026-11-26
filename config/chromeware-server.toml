@@ -1150,3 +1150,16 @@
 		# Default: 4.0
 		# Range: 0.0 ~ 128.0
 		slam_radius = 4.0
+
+[cyberpsychosis]
+
+	[cyberpsychosis.humanity]
+		# ForeverWorld: installed chrome takes at most 70%, so a fully chromed player (720 capacity: 720 x 0.0625 = 45%, plus 5% for each
+		# of the 5 cyber limbs = 25%) sits at 30% Humanity and chrome use takes the rest.
+		# Default: 30.0
+		# Range: 0.0 ~ 100.0
+		installed_chrome_cap = 70.0
+		# Default: 0.08333333333333333
+		# Range: 0.0 ~ 100.0
+		installed_chrome_per_capacity_point = 0.0625
+
