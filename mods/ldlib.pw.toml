@@ -1,13 +1,13 @@
 name = "LowDragLib2"
-filename = "ldlib2-neoforge-1.21.1-2.2.46.a-all.jar"
+filename = "ldlib2-neoforge-1.21.1-2.2.47-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/Zrj8M2XK/ldlib2-neoforge-1.21.1-2.2.46.a-all.jar"
+url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/vZJqd9VN/ldlib2-neoforge-1.21.1-2.2.47-all.jar"
 hash-format = "sha512"
-hash = "bbd71923a985b9b31aa97db34dbc62e2d1819232bc58bb23d92c338b9072bd44ac1ee72d6b7c72f945b5a7eb9af2f67295b86b0eceffbc976a7ba980dcc4fdb3"
+hash = "fc277c4818377e7132dd79798137449d8f5e0eb88e56678e69b32ec6c6792a9765faacd165e9fdee6ed6c92064af970def75d7ac282bec9451f144d4953ca852"
 mode = "url"
 
 [update.modrinth]
 mod-id = "B1CBVXHX"
-version = "Zrj8M2XK"
+version = "vZJqd9VN"

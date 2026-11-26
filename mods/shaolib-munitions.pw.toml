@@ -1,0 +1,12 @@
+name = "Shaolib Munitions"
+filename = "shaolib_munitions-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "35e95b33422e9add00896a56443e3b3f82022b23"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8728437
+project-id = 1667342

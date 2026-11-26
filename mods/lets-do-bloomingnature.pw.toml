@@ -1,12 +1,13 @@
 name = "[Let's Do] BloomingNature"
-filename = "letsdo-bloomingnature-neoforge-1.1.12.jar"
+filename = "letsdo-bloomingnature-neoforge-1.1.13.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "899aa82e3a5757a324dba9ea77627662a6991b25"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/4Vno77MY/versions/dCtNaW7X/letsdo-bloomingnature-neoforge-1.1.13.jar"
+hash-format = "sha512"
+hash = "a6005ec24d56c4d3df69348d89b2dc6639fda700fc01456e163287b1ad6b6e76a1e005ef37c0ce87b87330dc5aac7ec9ed077d427cc21744f47cc2f455c62a2b"
+mode = "url"
 
-[update.curseforge]
-file-id = 9097270
-project-id = 962885
+[update.modrinth]
+mod-id = "4Vno77MY"
+version = "dCtNaW7X"

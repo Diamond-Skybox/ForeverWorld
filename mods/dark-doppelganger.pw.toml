@@ -1,13 +1,13 @@
 name = "DarkDoppelganger"
-filename = "darkdoppelganger-4.5.1-1.21.1.jar"
+filename = "darkdoppelganger-4.6.0-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/2vzHL83v/versions/Zembk00z/darkdoppelganger-4.5.1-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/2vzHL83v/versions/zJRFfQvM/darkdoppelganger-4.6.0-1.21.1.jar"
 hash-format = "sha512"
-hash = "b5aeb392ad902f11ba336ad818e5b6fc6ef61ca0c179bfebf510a0f7278c75bf5813c8335f5316a189c407b25f21ebadd781a8ad9c6d44cf7012c0d32f49cd06"
+hash = "970cacc4fe4578ef90114986a971bf867114bfb0a692ade5e3d1959fbce045cc3ca25c1914c04c66f9eaa4601c6a14d3447410874f623df1953f257e4e695735"
 mode = "url"
 
 [update.modrinth]
 mod-id = "2vzHL83v"
-version = "Zembk00z"
+version = "zJRFfQvM"

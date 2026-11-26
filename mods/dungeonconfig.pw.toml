@@ -1,0 +1,12 @@
+name = "Dungeon Config"
+filename = "DungeonConfig-1.21.1-neoforge-1.26.11.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e3e0c4de2841ea3ec179d9b7be5cca7b61841bb"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9406546
+project-id = 1745540

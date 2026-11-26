@@ -1,13 +1,13 @@
 name = "Flan"
-filename = "flan-1.21.1-1.12.8-neoforge.jar"
+filename = "flan-1.21.1-1.12.9-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Si383TIH/versions/Z6X7Mj4L/flan-1.21.1-1.12.8-neoforge.jar"
+url = "https://cdn.modrinth.com/data/Si383TIH/versions/LBSl6w7X/flan-1.21.1-1.12.9-neoforge.jar"
 hash-format = "sha512"
-hash = "1b423a976eba232acb69cd3111a2b1c079ff0b96ccb326968d88439027d9205074370fa8e48602f2ed8dd9afecb7940b259f6afd67b2fcba9c24c1523a700095"
+hash = "e3815fd4d19cece40014a96779053b6619e247023f4320ad9b9e4792cd2f9a61f15628d4194a1e1e4ef92335f38a4c765a3c8ed34334acbae11d4087266cab10"
 mode = "url"
 
 [update.modrinth]
 mod-id = "Si383TIH"
-version = "Z6X7Mj4L"
+version = "LBSl6w7X"

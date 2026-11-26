@@ -1,0 +1,12 @@
+name = "Shaolib"
+filename = "shaolib-0.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f649593586495144d07c25196b37b30bf7020951"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9028490
+project-id = 1427600

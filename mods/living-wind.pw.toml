@@ -1,12 +1,12 @@
 name = "Living Wind"
-filename = "LivingWind-NeoForge-1.21.1-v1.4.0.1.jar"
+filename = "LivingWind-NeoForge-1.21.1-v1.4.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f7620644004f1c1196c98aa45e145d53a6e7d356"
+hash = "47b0d17a2c15c68b891559702f5622c0d92de745"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9599717
+file-id = 9734233
 project-id = 1743716

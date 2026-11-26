@@ -1,12 +1,12 @@
 name = "Alternative Fuels"
-filename = "alternativefuels-1.0.0.jar"
+filename = "alternativefuels-1.2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b191c84ed9911b8059bf52f21ecbb65f7f914521"
+hash = "a798ef9192702304a319de6e44ecde44196dcbeb"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9498305
+file-id = 9815444
 project-id = 1714597

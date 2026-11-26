@@ -1,13 +1,13 @@
 name = "IntegratedCrafting"
-filename = "integratedcrafting-1.21.1-neoforge-1.8.1.jar"
+filename = "integratedcrafting-1.21.1-neoforge-1.8.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/qwpACdla/versions/XMjlR3Pf/integratedcrafting-1.21.1-neoforge-1.8.1.jar"
+url = "https://cdn.modrinth.com/data/qwpACdla/versions/WdprKuZs/integratedcrafting-1.21.1-neoforge-1.8.2.jar"
 hash-format = "sha512"
-hash = "18c0c7900bcb1969b0f093311e07fa068790d8dc0cec898d21f120e46c76f82633859e5e3dc42495939c73b3b4ddcd43dde559bbfaa32bdbee31bfb0dbed327f"
+hash = "6d5b81dfa0ca191536a099b215f12d8230f957cea977cbca44014410d1a7c85be42dba0781a3245dbd2d5f032c7a9eb9eaca3c8ab4efd973eaca7b753128b9a0"
 mode = "url"
 
 [update.modrinth]
 mod-id = "qwpACdla"
-version = "XMjlR3Pf"
+version = "WdprKuZs"

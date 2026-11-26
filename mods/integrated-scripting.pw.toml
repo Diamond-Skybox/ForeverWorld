@@ -1,13 +1,13 @@
 name = "IntegratedScripting"
-filename = "integratedscripting-1.21.1-neoforge-1.1.0.jar"
+filename = "integratedscripting-1.21.1-neoforge-1.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uDJkuFRe/versions/6JojBBkJ/integratedscripting-1.21.1-neoforge-1.1.0.jar"
+url = "https://cdn.modrinth.com/data/uDJkuFRe/versions/fvpDaLUL/integratedscripting-1.21.1-neoforge-1.1.1.jar"
 hash-format = "sha512"
-hash = "0dff048920b28b43c61e018e9e532755d8bd24a4902c4a9c3486987568fcce2528f4b3eea5e75035d3b580a5b56e20b0c1ec1ff0ef69348c753e62fc2262f170"
+hash = "c3af02cdb65788a2a5ac5efb23ddad5eeefe8fc454d1486d4293966d82673f1ef66504d62121ab81d8a4dda103ac4b5b2769a04829d25b391c1bf4854aa57e39"
 mode = "url"
 
 [update.modrinth]
 mod-id = "uDJkuFRe"
-version = "6JojBBkJ"
+version = "fvpDaLUL"

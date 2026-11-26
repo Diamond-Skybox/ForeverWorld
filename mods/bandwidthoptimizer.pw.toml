@@ -1,13 +1,13 @@
 name = "BandwidthOptimizer"
-filename = "BandwidthOptimizer-5.10.33.156-neoforge-1.21.1.jar"
+filename = "BandwidthOptimizer-5.10.33.160-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/9fzjUecF/versions/P82iX9dd/BandwidthOptimizer-5.10.33.156-neoforge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/9fzjUecF/versions/KG3s2O55/BandwidthOptimizer-5.10.33.160-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "a9aa5aa3b9eb3127c6c5a08970fa06359da473cf06530329003958eab4201507d461d757a32c9962171c93ec06180d4677b5c0e00ab501a56c5412bfdc6cf3f2"
+hash = "8fd65bc47c12591bdf58aad9281d83a07c72aa90c471aaf9cbd9f916a7cf3bedc7b52434161dd5fa039cce73eafe5d3bb4c0e7a535a51ac9646ddf10373d7de7"
 mode = "url"
 
 [update.modrinth]
 mod-id = "9fzjUecF"
-version = "P82iX9dd"
+version = "KG3s2O55"

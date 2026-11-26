@@ -1,0 +1,13 @@
+name = "CBC: Terminal Ballistics"
+filename = "cbc_terminal_ballistics-0.3.5-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HNMiyfaF/versions/MbnrrY23/cbc_terminal_ballistics-0.3.5-neoforge.jar"
+hash-format = "sha512"
+hash = "27051af253309f98e257e9c8d34fbb3efb016e277980ac985f1d10cd1c9788e7ca7bbd7f6b351cbbb30329fb38c7c1f52b5293c6c85a03f3465cc2831cd93551"
+mode = "url"
+
+[update.modrinth]
+mod-id = "HNMiyfaF"
+version = "MbnrrY23"

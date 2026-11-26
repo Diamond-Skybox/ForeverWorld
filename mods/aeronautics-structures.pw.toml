@@ -1,13 +1,13 @@
 name = "Structures"
-filename = "structures-1.3.jar"
+filename = "structures-1.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/PZIWeQhv/versions/lwgkR66t/structures-1.3.jar"
+url = "https://cdn.modrinth.com/data/PZIWeQhv/versions/NGkhoehn/structures-1.4.jar"
 hash-format = "sha512"
-hash = "0f027a8023822db2cba03f129c8426ffda43958078ccee961f071ab9ef9dd10d224c62c8d7e4463a6ae313c6772c70a2cc4f9b6b5ee1e1a58d4579af61410d8e"
+hash = "0649cfeddce4135847c826c511b3f0630869c38f0f8282fbdb3946e3e9d506acde0ce3abfe5edafc1d8d4700dda177fd1c281942568dfedee9926b0de06a0fad"
 mode = "url"
 
 [update.modrinth]
 mod-id = "PZIWeQhv"
-version = "lwgkR66t"
+version = "NGkhoehn"

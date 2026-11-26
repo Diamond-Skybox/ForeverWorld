@@ -1,13 +1,13 @@
 name = "MCA Reborn x Vampirism Compat"
-filename = "mca-vamp-compat-1.21.1-2.2.2.jar"
+filename = "mca-vamp-compat-1.21.1-2.2.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kYO3VpZg/versions/gzmIUOWe/mca-vamp-compat-1.21.1-2.2.2.jar"
+url = "https://cdn.modrinth.com/data/kYO3VpZg/versions/LwPAlhCD/mca-vamp-compat-1.21.1-2.2.3.jar"
 hash-format = "sha512"
-hash = "5b5f68b38cfaf73a1a4e1111c7d50b7bdc3401bb931ee0f6fee3caa586d1ccd8679c4d1307cfa94f4f46c737aeb0fff3fcc20d8e27da19cda1f315631a3c0174"
+hash = "7ab4dff60ca44ab13f2d21acc4ced3d9e0740d2e175573c2cbdbc8a65b0018f6f521365f0534fd82100dc97dc0a47bcf7ca424d674212bfc5fcddc9bd18362a8"
 mode = "url"
 
 [update.modrinth]
 mod-id = "kYO3VpZg"
-version = "gzmIUOWe"
+version = "LwPAlhCD"

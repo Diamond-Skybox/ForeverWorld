@@ -1,12 +1,12 @@
 name = "MCA Social Expansion"
-filename = "mca-se-NeoForge-1.21.1-v1.0.jar"
+filename = "mca-se-NeoForge-1.21.1-v1.0.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b4a2153d1fab05cd77c4a602dffc4e891dd9e080"
+hash = "751a02807946fec26cb8f968c5379d88a7d2cbb8"
 mode = "metadata:curseforge"
 
 [update.curseforge]
-file-id = 9402930
+file-id = 9728952
 project-id = 1471285

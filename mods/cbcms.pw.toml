@@ -1,0 +1,12 @@
+name = "CBC Military Supplement"
+filename = "CBC-Military-Supplement-1.21.1-3.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ed54fb76cfedc8277178ae584af80d3792b6a80"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9222763
+project-id = 1222164

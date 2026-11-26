@@ -1,13 +1,13 @@
 name = "Discerning The Eldritch"
-filename = "discerning_the_eldritch-1.4.5-1.21.jar"
+filename = "discerning_the_eldritch-1.4.6-1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bA1tmmcv/versions/A5kNeH0o/discerning_the_eldritch-1.4.5-1.21.jar"
+url = "https://cdn.modrinth.com/data/bA1tmmcv/versions/p2gz62pY/discerning_the_eldritch-1.4.6-1.21.jar"
 hash-format = "sha512"
-hash = "5728fb66cfd1063ac153606947778b4353d5f8cab8b7a391b6910dc9c4dad98f24a3c44a5ae14c129469cac9a247b4e06cf852d0733d5cb2bf10e942370563bd"
+hash = "37aa2c5cd7b1d240d9f606c4bf7541a9549515810ac6dc3072fb84b5d736f8a00e5589fb4101c18c157d873db7c3ef52a08f1ce555811062b1fa96814ab85aaa"
 mode = "url"
 
 [update.modrinth]
 mod-id = "bA1tmmcv"
-version = "A5kNeH0o"
+version = "p2gz62pY"

@@ -1,13 +1,13 @@
 name = "Doggy Talents Next"
-filename = "DoggyTalentsNext-1.21.1-1.19.1.jar"
+filename = "DoggyTalentsNext-1.21.1-1.19.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/oXgmplvv/versions/BKs2urib/DoggyTalentsNext-1.21.1-1.19.1.jar"
+url = "https://cdn.modrinth.com/data/oXgmplvv/versions/BZP3FCDc/DoggyTalentsNext-1.21.1-1.19.2.jar"
 hash-format = "sha512"
-hash = "17d1f743011579b820ddc31b782e4ce292972cfdc415994641228c4a9d81e11d00d2825b3d36f93079e3231cd60b35a7f577214d9ce52db1b1e6169336419bdb"
+hash = "bbca20d398746d0b46735c047a471d5be2b9610d4f5bd604c8440db1afd0f152c7abc5ec311747d4b8cc05f79c317f06b25e42bf3b6025a447d80232986760c5"
 mode = "url"
 
 [update.modrinth]
 mod-id = "oXgmplvv"
-version = "BKs2urib"
+version = "BZP3FCDc"
