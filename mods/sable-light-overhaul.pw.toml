@@ -1,0 +1,13 @@
+name = "Sable Light&Gunfire Overhaul"
+filename = "sable-light-overhaul-0.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "697ea0f5d0d223276961de5c269475c412501614"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9651261
+project-id = 1714381

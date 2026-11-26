@@ -31,7 +31,7 @@ preserve = true
 
 [[files]]
 file = "config/chromeware-server.toml"
-hash = "a4b1b855cbcf9efecf64cc000badfdf7ec3b44413c13c689c24bddf3da84d6bb"
+hash = "eb239066cd3b8f0b438dd123dd27a7962f385ad2fdc2ccb9327fb0369b209bc2"
 
 [[files]]
 file = "config/hemodynamics-graphics.json"
@@ -3491,6 +3491,11 @@ metafile = true
 [[files]]
 file = "mods/sable-immersive-engineering-compat.pw.toml"
 hash = "60ccf707fce525fcd84aa199276f52912dbec8e0b7e29574f1aa11fecff01d83"
+metafile = true
+
+[[files]]
+file = "mods/sable-light-overhaul.pw.toml"
+hash = "9ddf4d41aa1a3e2c1141d11d38016ae2120ffb7a74201c222c0881c13f91b72d"
 metafile = true
 
 [[files]]
