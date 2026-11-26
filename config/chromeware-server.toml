@@ -1,6 +1,7 @@
 [systems]
-	humanity_enabled = true
+	#Turn the cyberware capacity limit on or off. When on, going over the limit shows red and multiplies chrome-use Humanity loss (Cyberpsychosis > Chrome Use).
 	capacity_enabled = true
+	#Cyberware capacity a new player starts with. Create advancements, cyber limbs and the Chrome Compressor add more.
 	# Default: 38
 	# Range: 0 ~ 10000
 	starting_capacity = 38
@@ -168,9 +169,6 @@
 		capacity_bonus = 70
 
 	[implants.clairvoyant]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 8
 		# Range: 0 ~ 10000
@@ -178,6 +176,9 @@
 		# Default: 20.0
 		# Range: 0.0 ~ 256.0
 		enemy_range = 20.0
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.clutch_padding]
 		armor = 0.0
@@ -189,9 +190,6 @@
 		hunger_multiplier = 0.5
 
 	[implants.cockatrice]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 30
 		# Range: 0 ~ 10000
@@ -199,6 +197,9 @@
 		# Default: 0.35
 		# Range: 0.0 ~ 1000.0
 		critical_damage_bonus = 0.35
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.cogito_lattice]
 		armor = 2.5
@@ -301,15 +302,15 @@
 		# Default: 14.0
 		# Range: 0.05 ~ 3600.0
 		duration_seconds = 14.0
-		# Default: 24
-		# Range: 1 ~ 256
-		maximum_ram = 24
 		# Default: 3.0
 		# Range: 0.05 ~ 3600.0
 		overclock_extension_per_kill_seconds = 3.0
 		# Default: 0.5
 		# Range: 0.0 ~ 1000.0
 		ram_recovery_per_second = 0.5
+		# Default: 28
+		# Range: 1 ~ 256
+		base_ram = 28
 
 	[implants.deep_field_visual_interface]
 		armor = 0.0
@@ -336,9 +337,6 @@
 		melee_damage_multiplier = 1.3
 
 	[implants.doomsayer]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 2
 		# Range: 0 ~ 10000
@@ -346,6 +344,9 @@
 		# Default: 30.0
 		# Range: 0.0 ~ 256.0
 		trap_range = 30.0
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.electromag_recycler]
 		armor = 0.0
@@ -445,7 +446,7 @@
 		# Default: 1.0
 		# Range: 0.05 ~ 3600.0
 		charged_cooldown_seconds = 1.0
-		# Default: 2.0
+		# Default: 1.5
 		# Range: 0.0 ~ 1000.0
 		charged_damage_multiplier = 2.0
 		# Default: 0.25
@@ -454,6 +455,9 @@
 		# Default: 3.0
 		# Range: 0.0 ~ 64.0
 		shockwave_radius = 3.0
+		# Default: 1.6
+		# Range: 0.01 ~ 1000.0
+		attack_speed = 1.6
 
 	[implants.handle_wrap]
 		armor = 0.0
@@ -522,13 +526,13 @@
 		mitigation_chance = 0.2
 
 	[implants.kiroshi_optics]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 2
 		# Range: 0 ~ 10000
 		capacity = 2
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.leeroy_ligament_system]
 		armor = 1.0
@@ -571,6 +575,9 @@
 		# Default: 12.0
 		# Range: 0.0 ~ 64.0
 		leap_range = 12.0
+		# Default: 6.25
+		# Range: 0.5 ~ 64.0
+		lunge_distance = 6.25
 
 	[implants.mechatronic_core]
 		armor = 0.0
@@ -724,9 +731,6 @@
 		# Default: 8.0
 		# Range: 0.0 ~ 1000.0
 		copper_nugget_damage = 8.0
-		# Default: 1.5
-		# Range: 0.0 ~ 1000.0
-		damage_multiplier = 1.5
 		# Default: 3.0
 		# Range: 0.0 ~ 1000.0
 		experience_nugget_damage = 3.0
@@ -736,15 +740,24 @@
 		# Default: 10.0
 		# Range: 0.0 ~ 1000.0
 		iron_nugget_damage = 10.0
-		# Default: 2.0
-		# Range: 0.05 ~ 3600.0
-		volley_cooldown_seconds = 2.0
 		# Default: 5
 		# Range: 1 ~ 64
 		volley_shots = 5
 		# Default: 6.0
 		# Range: 0.0 ~ 1000.0
 		zinc_nugget_damage = 6.0
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		tier_2_cooldown_seconds = 1.0
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		tier_3_cooldown_seconds = 3.0
+		# Default: 8.0
+		# Range: 0.05 ~ 3600.0
+		tier_4_cooldown_seconds = 8.0
+		# Default: 20.0
+		# Range: 0.05 ~ 3600.0
+		tier_5_cooldown_seconds = 20.0
 
 	[implants.proxishield]
 		armor = 1.0
@@ -865,9 +878,9 @@
 		# Default: 8
 		# Range: 0 ~ 10000
 		capacity = 8
-		# Default: 0.42
+		# Default: 0.6
 		# Range: 0.0 ~ 1000.0
-		double_jump_velocity = 0.42
+		double_jump_strength = 0.6
 
 	[implants.revulsor]
 		armor = 0.0
@@ -963,9 +976,6 @@
 		ram_bonus = 2
 
 	[implants.sentry]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 2
 		# Range: 0 ~ 10000
@@ -973,6 +983,9 @@
 		# Default: 40.0
 		# Range: 0.0 ~ 256.0
 		device_range = 40.0
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.shock_absorber]
 		armor = 0.0
@@ -1017,9 +1030,6 @@
 		critical_damage_bonus = 0.2
 
 	[implants.stalker]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 2
 		# Range: 0 ~ 10000
@@ -1030,6 +1040,9 @@
 		# Default: 50.0
 		# Range: 0.0 ~ 256.0
 		vertical_range = 50.0
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.subdermal_armor]
 		armor = 1.5
@@ -1038,13 +1051,13 @@
 		capacity = 5
 
 	[implants.the_oracle]
-		# Default: 60.0
-		# Range: 0.05 ~ 3600.0
-		after_scan_seconds = 60.0
 		armor = 0.0
 		# Default: 10
 		# Range: 0 ~ 10000
 		capacity = 10
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		effect_seconds = 5.0
 
 	[implants.threat_evac]
 		armor = 0.0
@@ -1066,9 +1079,6 @@
 		# Default: 6
 		# Range: 0 ~ 10000
 		capacity = 6
-		# Default: 0.5
-		# Range: 0.0 ~ 10.0
-		stack_capacity_bonus_fraction = 0.5
 
 	[implants.tyrosine_injector]
 		armor = 0.0
@@ -1151,15 +1161,514 @@
 		# Range: 0.0 ~ 128.0
 		slam_radius = 4.0
 
-[cyberpsychosis]
-
 	[cyberpsychosis.humanity]
-		# ForeverWorld: installed chrome takes at most 70%, so a fully chromed player (720 capacity: 720 x 0.0625 = 45%, plus 5% for each
-		# of the 5 cyber limbs = 25%) sits at 30% Humanity and chrome use takes the rest.
+		#Most Humanity that installed chrome alone can take (%). Using chrome can take the rest.
 		# Default: 30.0
 		# Range: 0.0 ~ 100.0
 		installed_chrome_cap = 70.0
+		#Humanity lost for each point of installed cyberware capacity (%). Cyber limbs add their own loss (Implant stats).
 		# Default: 0.08333333333333333
 		# Range: 0.0 ~ 100.0
 		installed_chrome_per_capacity_point = 0.0625
+		#Turn the whole Humanity and cyberpsychosis system on or off.
+		enabled = true
 
+	[cyberpsychosis.chrome_use]
+		#Permanent Humanity loss each time you use an implant, per capacity point of that implant (%). A 44-capacity Sandevistan costs 44 times this. Never wears off.
+		# Default: 0.002
+		# Range: 0.0 ~ 100.0
+		per_implant_use = 0.002
+		#Permanent Humanity loss for each creature an arm implant hits (%).
+		# Default: 0.015
+		# Range: 0.0 ~ 100.0
+		per_arm_hardware_hit = 0.015
+		#Permanent Humanity loss for each RAM spent on a quickhack (%).
+		# Default: 0.0016
+		# Range: 0.0 ~ 100.0
+		per_quickhack_ram = 0.0016
+		#All chrome-use loss is multiplied by used capacity / capacity limit. Each point over the limit counts this many extra times (needs the capacity limit on in Systems).
+		# Default: 4.0
+		# Range: 0.0 ~ 1000.0
+		overflow_multiplier = 4.0
+		#Removing chrome turns its share of chrome-use loss into strain. Installing any chrome while you still carry strain turns all of it back into permanent loss, times this.
+		# Default: 1.25
+		# Range: 0.0 ~ 100.0
+		reinstall_penalty = 1.25
+
+	[cyberpsychosis.strain]
+		#Strain (temporary Humanity loss) recovered per minute. Paused while Cyberpsycho.
+		# Default: 0.5
+		# Range: 0.0 ~ 6000.0
+		recovery_per_minute = 0.5
+		#Strain recovery is multiplied by this while one of your tamed animals is near.
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		pet_recovery_multiplier = 2.0
+		#Blocks a tamed animal can be from you to count as near.
+		# Default: 8.0
+		# Range: 0.0 ~ 64.0
+		pet_range = 8.0
+		#Strain for killing a creature (%).
+		# Default: 0.25
+		# Range: 0.0 ~ 100.0
+		creature_kill = 0.25
+		#Strain for killing a player, villager, wandering trader or someone else's pet (%).
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		person_kill = 1.0
+		#Strain when your tamed animal dies (%).
+		# Default: 15.0
+		# Range: 0.0 ~ 100.0
+		own_pet_died = 15.0
+		#Strain when you kill your own tamed animal, instead of the above (%).
+		# Default: 30.0
+		# Range: 0.0 ~ 100.0
+		own_pet_killed_by_you = 30.0
+
+	[cyberpsychosis.stages]
+		#Episodes start at this Humanity (%): short glitches, with your eyes glitching for others.
+		# Default: 60.0
+		# Range: 1.0 ~ 100.0
+		flickers_below_humanity = 60.0
+		#From this Humanity (%) episodes can also zone you out (longer distortion, muffled sound) and show hallucinations.
+		# Default: 40.0
+		# Range: 0.0 ~ 100.0
+		spacing_out_below_humanity = 40.0
+		#From this Humanity (%) episodes can also force attacks, and using implants can Short Circuit you.
+		# Default: 20.0
+		# Range: 0.0 ~ 100.0
+		losing_control_below_humanity = 20.0
+		#At 0% Humanity you become a Cyberpsycho. Dying ends it and leaves you at this Humanity (%).
+		# Default: 10.0
+		# Range: 0.0 ~ 100.0
+		humanity_after_cyberpsycho_death = 10.0
+
+	[cyberpsychosis.episodes]
+		#Chance of an episode each second when episodes start (%).
+		# Default: 1.0
+		# Range: 0.001 ~ 100.0
+		chance_per_second_at_start = 1.0
+		#Chance of an episode each second near 0% Humanity (%). It rises smoothly between the two.
+		# Default: 50.0
+		# Range: 0.001 ~ 100.0
+		chance_per_second_near_zero = 50.0
+		#Once spacing out: chance an episode zones you out (%).
+		# Default: 50.0
+		# Range: 0.0 ~ 100.0
+		spacing_out_chance = 50.0
+		#Once spacing out: chance an episode shows a hallucination (another player, a dead pet, a Wither or Warden) (%).
+		# Default: 50.0
+		# Range: 0.0 ~ 100.0
+		hallucination_chance = 50.0
+		#Once losing control: chance an episode makes you attack whatever you look at (%).
+		# Default: 25.0
+		# Range: 0.0 ~ 100.0
+		forced_attack_chance = 25.0
+		#The same chance near 0% Humanity (%).
+		# Default: 60.0
+		# Range: 0.0 ~ 100.0
+		forced_attack_chance_near_zero = 60.0
+		#How long a forced attack keeps clicking when losing control starts.
+		# Default: 1.0
+		# Range: 0.0 ~ 60.0
+		forced_attack_seconds = 1.0
+		#How long a forced attack keeps clicking near 0% Humanity.
+		# Default: 3.0
+		# Range: 0.0 ~ 60.0
+		forced_attack_seconds_near_zero = 3.0
+		#Once losing control: chance an implant use Short Circuits you, rising from 0 to this near 0% Humanity (%).
+		# Default: 25.0
+		# Range: 0.0 ~ 100.0
+		short_circuit_chance_near_zero = 25.0
+		#Least seconds between two implant Short Circuits.
+		# Default: 5.0
+		# Range: 0.0 ~ 3600.0
+		short_circuit_cooldown_seconds = 5.0
+
+	[cyberpsychosis.immunosuppressants]
+		#Humanity loss a Standard dose clears (%). Strain goes first, then permanent loss.
+		# Default: 50.0
+		# Range: 0.0 ~ 100.0
+		standard_clears_percent = 50.0
+		#Minutes a Standard dose keeps it cleared. Standard cannot end the Cyberpsycho state.
+		# Default: 50.0
+		# Range: 0.01 ~ 1440.0
+		standard_minutes = 50.0
+		#When a Standard dose wears off, seconds for each 1% to come back.
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		standard_return_seconds_per_percent = 5.0
+		#Humanity loss a Military dose clears (%). Strain goes first, then permanent loss.
+		# Default: 100.0
+		# Range: 0.0 ~ 100.0
+		military_clears_percent = 100.0
+		#Minutes a Military dose keeps it cleared. Military ends the Cyberpsycho state.
+		# Default: 10.0
+		# Range: 0.01 ~ 1440.0
+		military_minutes = 10.0
+		#When a Military dose wears off, seconds for each 1% to come back.
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		military_return_seconds_per_percent = 1.0
+
+[bosses]
+	#Mobs with at least this max health count as bosses.
+	# Default: 150.0
+	# Range: 1.0 ~ 1000000.0
+	boss_max_health = 150.0
+	#Suicide, System Collapse and lone Cyberpsychosis damage to a boss, as a fraction of its max health.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	lethal_damage_fraction = 0.25
+	#Blackwall Gateway damage to a boss, as a fraction of its max health.
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	blackwall_damage_fraction = 0.4
+	#RAM cost multiplier for lethal quickhacks on bosses.
+	# Default: 1.5
+	# Range: 1.0 ~ 10.0
+	lethal_ram_multiplier = 1.5
+	#Seconds before a boss can take another lethal quickhack.
+	# Default: 10.0
+	# Range: 0.0 ~ 3600.0
+	lethal_cooldown_seconds = 10.0
+
+	[quickhacks.quickhack_short_circuit]
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		damage_fraction = 0.1
+		# Default: 10
+		# Range: 0 ~ 1000
+		ram = 10
+		# Default: 0.5
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.5
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		control_extension_seconds = 3.0
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		disable_seconds = 3.0
+
+	[quickhacks.quickhack_overheat]
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 5.0
+		# Default: 9
+		# Range: 0 ~ 1000
+		ram = 9
+		# Default: 2.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 2.0
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		armor_reduction = 0.4
+
+	[quickhacks.quickhack_contagion]
+		# Default: 8.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 8.0
+		# Default: 12
+		# Range: 0 ~ 1000
+		ram = 12
+		# Default: 2.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 2.0
+		# Default: 0.15
+		# Range: 0.0 ~ 10.0
+		damage_bonus_per_target = 0.15
+		# Default: 4
+		# Range: 0 ~ 64
+		spread_count = 4
+		# Default: 8.0
+		# Range: 0.0 ~ 64.0
+		spread_range = 8.0
+
+	[quickhacks.quickhack_synapse_burnout]
+		# Default: 15.0
+		# Range: 0.0 ~ 1000.0
+		damage = 15.0
+		# Default: 16
+		# Range: 0 ~ 1000
+		ram = 16
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 3.0
+		# Default: 4.0
+		# Range: 0.0 ~ 100.0
+		damage_bonus_max = 4.0
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		damage_bonus_per_ram = 0.1
+		# Default: 2
+		# Range: 0 ~ 1000
+		kill_discount_ram = 2
+		# Default: 15.0
+		# Range: 0.05 ~ 3600.0
+		kill_discount_seconds = 15.0
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		overclock_damage_multiplier = 2.0
+
+	[quickhacks.quickhack_reboot_optics]
+		# Default: 15.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 15.0
+		# Default: 7
+		# Range: 0 ~ 1000
+		ram = 7
+		# Default: 0.3
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.3
+		# Default: 3.0
+		# Range: 0.0 ~ 1000.0
+		kill_ram = 3.0
+
+	[quickhacks.quickhack_weapon_glitch]
+		# Default: 14.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 14.0
+		# Default: 6
+		# Range: 0 ~ 1000
+		ram = 6
+		# Default: 0.3
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.3
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		explosion_power = 1.0
+
+	[quickhacks.quickhack_cripple_movement]
+		# Default: 12.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 12.0
+		# Default: 6
+		# Range: 0 ~ 1000
+		ram = 6
+		# Default: 0.3
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.3
+		# Default: 0.05
+		# Range: 0.0 ~ 1.0
+		kill_heal_fraction = 0.05
+		# Default: 2.0
+		# Range: 0.0 ~ 1000.0
+		kill_ram = 2.0
+		# Default: 0.15
+		# Range: 0.0 ~ 10.0
+		melee_damage_bonus = 0.15
+
+	[quickhacks.quickhack_cyberware_malfunction]
+		# Default: 10.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 10.0
+		# Default: 4
+		# Range: 0 ~ 1000
+		ram = 4
+		# Default: 0.3
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.3
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		burn_damage_fraction = 0.02
+		# Default: 3
+		# Range: 1 ~ 64
+		burn_stacks = 3
+		# Default: 8
+		# Range: 1 ~ 64
+		explode_stacks = 8
+		# Default: 4.0
+		# Range: 0.0 ~ 100.0
+		explosion_power = 4.0
+		# Default: 2
+		# Range: 1 ~ 64
+		permanent_stacks_others = 2
+		# Default: 2
+		# Range: 1 ~ 64
+		permanent_stacks_players = 2
+
+	[quickhacks.quickhack_bait]
+		# Default: 15.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 15.0
+		# Default: 4
+		# Range: 0 ~ 1000
+		ram = 4
+		# Default: 0.3
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.3
+
+	[quickhacks.quickhack_request_backup]
+		# Default: 15.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 15.0
+		# Default: 6
+		# Range: 0 ~ 1000
+		ram = 6
+		# Default: 2.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 2.0
+		# Default: 5
+		# Range: 1 ~ 64
+		baited_calls = 5
+		# Default: 30.0
+		# Range: 0.0 ~ 128.0
+		range = 30.0
+
+	[quickhacks.quickhack_memory_wipe]
+		# Default: 5.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 5.0
+		# Default: 10
+		# Range: 0 ~ 1000
+		ram = 10
+		# Default: 1.5
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.5
+
+	[quickhacks.quickhack_system_collapse]
+		# Default: 28
+		# Range: 0 ~ 1000
+		ram = 28
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.0
+
+	[quickhacks.quickhack_cyberpsychosis]
+		# Default: 20.0
+		# Range: 0.05 ~ 3600.0
+		duration_seconds = 20.0
+		# Default: 22
+		# Range: 0 ~ 1000
+		ram = 22
+		# Default: 1.5
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.5
+		# Default: 0.4
+		# Range: 0.0 ~ 10.0
+		damage_bonus_per_hack = 0.4
+		# Default: 0.0
+		# Range: 0.0 ~ 1000.0
+		damage_per_second = 0.0
+		# Default: 0.4
+		# Range: 0.0 ~ 10.0
+		duration_bonus_per_hack = 0.4
+		# Default: 16.0
+		# Range: 0.0 ~ 128.0
+		victim_range = 16.0
+
+	[quickhacks.quickhack_detonate_grenade]
+		# Default: 24
+		# Range: 0 ~ 1000
+		ram = 24
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.0
+		# Default: 15
+		# Range: 0 ~ 1000
+		discount_ram = 15
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		discount_seconds = 3.0
+
+	[quickhacks.quickhack_suicide]
+		# Default: 24
+		# Range: 0 ~ 1000
+		ram = 24
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.0
+		# Default: 10
+		# Range: 0 ~ 1000
+		discount_ram = 10
+		# Default: 30.0
+		# Range: 0.05 ~ 3600.0
+		discount_seconds = 30.0
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		heal_fraction = 0.2
+
+	[quickhacks.quickhack_blackwall_gateway]
+		# Default: 12
+		# Range: 0 ~ 1000
+		ram = 12
+		# Default: 3.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 3.0
+		# Default: 2
+		# Range: 0 ~ 1000
+		spread_cost_per_hop = 2
+		# Default: 3
+		# Range: 0 ~ 64
+		spread_count = 3
+		# Default: 20.0
+		# Range: 0.0 ~ 128.0
+		spread_range = 20.0
+		# Default: 0.5
+		# Range: 0.01 ~ 10.0
+		spread_upload_fraction = 0.5
+
+	[quickhacks.quickhack_remote_activation]
+		# Default: 2
+		# Range: 0 ~ 1000
+		ram = 2
+		# Default: 0.5
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 0.5
+
+	[quickhacks.quickhack_take_control]
+		# Default: 4
+		# Range: 0 ~ 1000
+		ram = 4
+		# Default: 1.0
+		# Range: 0.05 ~ 3600.0
+		upload_seconds = 1.0
+
+[launcher]
+	#Items the Projectile Launch System will not fire: item ids (minecraft:tnt), item tags (#createbigcannons:big_cartridges) or whole mods (createbigcannons:*).
+	ammo_blacklist = []
+
+	[slots.circulatory_system]
+		# Default: 3
+		# Range: > 1
+		sockets = 3
+
+	[slots.frontal_cortex]
+		# Default: 3
+		# Range: > 1
+		sockets = 3
+
+	[slots.skeleton]
+		# Default: 3
+		# Range: > 1
+		sockets = 3
+
+	[slots.nervous_system]
+		# Default: 3
+		# Range: > 1
+		sockets = 3
+
+	[slots.integumentary_system]
+		# Default: 3
+		# Range: > 1
+		sockets = 3
+
+	[slots.legs]
+		# Default: 1
+		# Range: > 1
+		sockets = 1
+
+	[slots.hands]
+		# Default: 2
+		# Range: > 1
+		sockets = 2
+
+	[slots.face]
+		# Default: 2
+		# Range: > 1
+		sockets = 2
+
+	[slots.operating_system]
+		# Default: 1
+		# Range: > 1
+		sockets = 1

@@ -31,7 +31,7 @@ preserve = true
 
 [[files]]
 file = "config/chromeware-server.toml"
-hash = "eb239066cd3b8f0b438dd123dd27a7962f385ad2fdc2ccb9327fb0369b209bc2"
+hash = "2e4df858b72140db806b22b0ce9bd266e8c8a3ba5a358b485eb6aedd030544ee"
 
 [[files]]
 file = "config/hemodynamics-graphics.json"
